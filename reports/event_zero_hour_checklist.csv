@@ -1,0 +1,37 @@
+event_id,event_name,reading_order,series,issue_number,role,priority,collecting_status,ownership_status,matched_collection_rows,source_url,notes
+zero_hour,Zero Hour: Crisis in Time,001,Zero Hour: Crisis in Time,4,core,required,collect,owned,Other row 2: Zero Hour: Crisis in Time #04 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Core miniseries counts down from 4 to 0.
+zero_hour,Zero Hour: Crisis in Time,002,Zero Hour: Crisis in Time,3,core,required,collect,owned,Other row 3: Zero Hour: Crisis in Time #03 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Core miniseries counts down from 4 to 0.
+zero_hour,Zero Hour: Crisis in Time,003,Zero Hour: Crisis in Time,2,core,required,collect,owned,Other row 4: Zero Hour: Crisis in Time #02 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Core miniseries counts down from 4 to 0.
+zero_hour,Zero Hour: Crisis in Time,004,Zero Hour: Crisis in Time,1,core,required,collect,owned,Other row 5: Zero Hour: Crisis in Time #01 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Core miniseries counts down from 4 to 0.
+zero_hour,Zero Hour: Crisis in Time,005,Zero Hour: Crisis in Time,0,core,required,collect,owned,Other row 6: Zero Hour: Crisis in Time #00 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Core miniseries counts down from 4 to 0.
+zero_hour,Zero Hour: Crisis in Time,010,Showcase '94,8,prelude,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Prelude tie-in.
+zero_hour,Zero Hour: Crisis in Time,011,Showcase '94,9,prelude,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Prelude tie-in.
+zero_hour,Zero Hour: Crisis in Time,012,Showcase '94,10,prelude,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Prelude tie-in.
+zero_hour,Zero Hour: Crisis in Time,020,Action Comics,703,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,021,The Adventures of Superman,516,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,022,Anima,7,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,023,Batman,511,tie_in,gotham,collect,owned,Batman row 281: Batman #511 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,024,Batman: Shadow of the Bat,31,tie_in,gotham,collect,owned,Batman row 401: Batman: Shadow of the Bat #31 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,025,Catwoman (vol. 2),14,tie_in,gotham,collect,owned,Batman row 425: Catwoman (Vol.2) #14 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,026,Damage,6,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,027,Darkstars,24,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,028,Detective Comics,678,tie_in,gotham,collect,owned,Batman row 570: Detective Comics #678 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,029,Flash (vol. 3),94,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,030,Green Arrow (vol. 2),90,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,031,Green Lantern (vol. 3),55,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,032,Guy Gardner: Warrior,24,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,033,Hawkman (vol. 3),13,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,034,Justice League America,92,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,035,Justice League International (vol. 2),68,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,036,Justice League Task Force,16,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,037,L.E.G.I.O.N. '94,70,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,038,Legion of Super-Heroes (vol. 4),61,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,039,Legionnaires,18,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,040,Outsiders (vol. 2),11,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,041,Robin (vol. 4),10,tie_in,gotham,collect,owned,Batman row 623: Robin (Vol. 2) #010 (Yes),https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,042,Steel (vol. 2),8,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,043,Superboy (vol. 3),8,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,044,Superman (vol. 2),93,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,045,Superman: The Man of Steel,37,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,046,Team Titans,24,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
+zero_hour,Zero Hour: Crisis in Time,047,Valor,23,tie_in,optional,review,missing,,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.

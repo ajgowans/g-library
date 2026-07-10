@@ -1,0 +1,6 @@
+FocusID,FocusName,MatchType,MatchValue,OutputStem,Notes
+catwoman,Catwoman,title_contains,Catwoman,catwoman_focus,Collection rows where the parsed title contains Catwoman.
+catwoman,Catwoman,comic_contains,Catwoman,catwoman_focus,Collection rows where the display comic text contains Catwoman.
+catwoman,Catwoman,story_contains,Catwoman,catwoman_focus,Collection rows where the existing story label contains Catwoman.
+catwoman,Catwoman,series_contains,Catwoman,catwoman_focus,Checklist/copy rows where the series contains Catwoman.
+catwoman,Catwoman,character_focus_contains,Catwoman,catwoman_focus,Hidden Gotham rows where CharacterFocus contains Catwoman.

@@ -1,0 +1,6 @@
+title,run_id,gap_type,issue_ranges,issue_count
+Batman,batman_404_574,not_owned,426-427; 440; 442,4
+Batman,batman_404_574,absent_from_sheet,408-409; 412-413; 415; 417-418; 422-425; 431; 444-445; 450-451; 453-454; 463; 465; 475; 524; 536; 540; 546-547; 550-574,51
+Detective Comics,detective_568_741,not_owned,575-578; 700-702,7
+Detective Comics,detective_568_741,absent_from_sheet,568-569; 571-574; 579-587; 589-594; 596-600; 602-603; 608-609; 611-615; 622-623; 630; 632; 639; 641; 647-648; 691-692; 695; 697-699; 703-741,88
+Warhammer Monthly,warhammer_monthly_0_86,absent_from_sheet,42; 50-51; 53-86,37

@@ -1,0 +1,87 @@
+arc_id,arc_name,reading_order,series,issue_number,role,priority,collecting_status,source_url,notes
+contagion,Batman: Contagion,001,Batman: Shadow of the Bat,48,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,002,Detective Comics,695,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,003,Robin (Vol. 2),27,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,004,Catwoman (Vol. 2),31,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,005,Azrael,15,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,006,Batman,529,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,007,Detective Comics,696,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,008,The Batman Chronicles,4,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,009,Catwoman (Vol. 2),32,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,010,Azrael,16,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,011,Robin (Vol. 2),28,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,012,Batman: Shadow of the Bat,49,core,required,collect,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,Core crossover checklist.
+contagion,Batman: Contagion,020,Batman,530,expanded,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Contagion,Listed in broader Contagion title range; review whether you want this as part of the expanded reading set.
+contagion,Batman: Contagion,021,Batman,531,expanded,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Contagion,Listed in broader Contagion title range; review whether you want this as part of the expanded reading set.
+contagion,Batman: Contagion,022,Batman,532,expanded,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Contagion,Listed in broader Contagion title range; review whether you want this as part of the expanded reading set.
+contagion,Batman: Contagion,023,Catwoman (Vol. 2),33,expanded,optional,review,https://en.wikipedia.org/wiki/List_of_Batman_comics,Included in some collected-edition listings; also overlaps Legacy prelude material.
+contagion,Batman: Contagion,024,Catwoman (Vol. 2),34,expanded,optional,review,https://en.wikipedia.org/wiki/List_of_Batman_comics,Included in some collected-edition listings; also overlaps Legacy prelude material.
+contagion,Batman: Contagion,025,Catwoman (Vol. 2),35,expanded,optional,review,https://en.wikipedia.org/wiki/List_of_Batman_comics,Included in some collected-edition listings; also overlaps Legacy prelude material.
+contagion,Batman: Contagion,026,Robin (Vol. 2),29,expanded,optional,review,https://en.wikipedia.org/wiki/List_of_Batman_comics,Included in some collected-edition listings; review placement.
+contagion,Batman: Contagion,027,Robin (Vol. 2),30,expanded,optional,review,https://en.wikipedia.org/wiki/List_of_Batman_comics,Included in some collected-edition listings; review placement.
+legacy,Batman: Legacy,001,Catwoman (Vol. 2),33,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,002,Catwoman (Vol. 2),34,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,003,Catwoman (Vol. 2),35,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,004,Batman: Bane of the Demon,1,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,005,Batman: Bane of the Demon,2,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,006,Batman: Bane of the Demon,3,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,007,Batman: Bane of the Demon,4,prequel,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prequel reading-order item.
+legacy,Batman: Legacy,008,Batman: Shadow of the Bat,53,prelude,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prelude.
+legacy,Batman: Legacy,009,Batman,533,prelude,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Prelude.
+legacy,Batman: Legacy,010,Detective Comics,700,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 1.
+legacy,Batman: Legacy,011,Catwoman (Vol. 2),36,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 2.
+legacy,Batman: Legacy,012,Robin (Vol. 2),32,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 3.
+legacy,Batman: Legacy,013,Batman: Shadow of the Bat,54,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 4.
+legacy,Batman: Legacy,014,Batman,534,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 5.
+legacy,Batman: Legacy,015,Detective Comics,701,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 6.
+legacy,Batman: Legacy,016,Robin (Vol. 2),33,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Part 7.
+legacy,Batman: Legacy,017,Detective Comics,702,epilogue,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Epilogue.
+legacy,Batman: Legacy,018,Batman: Bane,1,epilogue,optional,review,https://en.wikipedia.org/wiki/Batman%3A_Legacy,Epilogue one-shot.
+long_halloween_family,Long Halloween Family,001,Batman: Legends of the Dark Knight Halloween Special,1,prequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Haunted_Knight,Haunted Knight prequel one-shot collected as Fears.
+long_halloween_family,Long Halloween Family,002,Batman: Madness - A Legends of the Dark Knight Halloween Special,1,prequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Haunted_Knight,Haunted Knight prequel one-shot.
+long_halloween_family,Long Halloween Family,003,Batman: Ghosts - A Legends of the Dark Knight Halloween Special,1,prequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Haunted_Knight,Haunted Knight prequel one-shot.
+long_halloween_family,Long Halloween Family,010,Batman: The Long Halloween,1,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,011,Batman: The Long Halloween,2,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,012,Batman: The Long Halloween,3,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,013,Batman: The Long Halloween,4,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,014,Batman: The Long Halloween,5,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,015,Batman: The Long Halloween,6,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,016,Batman: The Long Halloween,7,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,017,Batman: The Long Halloween,8,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,018,Batman: The Long Halloween,9,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,019,Batman: The Long Halloween,10,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,020,Batman: The Long Halloween,11,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,021,Batman: The Long Halloween,12,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,022,Batman: The Long Halloween,13,core,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,Main 13-issue series.
+long_halloween_family,Long Halloween Family,030,Batman: Dark Victory,0,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,031,Batman: Dark Victory,1,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,032,Batman: Dark Victory,2,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,033,Batman: Dark Victory,3,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,034,Batman: Dark Victory,4,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,035,Batman: Dark Victory,5,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,036,Batman: Dark Victory,6,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,037,Batman: Dark Victory,7,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,038,Batman: Dark Victory,8,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,039,Batman: Dark Victory,9,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,040,Batman: Dark Victory,10,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,041,Batman: Dark Victory,11,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,042,Batman: Dark Victory,12,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,043,Batman: Dark Victory,13,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_Dark_Victory,Sequel series.
+long_halloween_family,Long Halloween Family,050,Catwoman: When In Rome,1,sequel,required,collect,https://en.wikipedia.org/wiki/List_of_Batman_comics,Long Halloween / Dark Victory companion sequel.
+long_halloween_family,Long Halloween Family,051,Catwoman: When In Rome,2,sequel,required,collect,https://en.wikipedia.org/wiki/List_of_Batman_comics,Long Halloween / Dark Victory companion sequel.
+long_halloween_family,Long Halloween Family,052,Catwoman: When In Rome,3,sequel,required,collect,https://en.wikipedia.org/wiki/List_of_Batman_comics,Long Halloween / Dark Victory companion sequel.
+long_halloween_family,Long Halloween Family,053,Catwoman: When In Rome,4,sequel,required,collect,https://en.wikipedia.org/wiki/List_of_Batman_comics,Long Halloween / Dark Victory companion sequel.
+long_halloween_family,Long Halloween Family,054,Catwoman: When In Rome,5,sequel,required,collect,https://en.wikipedia.org/wiki/List_of_Batman_comics,Long Halloween / Dark Victory companion sequel.
+long_halloween_family,Long Halloween Family,055,Catwoman: When In Rome,6,sequel,required,collect,https://en.wikipedia.org/wiki/List_of_Batman_comics,Long Halloween / Dark Victory companion sequel.
+long_halloween_family,Long Halloween Family,060,Batman: The Long Halloween Special,1,sequel,required,collect,https://en.wikipedia.org/wiki/Jeph_Loeb,2021 special / Nightmares.
+long_halloween_family,Long Halloween Family,070,Batman The Last Halloween,0,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,071,Batman The Last Halloween,1,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,072,Batman The Last Halloween,2,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,073,Batman The Last Halloween,3,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,074,Batman The Last Halloween,4,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,075,Batman The Last Halloween,5,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,076,Batman The Last Halloween,6,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,077,Batman The Last Halloween,7,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,078,Batman The Last Halloween,8,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,079,Batman The Last Halloween,9,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.
+long_halloween_family,Long Halloween Family,080,Batman The Last Halloween,10,sequel,required,collect,https://en.wikipedia.org/wiki/Batman%3A_The_Long_Halloween,The Last Halloween sequel.

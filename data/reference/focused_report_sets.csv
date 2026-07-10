@@ -1,0 +1,12 @@
+FocusID,FocusName,MatchType,MatchValue,OutputStem,Notes
+knightfall_to_knightsend,Knightfall to Knightsend,reading_order_prefix,Knight,knightfall_to_knightsend,Andrew's original reading-order tracking block from the imported sheet.
+knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Knightfall,knightfall_to_knightsend,Include rows labelled as Knightfall.
+knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Knightquest,knightfall_to_knightsend,Include rows labelled as Knightquest.
+knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Knightsend,knightfall_to_knightsend,Include rows labelled as Knightsend.
+knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Prodigal,knightfall_to_knightsend,Include rows labelled as Prodigal when present in reference data.
+knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Troika,knightfall_to_knightsend,Include rows labelled as Troika when present in reference data.
+zero_hour,Zero Hour,event_id,zero_hour,zero_hour,Focused pack from event_checklists.csv.
+bloodlines,Bloodlines,event_id,bloodlines,bloodlines,Focused pack from event_checklists.csv.
+contagion,Batman: Contagion,arc_id,contagion,contagion,Focused pack from story_arc_checklists.csv.
+legacy,Batman: Legacy,arc_id,legacy,legacy,Focused pack from story_arc_checklists.csv.
+long_halloween_family,Long Halloween Family,arc_id,long_halloween_family,long_halloween_family,Focused pack for Haunted Knight / Long Halloween / Dark Victory / When in Rome / Last Halloween.

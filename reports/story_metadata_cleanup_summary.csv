@@ -1,0 +1,5 @@
+bucket,count
+High: needs_research: needs_decision,127
+Low: needs_research: needs_decision,131
+Medium: tbc_owned_item: decision_recorded,18
+Medium: tbc_owned_item: needs_decision,139
