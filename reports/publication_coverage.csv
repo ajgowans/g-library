@@ -1,14 +1,14 @@
 story,known_issue_count,original_issues_owned_count,facsimiles_owned_count,collection_coverage_count,individual_copy_owned_count,readable,original_issues_complete,owned_publications,notes
 A Death in the Family,4,2,0,0,2,Yes,No,,
 A Death In The Family,4,2,0,0,2,Yes,No,,
-A Gotham Tale,2,2,0,0,2,Yes,Yes,,
+A local Tale,2,2,0,0,2,Yes,Yes,,
 A Lonely Place of Dying,5,1,0,5,1,Yes,No,,"Readable via collection, but original individual issues are not complete."
 Absolute Batman,23,4,0,0,4,Yes,No,,
 Absolute Catwoman,2,0,0,0,0,No,No,,
 Absolute Wonder Woman,1,0,0,0,0,No,No,,
 Bane Of The Demon,4,4,0,0,4,Yes,Yes,,
 Batman - Wildcat,3,3,0,0,3,Yes,Yes,,
-Batman/Judge Dredd: Judgment on Gotham,0,0,0,0,0,Yes,Yes,Batman/Judge Dredd: Judgment on Gotham,Original-format publication; no contained issue checklist recorded.
+Batman/Judge Dredd: Judgment on local,0,0,0,0,0,Yes,Yes,Batman/Judge Dredd: Judgment on local,Original-format publication; no contained issue checklist recorded.
 Batman/Spawn: War Devil,0,0,0,0,0,Yes,Yes,Batman/Spawn: War Devil,Original-format publication; no contained issue checklist recorded.
 Batman: Cataclysm,5,0,0,0,0,No,No,,
 Batman: Contagion,20,12,0,0,12,Yes,No,,
@@ -45,8 +45,8 @@ Flyer,3,3,0,0,3,Yes,Yes,,
 Frozen Assets,1,1,0,0,1,Yes,Yes,,
 Going Sane,3,3,0,0,3,Yes,Yes,,
 Gordon's Law,4,4,0,0,4,Yes,Yes,,
-Gotham Nights I,4,4,0,0,4,Yes,Yes,,
-Gotham Nights II,4,4,0,0,4,Yes,Yes,,
+local Nights I,4,4,0,0,4,Yes,Yes,,
+local Nights II,4,4,0,0,4,Yes,Yes,,
 Gothic,5,5,0,0,5,Yes,Yes,,
 Gothtopia,1,1,0,0,1,Yes,Yes,,
 Jazz,3,3,0,0,3,Yes,Yes,,

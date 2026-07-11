@@ -3,7 +3,7 @@ absolute_batman,Absolute Batman,complete_run,cover_a_only,Buy Cover A only; incl
 absolute_catwoman,Absolute Catwoman,complete_run,cover_a_only,Buy Cover A only
 batman_facsimiles,Batman related facsimiles,facsimile_preferred,cover_a_only,Buy Cover A only; for expensive pre-1986 originals use facsimiles as preferred reading/owning format
 absolute_superman,Absolute Superman,ignore,none,Do not collect unless later explicitly added
-absolute_wonder_woman,Absolute Wonder Woman,track_ordered_or_owned,cover_a_only,Not a Gotham default; track explicitly ordered/owned copies only
+absolute_wonder_woman,Absolute Wonder Woman,track_ordered_or_owned,cover_a_only,Not a local default; track explicitly ordered/owned copies only
 absolute_flash,Absolute Flash,ignore,none,Do not collect unless later explicitly added
 absolute_green_lantern,Absolute Green Lantern,ignore,none,Do not collect unless later explicitly added
 absolute_martian_manhunter,Absolute Martian Manhunter,ignore,none,Do not collect unless later explicitly added

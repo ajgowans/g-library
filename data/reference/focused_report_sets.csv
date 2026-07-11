@@ -1,5 +1,5 @@
 FocusID,FocusName,MatchType,MatchValue,OutputStem,Notes
-knightfall_to_knightsend,Knightfall to Knightsend,reading_order_prefix,Knight,knightfall_to_knightsend,Andrew's original reading-order tracking block from the imported sheet.
+knightfall_to_knightsend,Knightfall to Knightsend,reading_order_prefix,Knight,knightfall_to_knightsend,original reading-order tracking block from the imported sheet.
 knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Knightfall,knightfall_to_knightsend,Include rows labelled as Knightfall.
 knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Knightquest,knightfall_to_knightsend,Include rows labelled as Knightquest.
 knightfall_to_knightsend,Knightfall to Knightsend,metadata_arc,Knightsend,knightfall_to_knightsend,Include rows labelled as Knightsend.
