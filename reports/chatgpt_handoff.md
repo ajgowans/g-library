@@ -22,15 +22,15 @@ python3 scripts/validate_database.py
 
 |status|count|
 |---|---|
-|absent_from_sheet|139|
-|not_owned|11|
+|absent_from_sheet|780|
+|not_owned|47|
 |readable_via_collection|2|
 
 ## Focused Report Summary
 
 |focus_id|row_count|owned_rows|missing_rows|still_want_original_rows|
 |---|---|---|---|---|
-|knightfall_to_knightsend|66|66|0|0|
+|knightfall_to_knightsend|114|114|0|0|
 |zero_hour|36|10|26|26|
 |bloodlines|25|10|15|15|
 |contagion|20|12|8|8|
@@ -41,31 +41,31 @@ python3 scripts/validate_database.py
 
 |series|issue_number|run_status|metadata_arc|still_want_original|wanted_reason|
 |---|---|---|---|---|---|
-|Batman|408|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|409|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|412|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|413|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|415|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|417|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|418|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|422|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|423|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|424|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|425|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|426|not_owned|A Death in the Family|Yes|not_owned|
-|Batman|427|not_owned|A Death in the Family|Yes|not_owned|
-|Batman|431|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|440|not_owned|A Lonely Place of Dying|Yes|Readable via collected edition, but no owned individual issue is recorded.|
-|Batman|442|not_owned|A Lonely Place of Dying|Yes|Readable via collected edition, but no owned individual issue is recorded.|
-|Batman|444|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|445|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|450|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|451|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|453|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|454|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|463|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|465|absent_from_sheet||Yes|absent_from_sheet|
-|Batman|475|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|0|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|3|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|4|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|5|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|8|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|9|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|10|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|11|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|12|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|13|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|14|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|15|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|18|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|19|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|20|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|21|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|22|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|23|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|24|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|25|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|26|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|27|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|28|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|29|absent_from_sheet||Yes|absent_from_sheet|
+|Azrael|30|absent_from_sheet||Yes|absent_from_sheet|
 
 ## First Metadata Gaps For Research
 

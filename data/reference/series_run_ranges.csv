@@ -1,4 +1,16 @@
-run_id,title,start_issue,end_issue,collecting_status,notes
-batman_404_574,Batman,404,574,collect,Batman run tracking range.
-detective_568_741,Detective Comics,568,741,collect,Detective Comics run tracking range.
-warhammer_monthly_0_86,Warhammer Monthly,0,86,collect,Complete Warhammer Monthly run; source checked: https://en.wikipedia.org/wiki/Warhammer_Monthly says cancelled after issue 86.
+run_id,title,start_issue,end_issue,collecting_status,special_issues,notes
+batman_404_574,Batman,404,574,collect,,Batman run tracking range.
+detective_568_741,Detective Comics,568,741,collect,,Detective Comics run tracking range.
+warhammer_monthly_0_86,Warhammer Monthly,0,86,collect,,Complete Warhammer Monthly run; source checked: https://en.wikipedia.org/wiki/Warhammer_Monthly says cancelled after issue 86.
+catwoman_vol2_1_94,Catwoman (Vol.2),1,94,collect,,Complete-run target.
+legends_dark_knight_1_214,Batman: Legends of the Dark Knight,1,214,collect,,Complete-run target.
+shadow_of_the_bat_1_94,Batman: Shadow of the Bat,1,94,collect,,Complete-run target.
+batman_chronicles_1_23,Batman Chronicles,1,23,collect,,Complete-run target.
+heavy_metal_1_30,Heavy Metal,1,30,collect,,Complete-run target.
+richard_dragon_1_18,Richard Dragon,1,18,collect,,"Complete-run target; current source data uses shortened title Richard Dragon."
+showcase_93_1_12,Showcase ’93,1,12,collect,,Complete-run target.
+showcase_94_1_12,Showcase ’94,1,12,collect,,Complete-run target.
+batman_family_1_20,Batman Family,1,20,collect,,Complete-run target.
+batman_and_the_outsiders_1_32,Batman and The Outsiders,1,32,collect,,Complete-run target boundary; do not extend into later Outsiders titles.
+robin_vol2_verified,Robin (Vol. 2),0,183,collect,1000000,Long-term complete-run target using verified main range plus special numbered issue.
+azrael_verified,Azrael,0,100,collect,1000000,Long-term complete-run target using verified main range plus special numbered issue.
