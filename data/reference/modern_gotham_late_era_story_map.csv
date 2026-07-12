@@ -1,0 +1,11 @@
+chronological_sequence,item_id,start_date,end_date,primary_series,previous_item,next_item,source_url,confidence,notes
+001,knightsend,1994,1994,Batman / Detective Comics / Shadow of the Bat / Robin,knightquest,prodigal,data/processed/comics_master.csv,partial,Existing imported Knightfall Era phase.
+002,prodigal,1994,1995,Batman / Detective Comics / Shadow of the Bat / Robin,knightsend,troika,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified,Verified 12-part post-KnightsEnd story.
+003,troika,1995,1995,Batman / Detective Comics / Shadow of the Bat / Robin,prodigal,contagion,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Core Troika banner plus collected-edition context.
+004,contagion,1996,1996,Batman family,troika,legacy,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,partial,Current checklist is curated but exact expanded scope remains partial.
+005,legacy,1996,1996,Batman family,contagion,knight_out,https://en.wikipedia.org/wiki/List_of_Batman_comics,partial,Current checklist includes prequel/core/epilogue rows; exact scope still review-grade.
+006,knight_out,1997,1998,Detective Comics,legacy,cataclysm,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Detected bridge collection covering Detective Comics #703-718.
+007,cataclysm,1998,1998,Batman family,knight_out,aftershock,https://en.wikipedia.org/wiki/Batman%3A_Cataclysm,verified,Verified 18-chapter earthquake crossover.
+008,aftershock,1998,1998,Batman family,cataclysm,road_to_no_mans_land,https://en.wikipedia.org/wiki/Batman%3A_No_Man%27s_Land,review,Working scope uses Road to No Man's Land Vol. 1 contents pending a stronger Aftershock boundary source.
+009,road_to_no_mans_land,1998,1999,Batman family,aftershock,no_mans_land,https://en.wikipedia.org/wiki/Batman%3A_No_Man%27s_Land,verified,Verified collected prelude scope leading into No Man's Land.
+010,no_mans_land,1999,1999,Batman family,road_to_no_mans_land,,https://en.wikipedia.org/wiki/Batman%3A_No_Man%27s_Land,verified,Complete crossover membership is represented; exact inter-title reading order still not asserted.

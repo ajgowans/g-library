@@ -9,6 +9,15 @@ Use this pack to help research metadata and sanity-check reading orders. Treat r
 - Mark researched metadata with source URLs and confidence.
 - Ownership, ordered, MIA, and variant facts must come from the repo data.
 
+## Authoritative Files
+
+- Issue ownership lookup: `reports/shopping_index.csv`.
+- Item membership and item reading order: `reports/item_checklist_items.csv`.
+- Item completion totals: `reports/item_index.csv` and `reports/item_scope_completion.csv`.
+- Annual publication universe: `reports/annuals_master.csv`; strict 1986-1999 annual audit: `reports/annuals_audit.csv`.
+- Chronological late Modern local story map: `reports/modern_local_late_era_story_map.csv`.
+- Human handoff summary: `reports/chatgpt_handoff.md`.
+
 ## Useful Commands
 
 ```bash

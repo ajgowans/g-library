@@ -1,10 +1,15 @@
 item_id,scope_id,scope_name,description,source_url,confidence
 contagion,default,Current curated checklist,Current story_arc_checklists.csv rows.,data/reference/story_arc_checklists.csv,partial
 legacy,default,Current curated checklist,Current story_arc_checklists.csv rows.,data/reference/story_arc_checklists.csv,partial
+knight_out,collected_scope,Batman: Knight Out collected scope,Verified collected-edition membership for Detective Comics #703-718.,data/reference/item_issue_ranges.csv,verified
 long_halloween_family,default,Current curated checklist,Current story_arc_checklists.csv rows.,data/reference/story_arc_checklists.csv,partial
 zero_hour,extended_dc_event,Extended DC event,Current event_checklists.csv Zero Hour rows.,data/reference/event_checklists.csv,partial
 bloodlines,extended_dc_event,Extended DC event,Current event_checklists.csv Bloodlines rows.,data/reference/event_checklists.csv,partial
 no_mans_land_saga,current_metadata,Current metadata coverage,"Derived from issue_metadata.csv; not complete verified reading order.",data/reference/issue_metadata.csv,partial
+cataclysm,core_18_chapter,Verified 18-chapter Cataclysm,Verified Cataclysm chapter order from issue references.,data/reference/item_memberships.csv,verified
+aftershock,collected_road_vol_1,Aftershock / Road Vol. 1 collected scope,"Collected contents currently used as the Aftershock working scope; boundary is review-grade.",data/reference/item_issue_ranges.csv,review
+road_to_no_mans_land,complete_collected_scope,Road to No Man's Land complete collected scope,Verified collected-edition membership for Road to No Man's Land.,data/reference/item_issue_ranges.csv,verified
+no_mans_land,complete_crossover_scope,No Man's Land complete crossover scope,Verified issue-list/complete-edition membership for No Man's Land.,data/reference/item_issue_ranges.csv,verified
 knightfall_era,imported_knight_block,Imported Knightfall block,"Derived from imported reading_order prefix Knight and current story labels.",data/processed/comics_master.csv,partial
 dc_one_million,research_needed,Research needed,Core/local/complete scopes need verified source data.,,needs_research
 crisis_on_infinite_earths,research_needed,Research needed,Core/Batman-context scopes need verified source data.,,needs_research
@@ -16,3 +21,5 @@ knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,Prese
 knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,Expanded Knightfall Era scope through verified Prodigal membership.,data/reference/item_scope_components.csv,verified
 knightfall_era,through_troika,Complete Knightfall Era through Troika,Expanded Knightfall Era scope through verified Troika membership.,data/reference/item_scope_components.csv,verified
 modern_local_annuals,modern_local_1986_1999,Modern local Era annual universe,Verified annual publications for relevant Batman/local-family annuals from 1986-1999.,data/reference/annual_publications.csv,verified
+batman_annual_complete_run,original_1_24,Batman Annual original numbered sequence,Verified Batman Annual #1-24 complete-run collecting target.,data/reference/annual_publications.csv,verified
+annual_reference_universe,searchable_excluded_annuals,Searchable excluded annuals,Verified annual publications kept searchable but excluded from strict completion items.,data/reference/annual_publications.csv,partial

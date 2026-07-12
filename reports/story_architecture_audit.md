@@ -31,6 +31,7 @@
 
 ## Counts
 
-- Level A: 24
-- Level B: 8
-- Item checklist rows generated: 947
+- Level A: 20
+- Level B: 14
+- Level C: 1
+- Item checklist rows generated: 1028
