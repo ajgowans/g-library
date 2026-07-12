@@ -1,0 +1,127 @@
+# Export Notes
+
+Generated public data export.
+
+## Publication Status
+
+- No licence file is included yet. Add a licence before publishing this as a public repo.
+- Private source tables and operational ledgers are excluded by default.
+- Review `PUBLIC_MIRROR_MANIFEST.csv` before publishing.
+
+## Contents
+
+- `reference_database_version.txt` - Version marker.
+- `data/reference/collecting_strategy.csv` - Reference data.
+- `data/reference/collection_areas.csv` - Reference data.
+- `data/reference/series_run_ranges.csv` - Reference data.
+- `data/reference/event_checklists.csv` - Reference data.
+- `data/reference/story_arc_checklists.csv` - Reference data.
+- `data/reference/focused_report_sets.csv` - Reference data.
+- `data/reference/character_focus_sets.csv` - Reference data.
+- `data/reference/hidden_gotham.csv` - Reference data.
+- `data/reference/issue_metadata.csv` - Reference data.
+- `data/reference/story_metadata_decisions.csv` - Reference data.
+- `data/reference/facsimiles_batman.csv` - Reference data.
+- `data/reference/publications.csv` - Reference data.
+- `data/reference/publication_contents.csv` - Reference data.
+- `data/reference/publication_types.csv` - Reference data.
+- `data/reference/publication_aliases.csv` - Reference data.
+- `data/reference/projects.csv` - Reference data.
+- `data/reference/project_relationships.csv` - Reference data.
+- `data/reference/project_scopes.csv` - Reference data.
+- `data/reference/project_aliases.csv` - Reference data.
+- `data/reference/project_memberships.csv` - Reference data.
+- `data/reference/project_issue_ranges.csv` - Reference data.
+- `data/reference/project_scope_components.csv` - Reference data.
+- `data/reference/annual_publications.csv` - Reference data.
+- `data/reference/modern_gotham_late_era_story_map.csv` - Reference data.
+- `data/reference/series_specials.csv` - Reference data.
+- `data/reference/notable_guest_appearances.csv` - Reference data.
+- `data/reference/annual_series.csv` - Reference data.
+- `data/reference/special_publications.csv` - Reference data.
+- `data/reference/industry_ages.csv` - Reference data.
+- `data/reference/batman_eras.csv` - Reference data.
+- `data/reference/batman_era_boundaries.csv` - Reference data.
+- `data/reference/bronze_age_publication_ranges.csv` - Reference data.
+- `data/reference/bronze_age_special_publications.csv` - Reference data.
+- `data/reference/bronze_age_story_map.csv` - Reference data.
+- `data/reference/dark_knight_returns_reading_order.csv` - Reference data.
+- `data/reference/source_publication_exceptions.csv` - Reference data.
+- `reports/privacy_audit.csv` - Generated report.
+- `reports/chatgpt_handoff.md` - Generated report.
+- `reports/shopping_index.csv` - Generated report.
+- `reports/wanted_items.csv` - Generated report.
+- `reports/batman_range_wantlist.csv` - Generated report.
+- `reports/series_run_summary.csv` - Generated report.
+- `reports/series_run_gaps.csv` - Generated report.
+- `reports/series_run_issues.csv` - Generated report.
+- `reports/series_run_missing_issues.csv` - Generated report.
+- `reports/series_run_metadata_gaps.csv` - Generated report.
+- `reports/annual_coverage.csv` - Generated report.
+- `reports/annuals_master.csv` - Generated report.
+- `reports/annuals_audit.csv` - Generated report.
+- `reports/modern_gotham_annuals.csv` - Generated report.
+- `reports/modern_gotham_annuals_summary.csv` - Generated report.
+- `reports/story_arc_summary.csv` - Generated report.
+- `reports/story_arc_inventory.csv` - Generated report.
+- `reports/story_arc_missing.csv` - Generated report.
+- `reports/story_arc_contagion_checklist.csv` - Generated report.
+- `reports/story_arc_legacy_checklist.csv` - Generated report.
+- `reports/story_arc_long_halloween_family_checklist.csv` - Generated report.
+- `reports/event_zero_hour_checklist.csv` - Generated report.
+- `reports/event_bloodlines_checklist.csv` - Generated report.
+- `reports/event_missing.csv` - Generated report.
+- `reports/event_owned.csv` - Generated report.
+- `reports/project_checklist_status.csv` - Generated report.
+- `reports/project_index.csv` - Generated report.
+- `reports/project_checklists.csv` - Generated report.
+- `reports/project_checklist_items.csv` - Generated report.
+- `reports/project_relationships.csv` - Generated report.
+- `reports/project_scope_completion.csv` - Generated report.
+- `reports/modern_gotham_late_era_story_map.csv` - Generated report.
+- `reports/story_coverage_gaps.csv` - Generated report.
+- `reports/story_architecture_audit.md` - Generated report.
+- `reports/knightfall_to_knightsend_report.csv` - Generated report.
+- `reports/zero_hour_report.csv` - Generated report.
+- `reports/bloodlines_report.csv` - Generated report.
+- `reports/contagion_report.csv` - Generated report.
+- `reports/legacy_report.csv` - Generated report.
+- `reports/long_halloween_family_report.csv` - Generated report.
+- `reports/focused_report_summary.csv` - Generated report.
+- `reports/catwoman_focus.csv` - Generated report.
+- `reports/character_focus_summary.csv` - Generated report.
+- `reports/hidden_gotham_checklist.csv` - Generated report.
+- `reports/readable_stories.csv` - Generated report.
+- `reports/original_issues_still_wanted.csv` - Generated report.
+- `reports/collections_owned.csv` - Generated report.
+- `reports/publication_coverage.csv` - Generated report.
+- `reports/facsimiles_missing.csv` - Generated report.
+- `reports/facsimiles_shopping_priority.csv` - Generated report.
+- `reports/facsimiles_existence_to_confirm.csv` - Generated report.
+- `reports/facsimiles_needs_ownership_confirmation.csv` - Generated report.
+- `reports/owned_facsimiles.csv` - Generated report.
+- `reports/story_metadata_work_queue.csv` - Generated report.
+- `reports/story_metadata_backfill_candidates.csv` - Generated report.
+- `reports/story_metadata_cleanup_summary.csv` - Generated report.
+- `reports/story_metadata_authority_summary.csv` - Generated report.
+- `reports/story_metadata_authority_valid.csv` - Generated report.
+- `reports/story_metadata_authority_needs_review.csv` - Generated report.
+- `reports/story_metadata_authority_conflicts.csv` - Generated report.
+- `reports/story_metadata_inbox_summary.csv` - Generated report.
+- `reports/story_metadata_inbox_valid.csv` - Generated report.
+- `reports/story_metadata_inbox_needs_review.csv` - Generated report.
+- `reports/story_metadata_inbox_conflicts.csv` - Generated report.
+- `data/reference/modern_gotham_pre_knightfall_story_map.csv` - Reference data.
+- `reports/modern_gotham_pre_knightfall_story_map.csv` - Generated report.
+- `reports/owned_story_cluster_candidates.csv` - Generated report.
+- `reports/modern_gotham_special_publications.csv` - Generated report.
+- `reports/batman_elseworlds_1989_1999.csv` - Generated report.
+- `reports/special_publication_coverage_gaps.csv` - Generated report.
+- `reports/batman_era_boundaries.csv` - Generated report.
+- `reports/bronze_age_batman_publications.csv` - Generated report.
+- `reports/bronze_age_gap_priority.csv` - Generated report.
+- `reports/bronze_age_batman_story_map.csv` - Generated report.
+- `reports/dark_knight_returns_saga_reading_order.csv` - Generated report.
+- `reports/dark_knight_returns_saga_summary.csv` - Generated report.
+- `reports/dark_knight_returns_saga_missing.csv` - Generated report.
+- `reports/source_publication_exceptions.csv` - Generated report.

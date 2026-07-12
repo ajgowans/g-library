@@ -14,6 +14,9 @@ Use this pack to help research metadata and sanity-check reading orders. Treat r
 - Issue ownership lookup: `reports/shopping_index.csv`.
 - Item membership and item reading order: `reports/item_checklist_items.csv`.
 - Item completion totals: `reports/item_index.csv` and `reports/item_scope_completion.csv`.
+- Dark Knight Returns Saga reading order: `reports/dark_knight_returns_saga_reading_order.csv`.
+- Dark Knight Returns Saga completion: `reports/dark_knight_returns_saga_summary.csv` and `reports/dark_knight_returns_saga_missing.csv`.
+- Source publication exceptions: `reports/source_publication_exceptions.csv`.
 - Annual publication universe: `reports/annuals_master.csv`; strict 1986-1999 annual audit: `reports/annuals_audit.csv`.
 - Chronological late Modern local story map: `reports/modern_local_late_era_story_map.csv`.
 - Human handoff summary: `reports/chatgpt_handoff.md`.
