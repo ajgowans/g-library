@@ -53,6 +53,24 @@ joker_bronze_material,research_seed,Research seed,Issue-level checklist pending 
 oneil_adams_batman_material,creator_run_seed,Creator-run seed,Creator-run checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,review
 englehart_rogers_detective_run,creator_run_seed,Creator-run seed,Creator-run checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,review
 dark_knight_returns,bronze_specials_minis,Bronze Age specials and miniseries,Four-issue prestige miniseries tracked as alternate-continuity physical publication.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
+dark_knight_returns_saga,core_batman_saga,Core Batman saga,Principal Batman-centred DKR narrative: DKR DK2 DKIII and Golden Child.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
+dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,Core saga plus Last Crusade and Superman Year One as verified same-continuity works.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,review
+dark_knight_returns_saga,extended_miller_dkr_related,Extended Frank Miller DKR-related continuity,Adds All Star Batman and Robin and Spawn/Batman as Miller-supported but continuity/necessity-disputed related works.,https://en.wikipedia.org/wiki/All_Star_Batman_%26_Robin%2C_the_Boy_Wonder,review
+dark_knight_returns,publication_order,Publication order,Original four-issue prestige miniseries.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
+dark_knight_strikes_again,publication_order,Publication order,Three-issue sequel.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
+dark_knight_master_race,publication_order,Publication order,Nine-issue limited series.,https://en.wikipedia.org/wiki/The_Dark_Knight_III%3A_The_Master_Race,verified
+dark_knight_golden_child,publication_order,Publication order,One-shot after DKIII.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
+dark_knight_last_crusade,publication_order,Publication order,One-shot prequel.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
+superman_year_one_dkr,publication_order,Publication order,Three-issue Black Label limited series.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,review
+all_star_batman_robin,publication_order,Publication order,Published #1-10 only; narrative unfinished.,https://en.wikipedia.org/wiki/All_Star_Batman_%26_Robin%2C_the_Boy_Wonder,review
+spawn_batman_miller,publication_order,Publication order,Optional crossover related to Miller DKR continuity.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,review
+batman_local_wider_publication_universe,owned_wider_universe,Owned wider universe,Owned Batman/local publications outside or adjacent to strict era completion scopes.,data/reference/special_publications.csv,partial
+batman_toyman,owned_miniseries,Owned miniseries,Four-issue owned item.,data/reference/special_publications.csv,review
+catwoman_wildcat,owned_miniseries,Owned miniseries,Four-issue owned item.,data/reference/special_publications.csv,verified
+batman_bane_of_the_demon,owned_miniseries,Owned miniseries,Four-issue owned item.,data/reference/special_publications.csv,verified
+batman_jazz,owned_miniseries,Owned miniseries,Three-issue owned item.,data/reference/special_publications.csv,verified
+batman_wildcat,owned_miniseries,Owned miniseries,Three-issue owned item.,data/reference/special_publications.csv,verified
+batman_turning_points,owned_miniseries,Owned miniseries,Five-issue owned item outside strict Modern local 1986-1999 completion.,data/reference/special_publications.csv,verified
 legends_crossover,verified_membership,Verified membership,Issue-level membership from sourced collected/publication listings.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
 ten_nights_of_the_beast,verified_membership,Verified membership,Issue-level membership from sourced collected/publication listings.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
 many_deaths_of_batman,verified_membership,Verified membership,Issue-level membership from sourced collected/publication listings.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified

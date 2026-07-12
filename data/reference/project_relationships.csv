@@ -44,7 +44,21 @@ two_face_bronze_material,bronze_age_key_stories,080,research,contains,Research b
 joker_bronze_material,bronze_age_key_stories,090,research,contains,Research bucket pending issue-level verification.
 oneil_adams_batman_material,bronze_age_creator_runs,010,research,contains,Creator-run item.
 englehart_rogers_detective_run,bronze_age_creator_runs,020,research,contains,Creator-run item.
-dark_knight_returns,bronze_age_specials_miniseries,010,recommended,contains,Alternate-continuity prestige miniseries tracked as physical publication.
+dark_knight_returns,dark_knight_returns_saga,010,required,contains,Core original miniseries.
+dark_knight_strikes_again,dark_knight_returns_saga,020,required,sequel_to,Core sequel.
+dark_knight_master_race,dark_knight_returns_saga,030,required,sequel_to,Core sequel.
+dark_knight_golden_child,dark_knight_returns_saga,040,required,sequel_to,Core post-DKIII one-shot.
+dark_knight_last_crusade,dark_knight_returns_saga,005,recommended,prequel_to,Verified prequel one-shot.
+superman_year_one_dkr,dark_knight_returns_saga,002,recommended,same_universe_as,Extended DKR continuity; not Batman-centred core.
+all_star_batman_robin,dark_knight_returns_saga,001,optional,optional_related,Extended DKR-related continuity; published run complete but narrative unfinished.
+spawn_batman_miller,dark_knight_returns_saga,003,optional,optional_related,DKR-related crossover; not necessary to main saga.
+dark_knight_returns,bronze_age_specials_miniseries,010,recommended,related,Alternate-continuity prestige miniseries tracked as physical publication.
+batman_toyman,batman_local_wider_publication_universe,010,owned,contains,Confirmed owned short miniseries.
+catwoman_wildcat,batman_local_wider_publication_universe,020,owned,contains,Confirmed owned Catwoman standalone miniseries.
+batman_bane_of_the_demon,batman_local_wider_publication_universe,030,owned,contains,Confirmed owned Bane miniseries.
+batman_jazz,batman_local_wider_publication_universe,040,owned,contains,Confirmed owned miniseries.
+batman_wildcat,batman_local_wider_publication_universe,050,owned,contains,Confirmed owned crossover miniseries.
+batman_turning_points,batman_local_wider_publication_universe,060,owned,contains,Confirmed owned post-No Man's Land miniseries.
 brave_and_bold_batman_bronze,bronze_age_batman_extended,001,optional,contains,Batman team-up run; opportunistic collecting target.
 batman_family_complete_run,bronze_age_batman_extended,002,recommended,contains,Bat-family anthology physical run.
 batman_and_outsiders_batman_led,bronze_age_batman_extended,003,required,contains,Batman-led Outsiders run.
