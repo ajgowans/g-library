@@ -1,0 +1,6 @@
+item_id,item_name,checklist_exists,issue_count,verified_reading_order,ownership_calculation_available,source_coverage,confidence,last_reviewed,notes
+bloodlines,Bloodlines,Yes,25,No,Yes,25/25,partial,,event; checklist rows are grouped/sequence-labelled reference rows unless separately verified as reading order.
+zero_hour,Zero Hour: Crisis in Time,Yes,36,No,Yes,36/36,partial,,event; checklist rows are grouped/sequence-labelled reference rows unless separately verified as reading order.
+contagion,Batman: Contagion,Yes,20,No,Yes,20/20,partial,,story_arc; checklist rows are grouped/sequence-labelled reference rows unless separately verified as reading order.
+legacy,Batman: Legacy,Yes,18,No,Yes,18/18,partial,,story_arc; checklist rows are grouped/sequence-labelled reference rows unless separately verified as reading order.
+long_halloween_family,Long Halloween Family,Yes,48,No,Yes,48/48,partial,,story_arc; checklist rows are grouped/sequence-labelled reference rows unless separately verified as reading order.
