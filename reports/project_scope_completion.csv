@@ -11,14 +11,18 @@ annual_reference_universe,searchable_excluded_annuals,Searchable excluded annual
 bane_conquest,story_identification,Story identification,bane_conquest,12,12,0,0,0,100.0,Direct item scope.
 bane_of_the_demon,story_identification,Story identification,bane_of_the_demon,4,4,0,0,0,100.0,Direct item scope.
 batman_annual_complete_run,original_1_24,Batman Annual original numbered sequence,batman_annual_complete_run,24,4,0,20,0,16.7,Direct item scope.
+batman_local_elseworlds_1989_1999,complete_special_format_universe,Complete special-format universe,batman_local_elseworlds_1989_1999,4,0,0,4,0,0.0,Direct item scope.
+batman_local_elseworlds_1989_1999,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,batman_local_elseworlds_1989_1999,22,2,0,20,0,9.1,Direct item scope.
 batman_knightsend,story_identification,Story identification,batman_knightsend,1,1,0,0,0,100.0,Direct item scope.
 batman_punisher,story_identification,Story identification,batman_punisher,2,2,0,0,0,100.0,Direct item scope.
+batman_thrillkiller,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,batman_thrillkiller,4,0,0,4,0,0.0,Direct item scope.
 batman_wildcat,story_identification,Story identification,batman_wildcat,3,3,0,0,0,100.0,Direct item scope.
 black_adam_dark_age,verified_membership,Verified membership,black_adam_dark_age,6,6,0,0,0,100.0,Direct item scope.
 blackmask,story_identification,Story identification,blackmask,3,3,0,0,0,100.0,Direct item scope.
 blind_justice,verified_membership,Verified membership,blind_justice,3,0,0,3,0,0.0,Direct item scope.
 bloodlines,extended_dc_event,Extended DC event,bloodlines,25,10,0,15,0,40.0,Direct item scope.
 cataclysm,core_18_chapter,Verified 18-chapter Cataclysm,cataclysm,18,4,0,14,0,22.2,Direct item scope.
+cataclysm,main_continuity_specials,Main-continuity specials,cataclysm,3,2,0,1,0,66.7,Direct item scope.
 catwoman,story_identification,Story identification,catwoman,4,4,0,0,0,100.0,Direct item scope.
 catwoman_wildcat,story_identification,Story identification,catwoman_wildcat,4,4,0,0,0,100.0,Direct item scope.
 constant_whitewater,story_identification,Story identification,constant_whitewater,1,1,0,0,0,100.0,Direct item scope.
@@ -94,8 +98,14 @@ man_bat_96,story_identification,Story identification,man_bat_96,3,3,0,0,0,100.0,
 many_deaths_of_batman,verified_membership,Verified membership,many_deaths_of_batman,3,3,0,0,0,100.0,Direct item scope.
 mercy,story_identification,Story identification,mercy,1,1,0,0,0,100.0,Direct item scope.
 modern_local_annuals,modern_local_1986_1999,Modern local Era annual universe,modern_local_annuals,51,25,0,26,0,49.0,Direct item scope.
+modern_local_miniseries,miniseries,Modern local miniseries,modern_local_miniseries,7,0,0,7,0,0.0,Direct item scope.
 modern_local_numbered_batman_detective_to_nml,numbered_core,Numbered Batman/Detective run only,modern_local_numbered_batman_detective_to_nml,345,195,6,142,6,56.5,Direct item scope.
+modern_local_special_format_universe,complete_special_format_universe,Complete special-format universe,modern_local_special_format_universe,51,8,2,41,0,15.7,Direct item scope.
+modern_local_special_format_universe,special_format_universe,Special-format universe,modern_local_special_format_universe,1,0,0,1,0,0.0,Direct item scope.
+modern_local_specials_one_shots,main_continuity_specials,Main-continuity specials,modern_local_specials_one_shots,10,2,2,6,0,20.0,Direct item scope.
+modern_local_specials_one_shots,special_format_universe,Special-format universe,modern_local_specials_one_shots,2,0,0,2,0,0.0,Direct item scope.
 no_mans_land,complete_crossover_scope,No Man's Land complete crossover scope,no_mans_land,86,0,0,86,0,0.0,Direct item scope.
+no_mans_land,main_continuity_specials,Main-continuity specials,no_mans_land,5,0,0,5,0,0.0,Direct item scope.
 nun_better,story_identification,Story identification,nun_better,1,1,0,0,0,100.0,Direct item scope.
 pagan,story_identification,Story identification,pagan,1,1,0,0,0,100.0,Direct item scope.
 prelude_to_knightfall,verified_membership,Verified membership,prelude_to_knightfall,12,12,0,0,0,100.0,Direct item scope.
@@ -135,6 +145,7 @@ to_the_father_i_never_knew,story_identification,Story identification,to_the_fath
 toyman,story_identification,Story identification,toyman,4,4,0,0,0,100.0,Direct item scope.
 troika,banner_core,Troika banner core,troika,4,4,0,0,0,100.0,Direct item scope.
 troika,collected_edition_scope,Troika collected edition scope,troika,2,2,0,0,0,100.0,Direct item scope.
+troika,main_continuity_specials,Main-continuity specials,troika,1,1,0,0,0,100.0,Direct item scope.
 turning_points,story_identification,Story identification,turning_points,5,5,0,0,0,100.0,Direct item scope.
 two_face,story_identification,Story identification,two_face,2,2,0,0,0,100.0,Direct item scope.
 underworld_unleashed,story_identification,Story identification,underworld_unleashed,1,1,0,0,0,100.0,Direct item scope.
@@ -143,6 +154,7 @@ untitled_penn_selkirk_storyline,story_identification,Story identification,untitl
 untitled_troy_cavanaugh_heist,story_identification,Story identification,untitled_troy_cavanaugh_heist,3,3,0,0,0,100.0,Direct item scope.
 untitled_zephyr_storyline,story_identification,Story identification,untitled_zephyr_storyline,1,1,0,0,0,100.0,Direct item scope.
 untold_legend,story_identification,Story identification,untold_legend,3,3,0,0,0,100.0,Direct item scope.
+vengeance_of_bane,main_continuity_specials,Main-continuity specials,vengeance_of_bane,1,1,0,0,0,100.0,Direct item scope.
 vengeance_of_bane,verified_membership,Verified membership,vengeance_of_bane,1,1,0,0,0,100.0,Direct item scope.
 venom,imported_knight_block,Imported Knightfall block,venom,5,5,0,0,0,100.0,Direct item scope.
 venom,story_identification,Story identification,venom,5,5,0,0,0,100.0,Direct item scope.

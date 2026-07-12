@@ -24,6 +24,11 @@ modern_local_annuals,modern_local_complete_era_coverage_to_nml,002,required,annu
 modern_local_year_one_to_knightfall,modern_local_complete_era_coverage_to_nml,003,required,story_component,Pre-Knightfall story and miniseries coverage component.
 knightfall_era,modern_local_complete_era_coverage_to_nml,004,required,story_component,Knightfall era story coverage component.
 no_mans_land_saga,modern_local_complete_era_coverage_to_nml,005,required,story_component,No Man's Land saga story and special coverage component.
+modern_local_special_format_universe,modern_local_complete_era_coverage_to_nml,006,required,special_format_component,Special-format publication universe remains separate from numbered-run completion.
+modern_local_specials_one_shots,modern_local_special_format_universe,001,required,contains,Main-continuity specials and one-shots scope.
+batman_local_elseworlds_1989_1999,modern_local_special_format_universe,002,optional,contains,Elseworlds scope is separate from main-continuity completion.
+modern_local_miniseries,modern_local_special_format_universe,003,optional,contains,Miniseries scope linked to existing items where possible.
+batman_thrillkiller,batman_local_elseworlds_1989_1999,001,optional,contains,Thrillkiller is an Elseworlds subitem.
 early_modern_local,modern_local_year_one_to_knightfall,001,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
 legends_crossover,modern_local_year_one_to_knightfall,002,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
 legends_dark_knight_early,modern_local_year_one_to_knightfall,003,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
