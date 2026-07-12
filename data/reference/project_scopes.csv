@@ -8,3 +8,11 @@ no_mans_land_saga,current_metadata,Current metadata coverage,"Derived from issue
 knightfall_era,imported_knight_block,Imported Knightfall block,"Derived from imported reading_order prefix Knight and current story labels.",data/processed/comics_master.csv,partial
 dc_one_million,research_needed,Research needed,Core/local/complete scopes need verified source data.,,needs_research
 crisis_on_infinite_earths,research_needed,Research needed,Core/Batman-context scopes need verified source data.,,needs_research
+prodigal,verified_core,Verified core reading order,Verified Prodigal numbered parts from publication-history source.,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
+prodigal,collected_edition_context,Collected edition context,Optional collected-edition context rows that are not claimed as numbered Prodigal parts.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+troika,banner_core,Troika banner core,Core Troika banner/checklist rows.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+troika,collected_edition_scope,Troika collected edition scope,Additional rows included in the Batman: Troika collected edition.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,Preserves the existing imported Knightfall-through-KnightsEnd completion scope.,data/processed/comics_master.csv,partial
+knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,Expanded Knightfall Era scope through verified Prodigal membership.,data/reference/item_scope_components.csv,verified
+knightfall_era,through_troika,Complete Knightfall Era through Troika,Expanded Knightfall Era scope through verified Troika membership.,data/reference/item_scope_components.csv,verified
+modern_local_annuals,modern_local_1986_1999,Modern local Era annual universe,Verified annual publications for relevant Batman/local-family annuals from 1986-1999.,data/reference/annual_publications.csv,verified

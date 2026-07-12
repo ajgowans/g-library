@@ -1,0 +1,52 @@
+ItemID,Sequence,PublicationYear,CoverDate,ParentSeries,AnnualSeries,AnnualNumber,PublicationID,RequiredOrOptional,StoryOrEvent,SourceURL,Confidence,Notes
+modern_local_annuals,1986.010,1986,1986,Batman,Batman Annual,10,PUB-BAT-ANN-0010,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman Annual ran annually in this period.
+modern_local_annuals,1987.010,1987,1987,Batman,Batman Annual,11,PUB-BAT-ANN-0011,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1988.010,1988,1988,Batman,Batman Annual,12,PUB-BAT-ANN-0012,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1989.010,1989,1989,Batman,Batman Annual,13,PUB-BAT-ANN-0013,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1990.010,1990,1990,Batman,Batman Annual,14,PUB-BAT-ANN-0014,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1991.010,1991,1991,Batman,Batman Annual,15,PUB-BAT-ANN-0015,required,Armageddon 2001,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1992.010,1992,1992,Batman,Batman Annual,16,PUB-BAT-ANN-0016,required,Eclipso: The Darkness Within,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1993.010,1993,1993,Batman,Batman Annual,17,PUB-BAT-ANN-0017,required,Bloodlines,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified,Bloodlines Outbreak chapter.
+modern_local_annuals,1994.010,1994,1994,Batman,Batman Annual,18,PUB-BAT-ANN-0018,required,Elseworlds Annual,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1995.010,1995,1995,Batman,Batman Annual,19,PUB-BAT-ANN-0019,required,Year One annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1996.010,1996,1996,Batman,Batman Annual,20,PUB-BAT-ANN-0020,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.010,1997,1997,Batman,Batman Annual,21,PUB-BAT-ANN-0021,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1998.010,1998,1998,Batman,Batman Annual,22,PUB-BAT-ANN-0022,required,Ghosts,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1999.010,1999,1999,Batman,Batman Annual,23,PUB-BAT-ANN-0023,required,JLApe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1988.020,1988,1988,Detective Comics,Detective Comics Annual,1,PUB-DET-ANN-0001,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Detective Comics Annual published regularly 1988-1997.
+modern_local_annuals,1989.020,1989,1989,Detective Comics,Detective Comics Annual,2,PUB-DET-ANN-0002,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1990.020,1990,1990,Detective Comics,Detective Comics Annual,3,PUB-DET-ANN-0003,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1991.020,1991,1991,Detective Comics,Detective Comics Annual,4,PUB-DET-ANN-0004,required,Armageddon 2001,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1992.020,1992,1992,Detective Comics,Detective Comics Annual,5,PUB-DET-ANN-0005,required,Eclipso: The Darkness Within,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1993.020,1993,1993,Detective Comics,Detective Comics Annual,6,PUB-DET-ANN-0006,required,Bloodlines,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified,Bloodlines Earthplague chapter.
+modern_local_annuals,1994.020,1994,1994,Detective Comics,Detective Comics Annual,7,PUB-DET-ANN-0007,required,Elseworlds Annual,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1995.020,1995,1995,Detective Comics,Detective Comics Annual,8,PUB-DET-ANN-0008,required,Year One annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1996.020,1996,1996,Detective Comics,Detective Comics Annual,9,PUB-DET-ANN-0009,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.020,1997,1997,Detective Comics,Detective Comics Annual,10,PUB-DET-ANN-0010,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1991.030,1991,1991,Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,1,PUB-LOTDK-ANN-0001,required,,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified,
+modern_local_annuals,1992.030,1992,1992,Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,2,PUB-LOTDK-ANN-0002,required,Eclipso: The Darkness Within,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified,
+modern_local_annuals,1993.030,1993,1993,Batman: Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,3,PUB-LOTDK-ANN-0003,required,Bloodlines,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified,Bloodlines Deathstorm chapter.
+modern_local_annuals,1994.030,1994,1994,Batman: Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,4,PUB-LOTDK-ANN-0004,required,Elseworlds Annual,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1995.030,1995,1995,Batman: Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,5,PUB-LOTDK-ANN-0005,required,Year One annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1996.030,1996,1996,Batman: Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,6,PUB-LOTDK-ANN-0006,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.030,1997,1997,Batman: Legends of the Dark Knight,Batman: Legends of the Dark Knight Annual,7,PUB-LOTDK-ANN-0007,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1993.040,1993,1993,Batman: Shadow of the Bat,Batman: Shadow of the Bat Annual,1,PUB-SOTB-ANN-0001,required,Bloodlines,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified,Bloodlines Outbreak chapter.
+modern_local_annuals,1994.040,1994,1994,Batman: Shadow of the Bat,Batman: Shadow of the Bat Annual,2,PUB-SOTB-ANN-0002,required,Elseworlds Annual,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1995.040,1995,1995,Batman: Shadow of the Bat,Batman: Shadow of the Bat Annual,3,PUB-SOTB-ANN-0003,required,Year One annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1996.040,1996,1996,Batman: Shadow of the Bat,Batman: Shadow of the Bat Annual,4,PUB-SOTB-ANN-0004,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.040,1997,1997,Batman: Shadow of the Bat,Batman: Shadow of the Bat Annual,5,PUB-SOTB-ANN-0005,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1992.050,1992,1992,Robin,Robin (Vol. 2) Annual,1,PUB-ROBIN-V2-ANN-0001,required,,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Robin Annual #1-7 with a long gap before #7.
+modern_local_annuals,1993.050,1993,1993,Robin,Robin (Vol. 2) Annual,2,PUB-ROBIN-V2-ANN-0002,required,Bloodlines,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified,Bloodlines Earthplague chapter.
+modern_local_annuals,1994.050,1994,1994,Robin,Robin (Vol. 2) Annual,3,PUB-ROBIN-V2-ANN-0003,required,Elseworlds Annual,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1995.050,1995,1995,Robin,Robin (Vol. 2) Annual,4,PUB-ROBIN-V2-ANN-0004,required,Year One annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1996.050,1996,1996,Robin,Robin (Vol. 2) Annual,5,PUB-ROBIN-V2-ANN-0005,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.050,1997,1997,Robin,Robin (Vol. 2) Annual,6,PUB-ROBIN-V2-ANN-0006,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1994.060,1994,1994,Catwoman,Catwoman (Vol.2) Annual,1,PUB-CATWOMAN-V2-ANN-0001,required,Elseworlds Annual,https://en.wikipedia.org/wiki/Catwoman,verified,Catwoman Annual #1-4 published 1994-1997.
+modern_local_annuals,1995.060,1995,1995,Catwoman,Catwoman (Vol.2) Annual,2,PUB-CATWOMAN-V2-ANN-0002,required,Year One annuals,https://en.wikipedia.org/wiki/Catwoman,verified,
+modern_local_annuals,1996.060,1996,1996,Catwoman,Catwoman (Vol.2) Annual,3,PUB-CATWOMAN-V2-ANN-0003,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/Catwoman,verified,
+modern_local_annuals,1997.060,1997,1997,Catwoman,Catwoman (Vol.2) Annual,4,PUB-CATWOMAN-V2-ANN-0004,required,Pulp Heroes,https://en.wikipedia.org/wiki/Catwoman,verified,
+modern_local_annuals,1995.070,1995,1995,Azrael,Azrael Annual,1,PUB-AZRAEL-ANN-0001,required,Year One annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Azrael Annual #1-3 published 1995-1997.
+modern_local_annuals,1996.070,1996,1996,Azrael,Azrael Annual,2,PUB-AZRAEL-ANN-0002,required,Legends of the Dead Earth,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.070,1997,1997,Azrael,Azrael Annual,3,PUB-AZRAEL-ANN-0003,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,
+modern_local_annuals,1997.080,1997,1997,Nightwing,Nightwing Annual,1,PUB-NIGHTWING-ANN-0001,required,Pulp Heroes,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified,Nightwing Annual #1 published in this era; #2 was much later.
+modern_local_annuals,1986.090,1986,1986,The Outsiders,The Outsiders Annual,1,PUB-OUTSIDERS-ANN-0001,opportunistic,,https://en.wikipedia.org/wiki/List_of_Batman_comics,partial,Included as researched adjacent candidate; not required for core Batman annual completion.

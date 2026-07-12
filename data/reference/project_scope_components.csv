@@ -1,0 +1,13 @@
+item_id,scope_id,scope_name,included_item_id,required_or_optional,notes
+knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knightfall,required,Existing imported scope component.
+knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knightquest,required,Existing imported scope component.
+knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knightsend,required,Existing imported scope component.
+knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,knightfall,required,Expanded completion scope.
+knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,knightquest,required,Expanded completion scope.
+knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,knightsend,required,Expanded completion scope.
+knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,prodigal,required,Expanded completion scope.
+knightfall_era,through_troika,Complete Knightfall Era through Troika,knightfall,required,Expanded completion scope.
+knightfall_era,through_troika,Complete Knightfall Era through Troika,knightquest,required,Expanded completion scope.
+knightfall_era,through_troika,Complete Knightfall Era through Troika,knightsend,required,Expanded completion scope.
+knightfall_era,through_troika,Complete Knightfall Era through Troika,prodigal,required,Expanded completion scope.
+knightfall_era,through_troika,Complete Knightfall Era through Troika,troika,required,Expanded completion scope.

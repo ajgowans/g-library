@@ -1,0 +1,4 @@
+item_id,scope_id,scope_name,included_item_ids,issue_count,owned_count,ordered_count,missing_count,readable_via_collection_count,completion_percentage,notes
+knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knightfall; knightquest; knightsend,108,108,0,0,0,100.0,Existing imported scope component.
+knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,knightfall; knightquest; knightsend; prodigal,108,108,0,0,0,100.0,Expanded completion scope.
+knightfall_era,through_troika,Complete Knightfall Era through Troika,knightfall; knightquest; knightsend; prodigal; troika,108,108,0,0,0,100.0,Expanded completion scope.
