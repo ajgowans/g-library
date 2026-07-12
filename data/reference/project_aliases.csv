@@ -1,0 +1,25 @@
+Alias,ItemID,AllowedSeries,IssueStart,IssueEnd,Notes
+Batman: Year One,year_one,,,,Story metadata alias.
+Year One,year_one,Batman,404,407,Ambiguous collection label; only Batman #404-407 maps to Batman: Year One.
+Batman: Year Two,year_two,,,,Story metadata alias.
+Batman: Year Three,year_three,,,,Story metadata alias.
+A Death in the Family,a_death_in_the_family,,,,Story metadata alias.
+A Death In The Family,a_death_in_the_family,,,,Story metadata alias.
+A Lonely Place of Dying,a_lonely_place_of_dying,,,,Story metadata alias.
+Year Three,year_three,Batman,436,439,Ambiguous collection label; only Batman #436-439 maps to Batman: Year Three.
+Cult,the_cult,,,,Story metadata alias.
+Batman: Cult,the_cult,,,,Story metadata alias.
+Batman: The Cult,the_cult,,,,Story metadata alias.
+Batman: Contagion,contagion,,,,Story metadata alias.
+Batman: Legacy,legacy,,,,Story metadata alias.
+Batman: Cataclysm,cataclysm,,,,Story metadata alias.
+Road to No Man's Land,road_to_no_mans_land,,,,Story metadata alias.
+Batman: No Man's Land,no_mans_land,,,,Story metadata alias.
+Knightfall,knightfall,,,,Story metadata alias.
+Knightquest,knightquest,,,,Story metadata alias.
+Knightsend,knightsend,,,,Story metadata alias.
+Prodigal,prodigal,,,,Story metadata alias.
+Troika,troika,,,,Story metadata alias.
+Long Halloween,long_halloween_family,,,,Story metadata alias.
+Zero Hour,zero_hour,,,,Story metadata alias.
+Bloodlines,bloodlines,,,,Story metadata alias.

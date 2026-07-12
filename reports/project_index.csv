@@ -1,0 +1,32 @@
+item_id,item_name,item_type,parent_item_id,era,start_year,end_year,level_of_coverage,checklist_exists,reading_order_verified,scopes_available,issue_count,owned_count,ordered_count,missing_count,readable_via_collection_count,completion_percentage,source_confidence,last_reviewed,notes
+early_modern_local,Early Modern local,saga,,Modern local Era,1986,1990,Level A,Partial,No,,23,15,5,0,6,65.2,partial,,Parent item for Year One through Tim Drake transition.
+year_one,Batman: Year One,arc,early_modern_local,Modern local Era,1987,1987,Level A,Partial,No,,4,4,0,0,0,100.0,partial,,Imported from issue metadata; checklist completeness needs verification.
+year_two,Batman: Year Two,arc,early_modern_local,Modern local Era,1987,1987,Level A,Partial,No,,4,0,3,0,4,0.0,partial,,Imported from issue metadata and publication contents; checklist completeness needs verification.
+second_chances_jason_todd,Post-Crisis Jason Todd / Second Chances,story_sequence,early_modern_local,Modern local Era,1986,1988,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Important context sequence; do not infer every issue until verified.
+the_cult,Batman: The Cult,arc,early_modern_local,Modern local Era,1988,1988,Level A,Partial,No,,4,4,0,0,0,100.0,partial,,Imported from existing collection story labels.
+a_death_in_the_family,A Death in the Family,arc,early_modern_local,Modern local Era,1988,1989,Level A,Partial,No,,4,2,2,0,0,50.0,partial,,Imported from issue metadata and ownership data.
+year_three,Batman: Year Three,arc,early_modern_local,Modern local Era,1989,1989,Level A,Partial,No,,4,4,0,0,0,100.0,partial,,Imported from existing story metadata decisions.
+a_lonely_place_of_dying,A Lonely Place of Dying,crossover,early_modern_local,Modern local Era,1989,1989,Level A,Partial,No,,3,1,0,0,2,33.3,partial,,Imported from issue metadata and publication contents; full cross-title checklist needs verification.
+venom,Venom,arc,knightfall_era,Modern local Era,1991,1991,Level A,Partial,No,,5,5,0,0,0,100.0,partial,,Imported from collection story labels.
+knightfall_era,Knightfall Era,saga,,Modern local Era,1992,1995,Level A,Partial,No,imported_knight_block,108,107,0,1,0,99.1,partial,,Parent for current imported Knightfall-to-KnightsEnd block and later phase research.
+prelude_to_knightfall,Prelude to Knightfall,arc,knightfall_era,Modern local Era,1992,1993,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Boundary needs verified checklist.
+knightfall,Knightfall,crossover,knightfall_era,Modern local Era,1993,1993,Level A,Partial,No,,37,37,0,0,0,100.0,partial,,Imported from existing collection story labels and Knight reading-order block.
+knightquest,Knightquest,crossover,knightfall_era,Modern local Era,1993,1994,Level A,Partial,No,,37,37,0,0,0,100.0,partial,,Existing data groups Crusade/Search together; phase split needs research.
+knightquest_the_crusade,Knightquest: The Crusade,arc,knightfall_era,Modern local Era,1993,1994,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Created as explicit phase placeholder pending verified membership.
+knightquest_the_search,Knightquest: The Search,arc,knightfall_era,Modern local Era,1993,1994,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Created as explicit phase placeholder pending verified membership.
+knightsend,KnightsEnd,crossover,knightfall_era,Modern local Era,1994,1994,Level A,Partial,No,,34,33,0,1,0,97.1,partial,,Imported from existing collection story labels and Knight reading-order block.
+prodigal,Prodigal,crossover,knightfall_era,Modern local Era,1994,1995,Level A,No,No,,0,0,0,0,0,0.0,partial,,Existing focused report references this phase where data exists.
+troika,Troika,crossover,knightfall_era,Modern local Era,1995,1995,Level A,No,No,,0,0,0,0,0,0.0,partial,,Existing focused report references this phase where data exists.
+contagion,Batman: Contagion,crossover,,Modern local Era,1996,1996,Level B,Yes,No,default,21,13,0,8,0,61.9,partial,,"Migrated from story_arc_checklists.csv; grouped checklist, not confirmed definitive reading order."
+legacy,Batman: Legacy,crossover,,Modern local Era,1996,1996,Level B,Yes,No,default,19,10,0,9,0,52.6,partial,,"Migrated from story_arc_checklists.csv; grouped checklist, not confirmed definitive reading order."
+long_halloween_family,Long Halloween Family,saga,,Modern local Era,1993,2026,Level B,Yes,No,default,48,17,0,31,0,35.4,partial,,Existing curated Long Halloween family checklist.
+no_mans_land_saga,No Man's Land Saga,saga,,Modern local Era,1998,2000,Level A,Partial,No,current_metadata,44,0,0,44,0,0.0,partial,,"Parent for Cataclysm, Aftershock, Road to No Man's Land and No Man's Land."
+cataclysm,Batman: Cataclysm,crossover,no_mans_land_saga,Modern local Era,1998,1998,Level A,Partial,No,,5,0,0,5,0,0.0,partial,,Imported from issue_metadata.csv only; complete checklist needs verification.
+aftershock,Aftershock,crossover,no_mans_land_saga,Modern local Era,1998,1998,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Known item placeholder; issue membership still needs verified source data.
+road_to_no_mans_land,Road to No Man's Land,crossover,no_mans_land_saga,Modern local Era,1998,1999,Level A,Partial,No,,15,0,0,15,0,0.0,partial,,Imported from issue_metadata.csv only; reading order needs verification.
+no_mans_land,Batman: No Man's Land,crossover,no_mans_land_saga,Modern local Era,1999,2000,Level A,Partial,No,,24,0,0,24,0,0.0,partial,,Imported from issue_metadata.csv only; complete checklist needs verification.
+zero_hour,Zero Hour: Crisis in Time,event,,Modern local Era,1994,1994,Level B,Yes,No,extended_dc_event,41,15,0,26,0,36.6,partial,,Migrated from event_checklists.csv; grouped sequence is not confirmed reading order.
+bloodlines,Bloodlines,event,,Modern local Era,1993,1993,Level B,Yes,No,extended_dc_event,26,11,0,15,0,42.3,partial,,Migrated from event_checklists.csv; grouped sequence is not confirmed reading order.
+dc_one_million,DC One Million,event,,Modern local Era,1998,1998,Level A,No,No,research_needed,0,0,0,0,0,0.0,needs_research,,High-priority item placeholder pending verified core/local/complete scopes.
+crisis_on_infinite_earths,Crisis on Infinite Earths,event,,Pre Modern local,1985,1986,Level A,No,No,research_needed,0,0,0,0,0,0.0,needs_research,,Core event placeholder pending verified issue membership.
+crisis_batman_context,Crisis/Batman Continuity Context,context,crisis_on_infinite_earths,Modern local Era,1986,1987,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Relationship/context layer for post-Crisis continuity effects; not a direct Year One crossover.

@@ -1,0 +1,21 @@
+item_id,parent_item_id,sequence_within_parent,required_or_optional,relationship_type,notes
+year_one,early_modern_local,001,required,contains,
+year_two,early_modern_local,002,optional,contains,
+second_chances_jason_todd,early_modern_local,003,recommended,contains,Context sequence needs verified membership.
+the_cult,early_modern_local,004,required,contains,
+a_death_in_the_family,early_modern_local,005,required,contains,
+year_three,early_modern_local,006,required,contains,
+a_lonely_place_of_dying,early_modern_local,007,required,contains,
+prelude_to_knightfall,knightfall_era,001,required,contains,Needs verified boundary.
+knightfall,knightfall_era,002,required,contains,
+knightquest,knightfall_era,003,required,contains,Temporary grouping until Crusade/Search split is verified.
+knightquest_the_crusade,knightfall_era,004,required,contains,Placeholder pending verified membership.
+knightquest_the_search,knightfall_era,005,required,contains,Placeholder pending verified membership.
+knightsend,knightfall_era,006,required,contains,
+prodigal,knightfall_era,007,optional,contains,
+troika,knightfall_era,008,optional,contains,
+cataclysm,no_mans_land_saga,001,required,contains,
+aftershock,no_mans_land_saga,002,required,contains,Needs verified membership.
+road_to_no_mans_land,no_mans_land_saga,003,required,contains,
+no_mans_land,no_mans_land_saga,004,required,contains,
+crisis_batman_context,crisis_on_infinite_earths,010,context,continuity_consequence,Context relationship; not direct tie-in.

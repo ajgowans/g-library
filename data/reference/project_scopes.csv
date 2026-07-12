@@ -1,0 +1,10 @@
+item_id,scope_id,scope_name,description,source_url,confidence
+contagion,default,Current curated checklist,Current story_arc_checklists.csv rows.,data/reference/story_arc_checklists.csv,partial
+legacy,default,Current curated checklist,Current story_arc_checklists.csv rows.,data/reference/story_arc_checklists.csv,partial
+long_halloween_family,default,Current curated checklist,Current story_arc_checklists.csv rows.,data/reference/story_arc_checklists.csv,partial
+zero_hour,extended_dc_event,Extended DC event,Current event_checklists.csv Zero Hour rows.,data/reference/event_checklists.csv,partial
+bloodlines,extended_dc_event,Extended DC event,Current event_checklists.csv Bloodlines rows.,data/reference/event_checklists.csv,partial
+no_mans_land_saga,current_metadata,Current metadata coverage,"Derived from issue_metadata.csv; not complete verified reading order.",data/reference/issue_metadata.csv,partial
+knightfall_era,imported_knight_block,Imported Knightfall block,"Derived from imported reading_order prefix Knight and current story labels.",data/processed/comics_master.csv,partial
+dc_one_million,research_needed,Research needed,Core/local/complete scopes need verified source data.,,needs_research
+crisis_on_infinite_earths,research_needed,Research needed,Core/Batman-context scopes need verified source data.,,needs_research
