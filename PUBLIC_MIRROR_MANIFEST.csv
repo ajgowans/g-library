@@ -103,6 +103,7 @@ copied,reports/story_metadata_inbox_conflicts.csv,reports/story_metadata_inbox_c
 copied,data/reference/modern_gotham_pre_knightfall_story_map.csv,data/reference/modern_gotham_pre_knightfall_story_map.csv,Reference data.,
 copied,reports/modern_gotham_pre_knightfall_story_map.csv,reports/modern_gotham_pre_knightfall_story_map.csv,Generated report.,
 copied,reports/owned_story_cluster_candidates.csv,reports/owned_story_cluster_candidates.csv,Generated report.,
+copied,reports/ownership_reconciliation_flags.csv,reports/ownership_reconciliation_flags.csv,Generated report.,
 copied,reports/modern_gotham_special_publications.csv,reports/modern_gotham_special_publications.csv,Generated report.,
 copied,reports/batman_elseworlds_1989_1999.csv,reports/batman_elseworlds_1989_1999.csv,Generated report.,
 copied,reports/special_publication_coverage_gaps.csv,reports/special_publication_coverage_gaps.csv,Generated report.,

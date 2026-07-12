@@ -7,7 +7,7 @@ absolute_batman,story_identification,Story identification,absolute_batman,23,4,1
 absolute_catwoman,story_identification,Story identification,absolute_catwoman,2,0,2,0,0,0.0,Direct item scope.
 absolute_wonder_woman,story_identification,Story identification,absolute_wonder_woman,1,0,1,0,0,0.0,Direct item scope.
 aftershock,collected_road_vol_1,Aftershock / Road Vol. 1 collected scope,aftershock,16,0,0,16,0,0.0,Direct item scope.
-all_star_batman_robin,publication_order,Publication order,all_star_batman_robin,10,0,0,10,0,0.0,Direct item scope.
+all_star_batman_robin,publication_order,Publication order,all_star_batman_robin,10,10,0,0,0,100.0,Direct item scope.
 annual_reference_universe,searchable_excluded_annuals,Searchable excluded annuals,annual_reference_universe,9,0,0,9,0,0.0,Direct item scope.
 bane_conquest,story_identification,Story identification,bane_conquest,12,12,0,0,0,100.0,Direct item scope.
 bane_of_the_demon,story_identification,Story identification,bane_of_the_demon,4,4,0,0,0,100.0,Direct item scope.
@@ -55,10 +55,10 @@ crimesmith,story_identification,Story identification,crimesmith,1,1,0,0,0,100.0,
 cry_of_the_huntress,story_identification,Story identification,cry_of_the_huntress,6,6,0,0,0,100.0,Direct item scope.
 dark_knight_dark_city,verified_membership,Verified membership,dark_knight_dark_city,4,2,0,2,0,50.0,Direct item scope.
 dark_knight_golden_child,publication_order,Publication order,dark_knight_golden_child,1,1,0,0,0,100.0,Direct item scope.
-dark_knight_last_crusade,publication_order,Publication order,dark_knight_last_crusade,1,0,0,1,0,0.0,Direct item scope.
+dark_knight_last_crusade,publication_order,Publication order,dark_knight_last_crusade,1,1,0,0,0,100.0,Direct item scope.
 dark_knight_master_race,publication_order,Publication order,dark_knight_master_race,9,9,0,0,0,100.0,Direct item scope.
-dark_knight_returns,bronze_specials_minis,Bronze Age specials/miniseries/annuals,dark_knight_returns,4,0,0,4,0,0.0,Direct item scope.
-dark_knight_returns,publication_order,Publication order,dark_knight_returns,4,0,0,4,0,0.0,Direct item scope.
+dark_knight_returns,bronze_specials_minis,Bronze Age specials/miniseries/annuals,dark_knight_returns,4,4,0,0,0,100.0,Direct item scope.
+dark_knight_returns,publication_order,Publication order,dark_knight_returns,4,4,0,0,0,100.0,Direct item scope.
 dark_knight_strikes_again,publication_order,Publication order,dark_knight_strikes_again,3,3,0,0,0,100.0,Direct item scope.
 day_of_vengeance,core_miniseries,Core six-issue miniseries,day_of_vengeance,6,6,0,0,0,100.0,Direct item scope.
 day_of_vengeance,expanded_with_special,Expanded with Infinite Crisis Special,day_of_vengeance,7,6,0,1,0,85.7,Direct item scope.
@@ -195,9 +195,9 @@ bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,batma
 countdown_final_crisis,core_plus_transition,Core plus transition,countdown_weekly_series; dc_universe_zero,52,51,0,1,0,98.1,Core weekly series.; Transition/prologue; not Countdown #0.
 countdown_final_crisis,core_weekly_series,Core weekly series,countdown_weekly_series,51,51,0,0,0,100.0,Core 51-issue weekly series only.
 countdown_final_crisis,extended_countdown,Extended Countdown item,black_adam_dark_age; countdown_arena; countdown_lord_havok_extremists; countdown_search_ray_palmer; countdown_to_adventure; countdown_to_mystery; countdown_weekly_series; crime_bible_five_lessons; dc_universe_zero; death_of_the_new_gods; salvation_run,110,67,0,43,0,60.9,Extended Countdown component; optional does not affect core weekly completion.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr,21,16,0,5,0,76.2,Prequel one-shot.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources.
-dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_golden_child; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again,17,13,0,4,0,76.5,Original miniseries.; Core sequel.; Core post-DKIII one-shot.
-dark_knight_returns_saga,extended_miller_dkr_related,Extended Frank Miller DKR-related continuity,all_star_batman_robin; spawn_batman_miller,11,0,0,11,0,0.0,Published run complete but narrative unfinished and continuity inconsistent.; Related crossover; not necessary to main saga.
+dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr,21,21,0,0,0,100.0,Prequel one-shot.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources.
+dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_golden_child; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again,17,17,0,0,0,100.0,Original miniseries.; Core sequel.; Core post-DKIII one-shot.
+dark_knight_returns_saga,extended_miller_dkr_related,Extended Frank Miller DKR-related continuity,all_star_batman_robin; spawn_batman_miller,11,10,0,1,0,90.9,Published run complete but narrative unfinished and continuity inconsistent.; Related crossover; not necessary to main saga.
 infinite_crisis_buildup,extended_buildup,Extended buildup,countdown_to_infinite_crisis; day_of_vengeance; identity_crisis_context; jla_crisis_of_conscience; rann_thanagar_war; the_omac_item; villains_united,41,12,0,29,0,29.3,Extended buildup component.
 infinite_crisis_buildup,four_major_miniseries,Four major lead-in miniseries,day_of_vengeance; rann_thanagar_war; the_omac_item; villains_united,28,12,0,16,0,42.9,Principal Countdown-era miniseries.
 knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knightfall; knightquest; knightsend,108,108,0,0,0,100.0,Existing imported scope component.
