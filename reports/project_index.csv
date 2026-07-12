@@ -8,17 +8,17 @@ a_death_in_the_family,A Death in the Family,arc,early_modern_local,Modern local 
 year_three,Batman: Year Three,arc,early_modern_local,Modern local Era,1989,1989,Level A,Partial,No,,4,4,0,0,0,100.0,partial,,Imported from existing story metadata decisions.
 a_lonely_place_of_dying,A Lonely Place of Dying,crossover,early_modern_local,Modern local Era,1989,1989,Level A,Partial,No,,3,1,0,0,2,33.3,partial,,Imported from issue metadata and publication contents; full cross-title checklist needs verification.
 venom,Venom,arc,knightfall_era,Modern local Era,1991,1991,Level A,Partial,No,,5,5,0,0,0,100.0,partial,,Imported from collection story labels.
-knightfall_era,Knightfall Era,saga,,Modern local Era,1992,1995,Level A,Partial,No,imported_knight_block,108,107,0,1,0,99.1,partial,,Parent for current imported Knightfall-to-KnightsEnd block and later phase research.
+knightfall_era,Knightfall Era,saga,,Modern local Era,1992,1995,Level A,Partial,No,imported_knight_block,108,108,0,0,0,100.0,partial,,Parent for current imported Knightfall-to-KnightsEnd block and later phase research.
 prelude_to_knightfall,Prelude to Knightfall,arc,knightfall_era,Modern local Era,1992,1993,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Boundary needs verified checklist.
 knightfall,Knightfall,crossover,knightfall_era,Modern local Era,1993,1993,Level A,Partial,No,,37,37,0,0,0,100.0,partial,,Imported from existing collection story labels and Knight reading-order block.
 knightquest,Knightquest,crossover,knightfall_era,Modern local Era,1993,1994,Level A,Partial,No,,37,37,0,0,0,100.0,partial,,Existing data groups Crusade/Search together; phase split needs research.
 knightquest_the_crusade,Knightquest: The Crusade,arc,knightfall_era,Modern local Era,1993,1994,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Created as explicit phase placeholder pending verified membership.
 knightquest_the_search,Knightquest: The Search,arc,knightfall_era,Modern local Era,1993,1994,Level A,No,No,,0,0,0,0,0,0.0,needs_research,,Created as explicit phase placeholder pending verified membership.
-knightsend,KnightsEnd,crossover,knightfall_era,Modern local Era,1994,1994,Level A,Partial,No,,34,33,0,1,0,97.1,partial,,Imported from existing collection story labels and Knight reading-order block.
+knightsend,KnightsEnd,crossover,knightfall_era,Modern local Era,1994,1994,Level A,Partial,No,,34,34,0,0,0,100.0,partial,,Imported from existing collection story labels and Knight reading-order block.
 prodigal,Prodigal,crossover,knightfall_era,Modern local Era,1994,1995,Level A,No,No,,0,0,0,0,0,0.0,partial,,Existing focused report references this phase where data exists.
 troika,Troika,crossover,knightfall_era,Modern local Era,1995,1995,Level A,No,No,,0,0,0,0,0,0.0,partial,,Existing focused report references this phase where data exists.
 contagion,Batman: Contagion,crossover,,Modern local Era,1996,1996,Level B,Yes,No,default,21,13,0,8,0,61.9,partial,,"Migrated from story_arc_checklists.csv; grouped checklist, not confirmed definitive reading order."
-legacy,Batman: Legacy,crossover,,Modern local Era,1996,1996,Level B,Yes,No,default,19,10,0,9,0,52.6,partial,,"Migrated from story_arc_checklists.csv; grouped checklist, not confirmed definitive reading order."
+legacy,Batman: Legacy,crossover,,Modern local Era,1996,1996,Level B,Yes,No,default,19,11,0,8,0,57.9,partial,,"Migrated from story_arc_checklists.csv; grouped checklist, not confirmed definitive reading order."
 long_halloween_family,Long Halloween Family,saga,,Modern local Era,1993,2026,Level B,Yes,No,default,48,17,0,31,0,35.4,partial,,Existing curated Long Halloween family checklist.
 no_mans_land_saga,No Man's Land Saga,saga,,Modern local Era,1998,2000,Level A,Partial,No,current_metadata,44,0,0,44,0,0.0,partial,,"Parent for Cataclysm, Aftershock, Road to No Man's Land and No Man's Land."
 cataclysm,Batman: Cataclysm,crossover,no_mans_land_saga,Modern local Era,1998,1998,Level A,Partial,No,,5,0,0,5,0,0.0,partial,,Imported from issue_metadata.csv only; complete checklist needs verification.
