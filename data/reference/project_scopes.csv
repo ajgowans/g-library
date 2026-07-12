@@ -46,10 +46,6 @@ lotdk_flyer,verified_membership,Verified membership,Early Legends of the Dark Kn
 lotdk_faces,verified_membership,Verified membership,Early Legends of the Dark Knight arc membership.,https://en.wikipedia.org/wiki/Batman%3A_Legends_of_the_Dark_Knight,verified
 lotdk_blades,verified_membership,Verified membership,Early Legends of the Dark Knight arc membership.,https://en.wikipedia.org/wiki/Batman%3A_Legends_of_the_Dark_Knight,verified
 infinite_crisis_buildup,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
-the_omac_item,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
-villains_united,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
-day_of_vengeance,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
-rann_thanagar_war,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
 countdown_to_infinite_crisis,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
 identity_crisis_context,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
 jla_crisis_of_conscience,core_buildup,Core buildup,Verified core or contextual Infinite Crisis buildup membership.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
@@ -58,3 +54,26 @@ infinite_crisis_buildup,extended_buildup,Extended buildup,"Component scope inclu
 infinite_crisis_buildup,batman_local_scope,Batman/local scope,Batman/local-family related material; currently context-only pending deeper Batman tie-in audit.,https://en.wikipedia.org/wiki/Infinite_Crisis,needs_research
 modern_local_year_one_to_knightfall,chronology,Chronology,Parent chronology scope from Year One through Knightfall prelude.,https://en.wikipedia.org/wiki/List_of_Batman_comics,partial
 legends_dark_knight_early,early_arc_map,Early arc map,Component scope for early Legends story arcs through pre-Knightfall period.,https://en.wikipedia.org/wiki/Batman%3A_Legends_of_the_Dark_Knight,verified
+villains_united,core_miniseries,Core six-issue miniseries,Core #1-6 miniseries without the later Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+villains_united,expanded_with_special,Expanded with Infinite Crisis Special,Core #1-6 plus the related Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+day_of_vengeance,core_miniseries,Core six-issue miniseries,Core #1-6 miniseries without the later Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+day_of_vengeance,expanded_with_special,Expanded with Infinite Crisis Special,Core #1-6 plus the related Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+the_omac_item,core_miniseries,Core six-issue miniseries,Core #1-6 miniseries without the later Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+the_omac_item,expanded_with_special,Expanded with Infinite Crisis Special,Core #1-6 plus the related Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+rann_thanagar_war,core_miniseries,Core six-issue miniseries,Core #1-6 miniseries without the later Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+rann_thanagar_war,expanded_with_special,Expanded with Infinite Crisis Special,Core #1-6 plus the related Infinite Crisis Special.,https://en.wikipedia.org/wiki/Infinite_Crisis,verified
+countdown_final_crisis,core_weekly_series,Core weekly series,Countdown / Countdown to Final Crisis #51-1 only; no #52 and no Countdown #0.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+countdown_final_crisis,core_plus_transition,Core plus transition,"Core weekly series plus DC Universe #0 as transition/prologue into Final Crisis, not Countdown #0.",https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+countdown_final_crisis,extended_countdown,Extended Countdown item,Core weekly series plus verified companion/related items; not every Countdown-branded comic is required.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,partial
+countdown_weekly_series,core_weekly_series,Core weekly series,The 51 issue weekly run counted backwards from #51 to #1.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+dc_universe_zero,transition,Transition into Final Crisis,"DC Universe #0 represented as transition/prologue, not Countdown #0.",https://en.wikipedia.org/wiki/Final_Crisis,verified
+final_crisis,core_event,Core event,Final Crisis #1-7 only.,https://en.wikipedia.org/wiki/Final_Crisis,verified
+countdown_to_adventure,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+countdown_to_mystery,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+countdown_lord_havok_extremists,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+countdown_arena,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+crime_bible_five_lessons,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+black_adam_dark_age,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+salvation_run,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+death_of_the_new_gods,verified_membership,Verified membership,Issue-level companion/related item membership from Countdown collected/related listings.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified
+countdown_search_ray_palmer,verified_specials,Verified specials,Six Search for Ray Palmer one-shots listed in Countdown connected collections.,https://en.wikipedia.org/wiki/Countdown_to_Final_Crisis,verified

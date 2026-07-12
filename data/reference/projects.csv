@@ -68,3 +68,16 @@ day_of_vengeance,Day of Vengeance,mini_series,infinite_crisis_buildup,Infinite C
 rann_thanagar_war,Rann-Thanagar War,mini_series,infinite_crisis_buildup,Infinite Crisis Era,2005,2006,Level B,No,verified,,One of the four major Countdown-era lead-in miniseries.
 identity_crisis_context,Identity Crisis Context,context,infinite_crisis_buildup,Infinite Crisis Era,2004,2005,Level B,No,verified,,Contextual lead-in; not automatically treated as required core buildup.
 jla_crisis_of_conscience,JLA: Crisis of Conscience,arc,infinite_crisis_buildup,Infinite Crisis Era,2005,2005,Level B,No,verified,,Direct lead-in context to Infinite Crisis.
+countdown_final_crisis,Countdown / Countdown to Final Crisis,event_saga,,Final Crisis Era,2007,2008,Level B,Yes,verified,,Separate from Countdown to Infinite Crisis; 51-issue weekly run counts down #51 to #1.
+countdown_weekly_series,Countdown / Countdown to Final Crisis: Core Weekly Series,weekly_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,Yes,verified,,Core 51-issue weekly series only. No #52 and no Countdown #0.
+countdown_to_adventure,Countdown to Adventure,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Countdown companion miniseries; optional extended scope.
+countdown_to_mystery,Countdown to Mystery,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Countdown companion miniseries; optional extended scope.
+countdown_search_ray_palmer,Countdown Presents: The Search for Ray Palmer,special_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Countdown Presents multiverse search one-shots; Red Rain owned in source data.
+countdown_lord_havok_extremists,Countdown Presents: Lord Havok and the Extremists,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Countdown Presents companion miniseries; optional extended scope.
+countdown_arena,Countdown: Arena,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Owned Countdown companion miniseries.
+crime_bible_five_lessons,52 Aftermath: The Crime Bible: Five Lessons of Blood,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Owned related miniseries labelled Countdown to Final Crisis in source data.
+black_adam_dark_age,Black Adam: The Dark Age,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Owned related miniseries carrying 52/Countdown cover banner in source data.
+salvation_run,Salvation Run,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Associated Countdown-era miniseries; optional extended scope.
+death_of_the_new_gods,Death of the New Gods,mini_series,countdown_final_crisis,Final Crisis Era,2007,2008,Level B,No,verified,,Associated Countdown-era miniseries; optional extended scope.
+dc_universe_zero,DC Universe #0,transition,final_crisis,Final Crisis Era,2008,2008,Level B,No,verified,,Transition/prologue after Countdown and before Final Crisis; not Countdown #0.
+final_crisis,Final Crisis,event_saga,,Final Crisis Era,2008,2009,Level B,No,verified,,Separate item identity; Countdown leads into this but is not merged with it.

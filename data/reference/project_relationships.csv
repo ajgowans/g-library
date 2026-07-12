@@ -56,3 +56,15 @@ day_of_vengeance,infinite_crisis_buildup,004,required,contains,Buildup scope com
 rann_thanagar_war,infinite_crisis_buildup,005,required,contains,Buildup scope component.
 identity_crisis_context,infinite_crisis_buildup,006,recommended,contains,Buildup scope component.
 jla_crisis_of_conscience,infinite_crisis_buildup,007,recommended,contains,Buildup scope component.
+countdown_weekly_series,countdown_final_crisis,001,required,contains,Core weekly run #51-1.
+dc_universe_zero,countdown_final_crisis,002,optional,leads_into,Transition into Final Crisis; not Countdown #0.
+countdown_to_adventure,countdown_final_crisis,003,optional,optional_extended,Companion or related Countdown-era item.
+countdown_to_mystery,countdown_final_crisis,004,optional,optional_extended,Companion or related Countdown-era item.
+countdown_search_ray_palmer,countdown_final_crisis,005,optional,optional_extended,Companion or related Countdown-era item.
+countdown_lord_havok_extremists,countdown_final_crisis,006,optional,optional_extended,Companion or related Countdown-era item.
+countdown_arena,countdown_final_crisis,007,optional,optional_extended,Companion or related Countdown-era item.
+crime_bible_five_lessons,countdown_final_crisis,008,optional,optional_extended,Companion or related Countdown-era item.
+black_adam_dark_age,countdown_final_crisis,009,optional,optional_extended,Companion or related Countdown-era item.
+salvation_run,countdown_final_crisis,010,optional,optional_extended,Companion or related Countdown-era item.
+death_of_the_new_gods,countdown_final_crisis,011,optional,optional_extended,Companion or related Countdown-era item.
+countdown_final_crisis,final_crisis,001,context,leads_into,Countdown / Countdown to Final Crisis leads into Final Crisis; items remain separate.
