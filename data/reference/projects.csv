@@ -1,15 +1,15 @@
 item_id,item_name,item_type,parent_item_id,era,start_year,end_year,level_of_coverage,reading_order_verified,source_confidence,last_reviewed,notes
 early_modern_local,Early Modern local,saga,,Modern local Era,1986,1990,Level A,No,partial,,Parent item for Year One through Tim Drake transition.
-year_one,Batman: Year One,arc,early_modern_local,Modern local Era,1987,1987,Level A,No,partial,,Imported from issue metadata; checklist completeness needs verification.
-year_two,Batman: Year Two,arc,early_modern_local,Modern local Era,1987,1987,Level A,No,partial,,Imported from issue metadata and publication contents; checklist completeness needs verification.
-second_chances_jason_todd,Post-Crisis Jason Todd / Second Chances,story_sequence,early_modern_local,Modern local Era,1986,1988,Level A,No,needs_research,,Important context sequence; do not infer every issue until verified.
+year_one,Batman: Year One,arc,early_modern_local,Modern local Era,1987,1987,Level B,No,verified,,Verified issue-level checklist in item_memberships.csv.
+year_two,Batman: Year Two,arc,early_modern_local,Modern local Era,1987,1987,Level B,No,verified,,Verified issue-level checklist in item_memberships.csv.
+second_chances_jason_todd,Post-Crisis Jason Todd / Second Chances,story_sequence,early_modern_local,Modern local Era,1986,1988,Level B,No,verified,,Verified useful Second Chances scope; roles distinguish origin/core/context rather than every intervening issue.
 the_cult,Batman: The Cult,arc,early_modern_local,Modern local Era,1988,1988,Level A,No,partial,,Imported from existing collection story labels.
-a_death_in_the_family,A Death in the Family,arc,early_modern_local,Modern local Era,1988,1989,Level A,No,partial,,Imported from issue metadata and ownership data.
-year_three,Batman: Year Three,arc,early_modern_local,Modern local Era,1989,1989,Level A,No,partial,,Imported from existing story metadata decisions.
-a_lonely_place_of_dying,A Lonely Place of Dying,crossover,early_modern_local,Modern local Era,1989,1989,Level A,No,partial,,Imported from issue metadata and publication contents; full cross-title checklist needs verification.
+a_death_in_the_family,A Death in the Family,arc,early_modern_local,Modern local Era,1988,1989,Level B,No,verified,,Verified issue-level checklist in item_memberships.csv.
+year_three,Batman: Year Three,arc,early_modern_local,Modern local Era,1989,1989,Level B,No,verified,,Verified issue-level checklist in item_memberships.csv.
+a_lonely_place_of_dying,A Lonely Place of Dying,crossover,early_modern_local,Modern local Era,1989,1989,Level B,Yes,verified,,Verified complete cross-title reading order in item_memberships.csv.
 venom,Venom,arc,knightfall_era,Modern local Era,1991,1991,Level A,No,partial,,Imported from collection story labels.
 knightfall_era,Knightfall Era,saga,,Modern local Era,1992,1995,Level A,No,partial,,Parent for current imported Knightfall-to-KnightsEnd block and later phase research.
-prelude_to_knightfall,Prelude to Knightfall,arc,knightfall_era,Modern local Era,1992,1993,Level A,No,needs_research,,Boundary needs verified checklist.
+prelude_to_knightfall,Prelude to Knightfall,arc,knightfall_era,Modern local Era,1992,1993,Level B,No,verified,,Verified direct prelude scope including Bane setup Azrael setup and late Batman/Detective setup rows.
 knightfall,Knightfall,crossover,knightfall_era,Modern local Era,1993,1993,Level A,No,partial,,Imported from existing collection story labels and Knight reading-order block.
 knightquest,Knightquest,crossover,knightfall_era,Modern local Era,1993,1994,Level A,No,partial,,Existing data groups Crusade/Search together; phase split needs research.
 knightquest_the_crusade,Knightquest: The Crusade,arc,knightfall_era,Modern local Era,1993,1994,Level A,No,needs_research,,Created as explicit phase placeholder pending verified membership.
@@ -23,7 +23,7 @@ knight_out,Batman: Knight Out,arc,,Modern local Era,1997,1998,Level B,No,verifie
 long_halloween_family,Long Halloween Family,saga,,Modern local Era,1993,2026,Level B,No,partial,,Existing curated Long Halloween family checklist.
 no_mans_land_saga,No Man's Land Saga,saga,,Modern local Era,1998,1999,Level B,No,verified,,"Parent for Cataclysm, Aftershock, Road to No Man's Land and No Man's Land."
 cataclysm,Batman: Cataclysm,crossover,no_mans_land_saga,Modern local Era,1998,1998,Level C,Yes,verified,,Verified 18-chapter sequence added in item_memberships.csv.
-aftershock,Aftershock,crossover,no_mans_land_saga,Modern local Era,1998,1998,Level B,No,review,,"Aftershock boundary uses Road to No Man's Land Vol. 1 collected contents pending stronger source split."
+aftershock,Aftershock,crossover,no_mans_land_saga,Modern local Era,1998,1998,Level B,No,review,,Aftershock boundary uses Road to No Man's Land Vol. 1 collected contents pending stronger source split.
 road_to_no_mans_land,Road to No Man's Land,crossover,no_mans_land_saga,Modern local Era,1998,1999,Level B,No,verified,,Complete collected scope added from Road to No Man's Land contents.
 no_mans_land,Batman: No Man's Land,crossover,no_mans_land_saga,Modern local Era,1999,1999,Level B,No,verified,,Complete crossover membership added from issue list and complete-edition contents; exact inter-title order still not asserted.
 zero_hour,Zero Hour: Crisis in Time,event,,Modern local Era,1994,1994,Level B,No,partial,,Migrated from event_checklists.csv; grouped sequence is not confirmed reading order.
@@ -34,3 +34,37 @@ crisis_batman_context,Crisis/Batman Continuity Context,context,crisis_on_infinit
 modern_local_annuals,Modern local Era Annuals,annual_item,,Modern local Era,1986,1999,Level B,No,verified,,Verified annual publication universe for relevant Batman/local-family annuals in 1986-1999.
 batman_annual_complete_run,Batman Annual Complete Run,annual_item,,All Eras,1961,2000,Level B,No,verified,,Complete collecting target for the original Batman Annual #1-24 sequence.
 annual_reference_universe,Annual Reference Universe,annual_reference,,All Eras,1961,2011,Level A,No,partial,,Searchable verified annual publications that may sit outside active completion items.
+modern_local_year_one_to_knightfall,Modern local: Year One to Knightfall,saga,,Modern local Era,1986,1993,Level B,No,partial,,Parent chronology for researched Year One-to-Knightfall items; parallel/ambiguous stories are not forced into a single continuity order.
+modern_local_numbered_batman_detective_to_nml,Modern local Numbered Batman/Detective to No Man's Land,numbered_run_item,,Modern local Era,1986,1999,Level B,No,verified,,Numbered-run completion target only: Batman #404-574 and Detective Comics #568-741. Excludes annuals specials one-shots miniseries and collected editions.
+modern_local_complete_era_coverage_to_nml,Modern local Complete Era Coverage to No Man's Land,coverage_item,,Modern local Era,1986,1999,Level B,No,partial,,Broader era coverage target. Includes numbered run target plus annuals specials one-shots miniseries and story/crossover items; numbered-run completion does not satisfy this target.
+legends_crossover,Legends,event,modern_local_year_one_to_knightfall,Modern local Era,1986,1987,Level B,Yes,verified,,Post-Crisis DC event with Batman/Detective tie-ins; full event scope kept separate from local-only scope.
+ten_nights_of_the_beast,Ten Nights of the Beast,arc,modern_local_year_one_to_knightfall,Modern local Era,1988,1988,Level B,No,verified,,Collected checklist verified; exact issue-to-issue reading order follows issue numbering.
+many_deaths_of_batman,The Many Deaths of the Batman,arc,modern_local_year_one_to_knightfall,Modern local Era,1989,1989,Level B,No,verified,,Collected checklist verified.
+blind_justice,Blind Justice,arc,modern_local_year_one_to_knightfall,Modern local Era,1989,1989,Level B,No,verified,,Collected checklist verified.
+the_penguin_affair,The Penguin Affair,arc,modern_local_year_one_to_knightfall,Modern local Era,1990,1990,Level B,No,verified,,Verified issue-level checklist in item_memberships.csv.
+dark_knight_dark_city,"Dark Knight, Dark City",arc,modern_local_year_one_to_knightfall,Modern local Era,1990,1990,Level B,No,verified,,Collected checklist verified.
+the_idiot_root,The Idiot Root,arc,modern_local_year_one_to_knightfall,Modern local Era,1991,1991,Level B,No,verified,,Collected with Dark Knight Dark City material; treated as separate Detective Comics arc.
+destroyer,Destroyer,crossover,modern_local_year_one_to_knightfall,Modern local Era,1992,1992,Level B,Yes,verified,,Three-part Batman/Detective/Legends crossover.
+tim_drake_becomes_robin,Tim Drake Becomes Robin,story_sequence,modern_local_year_one_to_knightfall,Modern local Era,1990,1992,Level B,No,partial,,Character-development sequence from Robin training into Robin II/III and early ongoing transition.
+robin_reborn,Robin: Reborn,mini_series,tim_drake_becomes_robin,Modern local Era,1990,1991,Level B,No,verified,,First Tim Drake Robin miniseries and related collected context.
+robin_jokers_wild,Robin II: Joker's Wild,mini_series,tim_drake_becomes_robin,Modern local Era,1991,1991,Level B,No,verified,,Second Tim Drake Robin miniseries.
+robin_cry_of_the_huntress,Robin III: Cry of the Huntress,mini_series,tim_drake_becomes_robin,Modern local Era,1992,1992,Level B,No,verified,,Third Tim Drake Robin miniseries.
+sword_of_azrael,Batman: Sword of Azrael,mini_series,prelude_to_knightfall,Modern local Era,1992,1993,Level B,No,verified,,Azrael setup for Knightfall.
+vengeance_of_bane,Batman: Vengeance of Bane,one_shot,prelude_to_knightfall,Modern local Era,1993,1993,Level B,No,verified,,Bane origin/setup for Knightfall.
+legends_dark_knight_early,Legends of the Dark Knight: Early Arcs,series_story_map,modern_local_year_one_to_knightfall,Modern local Era,1989,1993,Level B,No,verified,,Parent for early Legends story arcs through the start of Knightfall.
+lotdk_shaman,Batman: Shaman,arc,legends_dark_knight_early,Modern local Era,1989,1990,Level B,No,verified,,Legends of the Dark Knight #1-5.
+lotdk_gothic,Batman: Gothic,arc,legends_dark_knight_early,Modern local Era,1990,1990,Level B,No,verified,,Legends of the Dark Knight #6-10.
+lotdk_prey,Batman: Prey,arc,legends_dark_knight_early,Modern local Era,1990,1991,Level B,No,verified,,Legends of the Dark Knight #11-15.
+lotdk_venom,Batman: Venom,arc,legends_dark_knight_early,Modern local Era,1991,1991,Level B,No,verified,,Legends of the Dark Knight #16-20; Bane/Venom context.
+lotdk_faith,Batman: Faith,arc,legends_dark_knight_early,Modern local Era,1991,1991,Level B,No,verified,,Legends of the Dark Knight #21-23.
+lotdk_flyer,Batman: Flyer,arc,legends_dark_knight_early,Modern local Era,1991,1991,Level B,No,verified,,Legends of the Dark Knight #24-26.
+lotdk_faces,Batman: Faces,arc,legends_dark_knight_early,Modern local Era,1992,1992,Level B,No,verified,,Legends of the Dark Knight #28-30.
+lotdk_blades,Batman: Blades,arc,legends_dark_knight_early,Modern local Era,1992,1992,Level B,No,verified,,Legends of the Dark Knight #32-34.
+infinite_crisis_buildup,Infinite Crisis Buildup,event_saga,,Infinite Crisis Era,2004,2006,Level B,No,verified,,Parent item for Countdown to Infinite Crisis and verified major lead-in miniseries/scopes.
+countdown_to_infinite_crisis,Countdown to Infinite Crisis,one_shot,infinite_crisis_buildup,Infinite Crisis Era,2005,2005,Level B,No,verified,,Official start/prologue to Infinite Crisis lead-up.
+the_omac_item,The OMAC Item,mini_series,infinite_crisis_buildup,Infinite Crisis Era,2005,2006,Level B,No,verified,,One of the four major Countdown-era lead-in miniseries.
+villains_united,Villains United,mini_series,infinite_crisis_buildup,Infinite Crisis Era,2005,2006,Level B,No,verified,,One of the four major Countdown-era lead-in miniseries.
+day_of_vengeance,Day of Vengeance,mini_series,infinite_crisis_buildup,Infinite Crisis Era,2005,2006,Level B,No,verified,,One of the four major Countdown-era lead-in miniseries.
+rann_thanagar_war,Rann-Thanagar War,mini_series,infinite_crisis_buildup,Infinite Crisis Era,2005,2006,Level B,No,verified,,One of the four major Countdown-era lead-in miniseries.
+identity_crisis_context,Identity Crisis Context,context,infinite_crisis_buildup,Infinite Crisis Era,2004,2005,Level B,No,verified,,Contextual lead-in; not automatically treated as required core buildup.
+jla_crisis_of_conscience,JLA: Crisis of Conscience,arc,infinite_crisis_buildup,Infinite Crisis Era,2005,2005,Level B,No,verified,,Direct lead-in context to Infinite Crisis.

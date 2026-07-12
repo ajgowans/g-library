@@ -19,3 +19,40 @@ aftershock,no_mans_land_saga,002,required,contains,Needs verified membership.
 road_to_no_mans_land,no_mans_land_saga,003,required,contains,
 no_mans_land,no_mans_land_saga,004,required,contains,
 crisis_batman_context,crisis_on_infinite_earths,010,context,continuity_consequence,Context relationship; not direct tie-in.
+modern_local_numbered_batman_detective_to_nml,modern_local_complete_era_coverage_to_nml,001,required,numbered_run_component,Numbered Batman/Detective completion target; excludes annuals specials one-shots and miniseries.
+modern_local_annuals,modern_local_complete_era_coverage_to_nml,002,required,annual_component,Annuals remain separate from numbered-run completion.
+modern_local_year_one_to_knightfall,modern_local_complete_era_coverage_to_nml,003,required,story_component,Pre-Knightfall story and miniseries coverage component.
+knightfall_era,modern_local_complete_era_coverage_to_nml,004,required,story_component,Knightfall era story coverage component.
+no_mans_land_saga,modern_local_complete_era_coverage_to_nml,005,required,story_component,No Man's Land saga story and special coverage component.
+early_modern_local,modern_local_year_one_to_knightfall,001,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+legends_crossover,modern_local_year_one_to_knightfall,002,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+legends_dark_knight_early,modern_local_year_one_to_knightfall,003,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+ten_nights_of_the_beast,modern_local_year_one_to_knightfall,004,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+the_cult,modern_local_year_one_to_knightfall,005,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+many_deaths_of_batman,modern_local_year_one_to_knightfall,006,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+blind_justice,modern_local_year_one_to_knightfall,007,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+dark_knight_dark_city,modern_local_year_one_to_knightfall,008,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+tim_drake_becomes_robin,modern_local_year_one_to_knightfall,009,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+prelude_to_knightfall,modern_local_year_one_to_knightfall,010,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+knightfall_era,modern_local_year_one_to_knightfall,011,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+lotdk_shaman,legends_dark_knight_early,001,required,contains,Early Legends publication-order component.
+lotdk_gothic,legends_dark_knight_early,002,required,contains,Early Legends publication-order component.
+lotdk_prey,legends_dark_knight_early,003,required,contains,Early Legends publication-order component.
+lotdk_venom,legends_dark_knight_early,004,required,contains,Early Legends publication-order component.
+lotdk_faith,legends_dark_knight_early,005,required,contains,Early Legends publication-order component.
+lotdk_flyer,legends_dark_knight_early,006,required,contains,Early Legends publication-order component.
+destroyer,legends_dark_knight_early,007,required,contains,Early Legends publication-order component.
+lotdk_faces,legends_dark_knight_early,008,required,contains,Early Legends publication-order component.
+lotdk_blades,legends_dark_knight_early,009,required,contains,Early Legends publication-order component.
+robin_reborn,tim_drake_becomes_robin,001,required,contains,Tim Drake Robin development component.
+robin_jokers_wild,tim_drake_becomes_robin,002,required,contains,Tim Drake Robin development component.
+robin_cry_of_the_huntress,tim_drake_becomes_robin,003,required,contains,Tim Drake Robin development component.
+sword_of_azrael,prelude_to_knightfall,001,required,character_setup_for,Direct setup for Knightfall.
+vengeance_of_bane,prelude_to_knightfall,002,required,character_setup_for,Direct setup for Knightfall.
+countdown_to_infinite_crisis,infinite_crisis_buildup,001,required,contains,Buildup scope component.
+the_omac_item,infinite_crisis_buildup,002,required,contains,Buildup scope component.
+villains_united,infinite_crisis_buildup,003,required,contains,Buildup scope component.
+day_of_vengeance,infinite_crisis_buildup,004,required,contains,Buildup scope component.
+rann_thanagar_war,infinite_crisis_buildup,005,required,contains,Buildup scope component.
+identity_crisis_context,infinite_crisis_buildup,006,recommended,contains,Buildup scope component.
+jla_crisis_of_conscience,infinite_crisis_buildup,007,recommended,contains,Buildup scope component.

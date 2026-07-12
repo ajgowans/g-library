@@ -1,0 +1,19 @@
+chronological_sequence,item_id,start_date,end_date,primary_series,previous_item,next_item,source_url,confidence,notes
+001,legends_crossover,1986,1987,Batman / Detective Comics / Legends,,year_one,https://en.wikipedia.org/wiki/Legends_%28comics%29,verified,Post-Crisis event tie-ins; local-only tie-ins and core event tracked.
+002,year_one,1987,1987,Batman,legends_crossover,year_two,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #404-407.
+003,year_two,1987,1987,Detective Comics,year_one,second_chances_jason_todd,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Detective Comics #575-578.
+004,second_chances_jason_todd,1986,1988,Batman,year_two,ten_nights_of_the_beast,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Jason Todd post-Crisis origin/core Second Chances material.
+005,ten_nights_of_the_beast,1988,1988,Batman,second_chances_jason_todd,the_cult,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #417-420.
+006,the_cult,1988,1988,Batman: The Cult,ten_nights_of_the_beast,a_death_in_the_family,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Existing item; miniseries checklist retained.
+007,a_death_in_the_family,1988,1989,Batman,the_cult,many_deaths_of_batman,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #426-429.
+008,many_deaths_of_batman,1989,1989,Batman,a_death_in_the_family,year_three,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #433-435.
+009,year_three,1989,1989,Batman,many_deaths_of_batman,a_lonely_place_of_dying,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #436-439.
+010,a_lonely_place_of_dying,1989,1989,Batman / New Titans,year_three,legends_dark_knight_early,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Cross-title order verified from collected listing.
+011,legends_dark_knight_early,1989,1993,Batman: Legends of the Dark Knight,a_lonely_place_of_dying,tim_drake_becomes_robin,https://en.wikipedia.org/wiki/Batman%3A_Legends_of_the_Dark_Knight,verified,Early Legends arcs in publication order; continuity may be parallel.
+012,blind_justice,1989,1989,Detective Comics,a_lonely_place_of_dying,the_penguin_affair,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Detective Comics #598-600.
+013,the_penguin_affair,1990,1990,Batman / Detective Comics,blind_justice,dark_knight_dark_city,,needs_research,Named arc needs exact sourced membership before issue-level checklist.
+014,dark_knight_dark_city,1990,1990,Batman,the_penguin_affair,the_idiot_root,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #452-455.
+015,the_idiot_root,1991,1991,Detective Comics,dark_knight_dark_city,tim_drake_becomes_robin,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Detective Comics #629-633.
+016,tim_drake_becomes_robin,1990,1992,Batman / Detective Comics / Robin,the_idiot_root,prelude_to_knightfall,https://en.wikipedia.org/wiki/List_of_Batman_comics,partial,Character-development umbrella; child miniseries are verified.
+017,prelude_to_knightfall,1992,1993,Batman / Detective Comics / Sword of Azrael / Vengeance of Bane,tim_drake_becomes_robin,knightfall,https://en.wikipedia.org/wiki/Batman%3A_Knightfall,verified,Direct Knightfall setup scope including Bane/Azrael setup and late prelude issues.
+018,knightfall,1993,1993,Batman family,prelude_to_knightfall,knightquest,https://en.wikipedia.org/wiki/Batman%3A_Knightfall,partial,Existing imported Knightfall item begins here.
