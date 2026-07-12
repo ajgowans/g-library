@@ -30,6 +30,29 @@ modern_local_specials_one_shots,main_continuity_specials,Main-continuity special
 batman_local_elseworlds_1989_1999,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,Verified Batman/local Elseworlds and retrospectively classified Elseworlds through 1999.,data/reference/special_publications.csv,verified
 modern_local_miniseries,miniseries,Modern local miniseries,Batman/local limited series and miniseries from 1986-1999.,data/reference/special_publications.csv,partial
 batman_thrillkiller,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,Thrillkiller publication structure: three-issue miniseries plus one-shot sequel.,https://en.wikipedia.org/wiki/List_of_Elseworlds_publications,verified
+bronze_age_batman,core_batman_detective,Core Bronze Age Batman,Batman and Detective Comics title-level Bronze ranges only.,data/reference/bronze_age_publication_ranges.csv,review
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,Core plus Batman-led team-up Bat-family annual special and miniseries physical publications.,data/reference/bronze_age_publication_ranges.csv,partial
+bronze_age_batman_core,core_batman_detective,Core Batman and Detective Comics,Batman #217-403 and Detective Comics #395-567 using documented Library conventions.,data/reference/batman_era_boundaries.csv,review
+bronze_age_batman_extended,extended_publication_universe,Extended Bronze Age Batman,Extended physical-publication universe without incidental guest appearances.,data/reference/bronze_age_publication_ranges.csv,partial
+brave_and_bold_batman_bronze,batman_team_up_run,Bronze-era Batman team-up run,The Brave and the Bold #74-200.,https://en.wikipedia.org/wiki/The_Brave_and_the_Bold,verified
+batman_family_complete_run,complete_physical_run,Batman Family complete physical run,Batman Family #1-20 physical run; content may be new reprint or mixed.,https://en.wikipedia.org/wiki/Batman_Family,verified
+batman_and_outsiders_batman_led,batman_led_run,Batman-led Batman and the Outsiders run,Batman and the Outsiders #1-32 plus The Brave and the Bold #200 transition context.,https://en.wikipedia.org/wiki/Outsiders_%28comics%29,verified
+bronze_age_annuals,bronze_annuals,Bronze Age annuals,Verified/review-grade Bronze annual publications.,data/reference/bronze_age_special_publications.csv,partial
+bronze_age_specials_miniseries,bronze_specials_minis,Bronze Age specials and miniseries,Specials miniseries prestige and reprint publications tracked as physical items.,data/reference/bronze_age_special_publications.csv,partial
+bronze_age_key_stories,story_map,Story and saga research map,Research map only until issue-level checklists are promoted.,data/reference/bronze_age_story_map.csv,needs_research
+bronze_age_creator_runs,creator_runs,Creator-run research map,Creator runs are tracked separately from arcs.,data/reference/bronze_age_story_map.csv,needs_research
+ras_al_ghul_demon_saga,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,needs_research
+man_bat_bronze_material,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,needs_research
+jokers_five_way_revenge,research_seed,Research seed,Significant single issue seed pending issue-level promotion.,data/reference/bronze_age_story_map.csv,review
+strange_apparitions,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,review
+laughing_fish,research_seed,Research seed,Two-issue story seed pending issue-level promotion.,data/reference/bronze_age_story_map.csv,review
+deadshot_bronze_material,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,needs_research
+hugo_strange_bronze_material,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,review
+two_face_bronze_material,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,needs_research
+joker_bronze_material,research_seed,Research seed,Issue-level checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,needs_research
+oneil_adams_batman_material,creator_run_seed,Creator-run seed,Creator-run checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,review
+englehart_rogers_detective_run,creator_run_seed,Creator-run seed,Creator-run checklist pending controlled verification.,data/reference/bronze_age_story_map.csv,review
+dark_knight_returns,bronze_specials_minis,Bronze Age specials and miniseries,Four-issue prestige miniseries tracked as alternate-continuity physical publication.,https://en.wikipedia.org/wiki/The_Dark_Knight_Returns,verified
 legends_crossover,verified_membership,Verified membership,Issue-level membership from sourced collected/publication listings.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
 ten_nights_of_the_beast,verified_membership,Verified membership,Issue-level membership from sourced collected/publication listings.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
 many_deaths_of_batman,verified_membership,Verified membership,Issue-level membership from sourced collected/publication listings.,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified

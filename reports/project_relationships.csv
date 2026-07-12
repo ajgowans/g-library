@@ -29,6 +29,27 @@ modern_local_specials_one_shots,modern_local_special_format_universe,001,require
 batman_local_elseworlds_1989_1999,modern_local_special_format_universe,002,optional,contains,Elseworlds scope is separate from main-continuity completion.
 modern_local_miniseries,modern_local_special_format_universe,003,optional,contains,Miniseries scope linked to existing items where possible.
 batman_thrillkiller,batman_local_elseworlds_1989_1999,001,optional,contains,Thrillkiller is an Elseworlds subitem.
+bronze_age_batman_core,bronze_age_batman,001,required,contains,Core Batman and Detective Comics physical-publication scope.
+bronze_age_batman_extended,bronze_age_batman,002,recommended,contains,Extended Batman-led and Bat-family publication universe.
+bronze_age_key_stories,bronze_age_batman,003,research,related,Story/saga map remains separate from physical run completion.
+bronze_age_creator_runs,bronze_age_batman,004,research,related,Creator-run map remains separate from story arc completion.
+ras_al_ghul_demon_saga,bronze_age_key_stories,010,research,contains,Research target pending issue-level verification.
+man_bat_bronze_material,bronze_age_key_stories,020,research,contains,Research bucket pending issue-level verification.
+jokers_five_way_revenge,bronze_age_key_stories,030,research,contains,Significant single issue; not a multi-issue arc.
+strange_apparitions,bronze_age_key_stories,040,research,contains,Research target pending issue-level verification.
+laughing_fish,bronze_age_key_stories,050,research,contains,Two-issue story seed.
+deadshot_bronze_material,bronze_age_key_stories,060,research,contains,Research bucket pending issue-level verification.
+hugo_strange_bronze_material,bronze_age_key_stories,070,research,contains,Research bucket pending issue-level verification.
+two_face_bronze_material,bronze_age_key_stories,080,research,contains,Research bucket pending issue-level verification.
+joker_bronze_material,bronze_age_key_stories,090,research,contains,Research bucket pending issue-level verification.
+oneil_adams_batman_material,bronze_age_creator_runs,010,research,contains,Creator-run item.
+englehart_rogers_detective_run,bronze_age_creator_runs,020,research,contains,Creator-run item.
+dark_knight_returns,bronze_age_specials_miniseries,010,recommended,contains,Alternate-continuity prestige miniseries tracked as physical publication.
+brave_and_bold_batman_bronze,bronze_age_batman_extended,001,optional,contains,Batman team-up run; opportunistic collecting target.
+batman_family_complete_run,bronze_age_batman_extended,002,recommended,contains,Bat-family anthology physical run.
+batman_and_outsiders_batman_led,bronze_age_batman_extended,003,required,contains,Batman-led Outsiders run.
+bronze_age_annuals,bronze_age_batman_extended,004,recommended,annual_component,Annuals overlap existing annual complete-run item.
+bronze_age_specials_miniseries,bronze_age_batman_extended,005,recommended,special_format_component,Specials and miniseries tracked as physical publications.
 early_modern_local,modern_local_year_one_to_knightfall,001,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
 legends_crossover,modern_local_year_one_to_knightfall,002,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
 legends_dark_knight_early,modern_local_year_one_to_knightfall,003,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.

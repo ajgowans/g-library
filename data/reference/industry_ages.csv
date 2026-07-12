@@ -1,0 +1,5 @@
+industry_age,start_year,end_year,boundary_type,boundary_reason,source_url,confidence,notes
+Golden Age,1938,1956,approximate,Industry-level historical classification; title boundaries vary by publisher and character.,https://en.wikipedia.org/wiki/Golden_Age_of_Comic_Books,review,Used as broad context only.
+Silver Age,1956,1970,approximate,Industry-level historical classification often associated with Showcase #4 in 1956; Batman publication history does not reset cleanly at this point.,https://en.wikipedia.org/wiki/Silver_Age_of_Comic_Books,review,Do not use as a direct Batman issue boundary.
+Bronze Age,1970,1985,approximate,Industry-level historical classification commonly described as about 1970-1985; no single universal start issue exists.,https://en.wikipedia.org/wiki/Bronze_Age_of_Comic_Books,review,Used separately from Batman-specific era conventions.
+Modern Age,1986,,approximate,Industry-level post-Crisis/darker-modern classification; title boundaries vary.,https://en.wikipedia.org/wiki/Modern_Age_of_Comic_Books,review,Used as broad context only.

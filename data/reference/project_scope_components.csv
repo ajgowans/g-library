@@ -48,6 +48,13 @@ modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era cov
 modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_local_year_one_to_knightfall,required,Pre-Knightfall stories miniseries one-shots and setup component.
 modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,knightfall_era,required,Knightfall through post-KnightsEnd component including related specials where modelled.
 modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,no_mans_land_saga,required,Cataclysm through No Man's Land component including related one-shots and specials where modelled.
+bronze_age_batman,core_batman_detective,Core Bronze Age Batman,bronze_age_batman_core,required,Core Batman and Detective Comics only.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,bronze_age_batman_core,required,Extended scope includes core.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,brave_and_bold_batman_bronze,optional,Opportunistic Batman team-up run.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,batman_family_complete_run,recommended,Bat-family anthology physical run.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,batman_and_outsiders_batman_led,required,Batman-led Outsiders run.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,bronze_age_annuals,recommended,Annuals overlap annual complete-run item.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,bronze_age_specials_miniseries,recommended,Specials and miniseries as physical publication items.
 countdown_final_crisis,core_weekly_series,Core weekly series,countdown_weekly_series,required,Core 51-issue weekly series only.
 countdown_final_crisis,core_plus_transition,Core plus transition,countdown_weekly_series,required,Core weekly series.
 countdown_final_crisis,core_plus_transition,Core plus transition,dc_universe_zero,optional,Transition/prologue; not Countdown #0.

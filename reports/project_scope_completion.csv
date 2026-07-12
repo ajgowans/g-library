@@ -10,7 +10,9 @@ aftershock,collected_road_vol_1,Aftershock / Road Vol. 1 collected scope,aftersh
 annual_reference_universe,searchable_excluded_annuals,Searchable excluded annuals,annual_reference_universe,9,0,0,9,0,0.0,Direct item scope.
 bane_conquest,story_identification,Story identification,bane_conquest,12,12,0,0,0,100.0,Direct item scope.
 bane_of_the_demon,story_identification,Story identification,bane_of_the_demon,4,4,0,0,0,100.0,Direct item scope.
+batman_and_outsiders_batman_led,batman_led_run,Batman-led Batman and the Outsiders run,batman_and_outsiders_batman_led,33,18,0,15,0,54.5,Direct item scope.
 batman_annual_complete_run,original_1_24,Batman Annual original numbered sequence,batman_annual_complete_run,24,4,0,20,0,16.7,Direct item scope.
+batman_family_complete_run,complete_physical_run,Batman Family complete physical run,batman_family_complete_run,20,0,0,20,0,0.0,Direct item scope.
 batman_local_elseworlds_1989_1999,complete_special_format_universe,Complete special-format universe,batman_local_elseworlds_1989_1999,4,0,0,4,0,0.0,Direct item scope.
 batman_local_elseworlds_1989_1999,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,batman_local_elseworlds_1989_1999,22,2,0,20,0,9.1,Direct item scope.
 batman_knightsend,story_identification,Story identification,batman_knightsend,1,1,0,0,0,100.0,Direct item scope.
@@ -21,6 +23,11 @@ black_adam_dark_age,verified_membership,Verified membership,black_adam_dark_age,
 blackmask,story_identification,Story identification,blackmask,3,3,0,0,0,100.0,Direct item scope.
 blind_justice,verified_membership,Verified membership,blind_justice,3,0,0,3,0,0.0,Direct item scope.
 bloodlines,extended_dc_event,Extended DC event,bloodlines,25,10,0,15,0,40.0,Direct item scope.
+brave_and_bold_batman_bronze,batman_team_up_run,Bronze-era Batman team-up run,brave_and_bold_batman_bronze,127,0,0,127,0,0.0,Direct item scope.
+bronze_age_annuals,bronze_annuals,Bronze Age specials/miniseries/annuals,bronze_age_annuals,4,0,0,4,0,0.0,Direct item scope.
+bronze_age_annuals,crisis_transition_annuals,Bronze Age specials/miniseries/annuals,bronze_age_annuals,1,0,0,1,0,0.0,Direct item scope.
+bronze_age_batman_core,core_batman_detective,Core Batman and Detective Comics,bronze_age_batman_core,360,20,3,337,0,5.6,Direct item scope.
+bronze_age_specials_miniseries,bronze_specials_minis,Bronze Age specials/miniseries/annuals,bronze_age_specials_miniseries,9,3,0,6,0,33.3,Direct item scope.
 cataclysm,core_18_chapter,Verified 18-chapter Cataclysm,cataclysm,18,4,0,14,0,22.2,Direct item scope.
 cataclysm,main_continuity_specials,Main-continuity specials,cataclysm,3,2,0,1,0,66.7,Direct item scope.
 catwoman,story_identification,Story identification,catwoman,4,4,0,0,0,100.0,Direct item scope.
@@ -39,7 +46,7 @@ crime_bible_five_lessons,verified_membership,Verified membership,crime_bible_fiv
 crimesmith,story_identification,Story identification,crimesmith,1,1,0,0,0,100.0,Direct item scope.
 cry_of_the_huntress,story_identification,Story identification,cry_of_the_huntress,6,6,0,0,0,100.0,Direct item scope.
 dark_knight_dark_city,verified_membership,Verified membership,dark_knight_dark_city,4,2,0,2,0,50.0,Direct item scope.
-dark_knight_returns,story_identification,Story identification,dark_knight_returns,14,14,0,0,0,100.0,Direct item scope.
+dark_knight_returns,bronze_specials_minis,Bronze Age specials/miniseries/annuals,dark_knight_returns,4,0,0,4,0,0.0,Direct item scope.
 day_of_vengeance,core_miniseries,Core six-issue miniseries,day_of_vengeance,6,6,0,0,0,100.0,Direct item scope.
 day_of_vengeance,expanded_with_special,Expanded with Infinite Crisis Special,day_of_vengeance,7,6,0,1,0,85.7,Direct item scope.
 dc_all_in,story_identification,Story identification,dc_all_in,1,0,1,0,0,0.0,Direct item scope.
@@ -168,6 +175,8 @@ year_three,verified_membership,Verified membership,year_three,4,4,0,0,0,100.0,Di
 year_two,verified_membership,Verified membership,year_two,4,0,4,0,4,0.0,Direct item scope.
 zero_hour,extended_dc_event,Extended DC event,zero_hour,36,12,0,24,0,33.3,Direct item scope.
 zeus,story_identification,Story identification,zeus,2,2,0,0,0,100.0,Direct item scope.
+bronze_age_batman,core_batman_detective,Core Bronze Age Batman,bronze_age_batman_core,360,20,3,337,0,5.6,Core Batman and Detective Comics only.
+bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,batman_and_outsiders_batman_led; batman_family_complete_run; brave_and_bold_batman_bronze; bronze_age_annuals; bronze_age_batman_core; bronze_age_specials_miniseries,553,41,3,509,0,7.4,Extended scope includes core.; Opportunistic Batman team-up run.; Bat-family anthology physical run.; Batman-led Outsiders run.; Annuals overlap annual complete-run item.; Specials and miniseries as physical publication items.
 countdown_final_crisis,core_plus_transition,Core plus transition,countdown_weekly_series; dc_universe_zero,52,51,0,1,0,98.1,Core weekly series.; Transition/prologue; not Countdown #0.
 countdown_final_crisis,core_weekly_series,Core weekly series,countdown_weekly_series,51,51,0,0,0,100.0,Core 51-issue weekly series only.
 countdown_final_crisis,extended_countdown,Extended Countdown item,black_adam_dark_age; countdown_arena; countdown_lord_havok_extremists; countdown_search_ray_palmer; countdown_to_adventure; countdown_to_mystery; countdown_weekly_series; crime_bible_five_lessons; dc_universe_zero; death_of_the_new_gods; salvation_run,110,67,0,43,0,60.9,Extended Countdown component; optional does not affect core weekly completion.
