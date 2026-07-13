@@ -20,8 +20,8 @@ Countdown (2007),51,Countdown to Final Crisis,51,PUB-COUNTDOWN-FINAL-CRISIS-0051
 Batman Vengeance of Bane,1,Batman: Vengeance of Bane,1,PUB-BAT-VENGEANCE-OF-BANE-0001,Owned source row omitted colon.
 Batman - Blackgate Isle Of Men,1,Batman: Blackgate - Isle of Men,1,PUB-BAT-BLACKGATE-ISLE-OF-MEN-0001,Owned source row punctuation/case variant.
 Batman - Master Of The Future,,Batman: Master of the Future,,PUB-BAT-MASTER-FUTURE,Owned source row punctuation/case variant.
-local City Secret Files & Origins 01,,local City Secret Files and Origins,1,PUB-GOTHAM-CITY-SFO-0001,Owned source row includes issue number in title.
-local by Gaslight,,local by Gaslight,,PUB-GOTHAM-BY-GASLIGHT,Owned source row title-only graphic novel.
+Gotham City Secret Files & Origins 01,,Gotham City Secret Files and Origins,1,PUB-GOTHAM-CITY-SFO-0001,Owned source row includes issue number in title.
+Gotham by Gaslight,,Gotham by Gaslight,,PUB-GOTHAM-BY-GASLIGHT,Owned source row title-only graphic novel.
 Batman/Scarecrow 3-D,,Batman/Scarecrow 3-D,,PUB-BAT-SCARECROW-3D,Canonical special alias.
 Batman/Spawn: War Devil,1,Batman/Spawn: War Devil,,PUB-BAT-SPAWN-WAR-DEVIL,Copy ledger uses one-shot issue number for item/shopping matching.
 Batman: The Dark Knight Returns,1,The Dark Knight Returns,1,PUB-DKR-0001,Copy ledger title variant includes Batman prefix.
@@ -88,3 +88,37 @@ Batman: Huntress - Spoiler 01,,Batman/Huntress/Spoiler: Blunt Trauma,1,PUB-BATMA
 Bruce Wayne: Agent of S.H.I.E.L.D.,,Bruce Wayne: Agent of S.H.I.E.L.D.,,PUB-BRUCE-WAYNE-SHIELD,Owned Amalgam source title.
 Catwoman - Vampirella,,Catwoman/Vampirella,,PUB-CATWOMAN-VAMPIRELLA,Owned source punctuation variant.
 Catwoman Defiant,,Catwoman: Defiant,,PUB-CATWOMAN-DEFIANT,Owned source omitted colon.
+Batman Eighty Page Giant: 01 All The Deadly Days,,Batman 80-Page Giant,1,PUB-BAT-80-PAGE-GIANT-0001,Owned source row embeds issue number and subtitle.
+Batman Eighty Page Giant: 02 Luck Of The Draw!,,Batman 80-Page Giant,2,PUB-BAT-80-PAGE-GIANT-0002,Owned source row embeds issue number and subtitle.
+Batman Eighty Page Giant: 03 Gotham Freezes Over,,Batman 80-Page Giant,3,PUB-BAT-80-PAGE-GIANT-0003,Owned source row embeds issue number and subtitle.
+Gotham Nights I,1,Batman: Gotham Nights,1,PUB-BATMAN-GOTHAM-NIGHTS-0001,Owned source row uses roman-numeral first-series label.
+Gotham Nights I,2,Batman: Gotham Nights,2,PUB-BATMAN-GOTHAM-NIGHTS-0002,Owned source row uses roman-numeral first-series label.
+Gotham Nights I,3,Batman: Gotham Nights,3,PUB-BATMAN-GOTHAM-NIGHTS-0003,Owned source row uses roman-numeral first-series label.
+Gotham Nights I,4,Batman: Gotham Nights,4,PUB-BATMAN-GOTHAM-NIGHTS-0004,Owned source row uses roman-numeral first-series label.
+Gotham Nights II,1,Batman: Gotham Nights II,1,PUB-BATMAN-GOTHAM-NIGHTS-II-0001,Owned source row for second miniseries.
+Gotham Nights II,2,Batman: Gotham Nights II,2,PUB-BATMAN-GOTHAM-NIGHTS-II-0002,Owned source row for second miniseries.
+Gotham Nights II,3,Batman: Gotham Nights II,3,PUB-BATMAN-GOTHAM-NIGHTS-II-0003,Owned source row for second miniseries.
+Gotham Nights II,4,Batman: Gotham Nights II,4,PUB-BATMAN-GOTHAM-NIGHTS-II-0004,Owned source row for second miniseries.
+Batman GCPD 01,,Batman: GCPD,1,PUB-BAT-GCPD-0001,Owned source row embeds issue number in title.
+Batman GCPD 02,,Batman: GCPD,2,PUB-BAT-GCPD-0002,Owned source row embeds issue number in title.
+Batman GCPD 03,,Batman: GCPD,3,PUB-BAT-GCPD-0003,Owned source row embeds issue number in title.
+Batman GCPD 04,,Batman: GCPD,4,PUB-BAT-GCPD-0004,Owned source row embeds issue number in title.
+Batman Gordon Of Gotham 01,,Batman: Gordon of Gotham,1,PUB-BAT-GORDON-GOTHAM-0001,Owned source row embeds issue number in title.
+Batman Gordon Of Gotham 02,,Batman: Gordon of Gotham,2,PUB-BAT-GORDON-GOTHAM-0002,Owned source row embeds issue number in title.
+Batman Gordon Of Gotham 03,,Batman: Gordon of Gotham,3,PUB-BAT-GORDON-GOTHAM-0003,Owned source row embeds issue number in title.
+Batman Gordon Of Gotham 04,,Batman: Gordon of Gotham,4,PUB-BAT-GORDON-GOTHAM-0004,Owned source row embeds issue number in title.
+Batman Gordon's Law,1,Batman: Gordon's Law,1,PUB-BAT-GORDONS-LAW-0001,Owned source row omitted colon.
+Batman Gordon's Law,2,Batman: Gordon's Law,2,PUB-BAT-GORDONS-LAW-0002,Owned source row omitted colon.
+Batman Gordon's Law,3,Batman: Gordon's Law,3,PUB-BAT-GORDONS-LAW-0003,Owned source row omitted colon.
+Batman Gordon's Law,4,Batman: Gordon's Law,4,PUB-BAT-GORDONS-LAW-0004,Owned source row omitted colon.
+Batman Gallery,1,Batman Gallery,1,PUB-BATMAN-GALLERY-0001,Owned source row; distinct from Batman: KnightGallery.
+Batman Knight Gallery,,Batman: KnightGallery,,PUB-BAT-KNIGHTGALLERY,Owned source row spelling variant; distinct from Batman Gallery.
+Batman: Knight Gallery,,Batman: KnightGallery,,PUB-BAT-KNIGHTGALLERY,Readable spelling variant for Elseworlds one-shot.
+Catwoman Plus/Scream Queen,,Catwoman Plus/Scream Queen,,PUB-CATWOMAN-PLUS-SCREAM-QUEEN,Owned Catwoman special-format one-shot.
+Batman In Barcelona,,Batman in Barcelona,,PUB-BATMAN-IN-BARCELONA,Owned source title-case variant.
+Batman The Movie Special 1989,,Batman: The Movie Special 1989,,PUB-BATMAN-MOVIE-SPECIAL-1989,Owned source omitted colon.
+Special Batman 1984,1,Special Batman 1984,1,PUB-SPECIAL-BATMAN-1984-0001,Owned source row.
+Batman - Punisher,,Batman/Punisher,,PUB-BATMAN-PUNISHER,Owned source punctuation variant; distinct from Punisher/Batman.
+Punisher - Batman,,Punisher/Batman,,PUB-PUNISHER-BATMAN,Owned source punctuation variant; distinct from Batman/Punisher.
+Batman Villains Secret Files and Origins: Bane,1,Batman Villains Secret Files and Origins,1,PUB-BATMAN-VILLAINS-SFO-0001,Owned source row includes Bane subtitle.
+Gotham by Gaslight: The Search For Ray Palmer,,Countdown Presents: The Search for Ray Palmer: Gotham by Gaslight,1,PUB-SEARCH-RAY-PALMER-GOTHAM-BY-GASLIGHT-0001,Owned source row abbreviated Countdown Presents title.

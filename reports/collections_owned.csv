@@ -1,6 +1,6 @@
 PublicationID,Title,PublicationType,Publisher,Year,OriginalPublicationFormat,OwnershipStatus,contained_issue_count,contained_issues,contained_stories,Notes
 PUB-BATGIRL-YEAR-ONE-HC,Batgirl: Year One,Hardcover,DC Comics,,Collected Edition,Yes,0,,,Owned hardback added from user note; contained issues to confirm before counting original issue coverage.
-PUB-BAT-JUDGE-DREDD-JUDGEMENT-GOTHAM,Batman/Judge Dredd: Judgment on local,Original Graphic Novel,DC Comics,,Original Graphic Novel,Yes,0,,,Owned graphic novel added from user note; contents/edition details to confirm.
+PUB-BAT-JUDGE-DREDD-JUDGEMENT-GOTHAM,Batman/Judge Dredd: Judgment on Gotham,Original Graphic Novel,DC Comics,,Original Graphic Novel,Yes,0,,,Owned graphic novel added from user note; contents/edition details to confirm.
 PUB-BAT-SPAWN-WAR-DEVIL,Batman/Spawn: War Devil,Prestige One-Shot,DC Comics,,Prestige One-Shot,Yes,0,,,Owned seed; treat as first-published prestige publication unless publication_contents.csv later records contained issues.
 PUB-BAT-LONELY-PLACE-DYING,Batman: A Lonely Place of Dying,Trade Paperback,DC Comics,,Collected Edition,Yes,5,Batman #440; Batman #441; Batman #442; New Titans #60; New Titans #61,A Lonely Place of Dying,Collected edition containing Batman #440-442 and New Titans #60-61.
 PUB-BAT-JOKER-DEVILS-ADVOCATE,Batman: Joker - Devil's Advocate,Original Graphic Novel,DC Comics,,Original Graphic Novel,Yes,0,,,Owned seed; treat as first-published publication unless publication_contents.csv later records contained issues.

@@ -1,7 +1,7 @@
 item_id,scope_id,scope_name,included_item_ids,issue_count,owned_count,ordered_count,missing_count,readable_via_collection_count,completion_percentage,notes
 80_page_giant,story_identification,Story identification,80_page_giant,3,3,0,0,0,100.0,Direct item scope.
 a_death_in_the_family,verified_membership,Verified membership,a_death_in_the_family,4,2,2,0,0,50.0,Direct item scope.
-a_local_tale,story_identification,Story identification,a_local_tale,2,2,0,0,0,100.0,Direct item scope.
+a_gotham_tale,story_identification,Story identification,a_gotham_tale,2,2,0,0,0,100.0,Direct item scope.
 a_lonely_place_of_dying,verified_cross_title,Verified cross-title reading order,a_lonely_place_of_dying,5,1,0,2,2,20.0,Direct item scope.
 absolute_batman,story_identification,Story identification,absolute_batman,23,4,19,0,0,17.4,Direct item scope.
 absolute_catwoman,story_identification,Story identification,absolute_catwoman,2,0,2,0,0,0.0,Direct item scope.
@@ -11,22 +11,29 @@ all_star_batman_robin,publication_order,Publication order,all_star_batman_robin,
 annual_reference_universe,searchable_excluded_annuals,Searchable excluded annuals,annual_reference_universe,9,0,0,9,0,0.0,Direct item scope.
 bane_conquest,story_identification,Story identification,bane_conquest,12,12,0,0,0,100.0,Direct item scope.
 bane_of_the_demon,story_identification,Story identification,bane_of_the_demon,4,4,0,0,0,100.0,Direct item scope.
+batman_80_page_giant,main_continuity_specials,Main-continuity specials,batman_80_page_giant,3,3,0,0,0,100.0,Direct item scope.
 batman_and_outsiders_batman_led,batman_led_run,Batman-led Batman and the Outsiders run,batman_and_outsiders_batman_led,33,18,0,15,0,54.5,Direct item scope.
 batman_annual_complete_run,original_1_24,Batman Annual original numbered sequence,batman_annual_complete_run,24,4,0,20,0,16.7,Direct item scope.
-batman_bane_of_the_demon,miniseries,Modern local miniseries,batman_bane_of_the_demon,4,4,0,0,0,100.0,Direct item scope.
+batman_bane_of_the_demon,miniseries,Modern Gotham miniseries,batman_bane_of_the_demon,4,4,0,0,0,100.0,Direct item scope.
 batman_family_complete_run,complete_physical_run,Batman Family complete physical run,batman_family_complete_run,20,0,0,20,0,0.0,Direct item scope.
-batman_local_elseworlds_1989_1999,complete_special_format_universe,Complete special-format universe,batman_local_elseworlds_1989_1999,4,0,0,4,0,0.0,Direct item scope.
-batman_local_elseworlds_1989_1999,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,batman_local_elseworlds_1989_1999,22,2,0,20,0,9.1,Direct item scope.
-batman_local_wider_publication_universe,complete_special_format_universe,Complete special-format universe,batman_local_wider_publication_universe,23,23,0,0,0,100.0,Direct item scope.
-batman_local_wider_publication_universe,main_continuity_specials,Main-continuity specials,batman_local_wider_publication_universe,2,1,0,1,0,50.0,Direct item scope.
-batman_local_wider_publication_universe,special_format_universe,Special-format universe,batman_local_wider_publication_universe,4,3,0,1,0,75.0,Direct item scope.
-batman_jazz,miniseries,Modern local miniseries,batman_jazz,3,3,0,0,0,100.0,Direct item scope.
+batman_gallery,special_format_universe,Special-format universe,batman_gallery,1,1,0,0,0,100.0,Direct item scope.
+batman_gcpd,miniseries,Modern Gotham miniseries,batman_gcpd,4,4,0,0,0,100.0,Direct item scope.
+batman_gordon_of_gotham,miniseries,Modern Gotham miniseries,batman_gordon_of_gotham,4,4,0,0,0,100.0,Direct item scope.
+batman_gordons_law,miniseries,Modern Gotham miniseries,batman_gordons_law,4,4,0,0,0,100.0,Direct item scope.
+batman_gotham_elseworlds_1989_1999,complete_special_format_universe,Complete special-format universe,batman_gotham_elseworlds_1989_1999,4,0,0,4,0,0.0,Direct item scope.
+batman_gotham_elseworlds_1989_1999,elseworlds_1989_1999,Batman/Gotham Elseworlds 1989-1999,batman_gotham_elseworlds_1989_1999,22,3,0,19,0,13.6,Direct item scope.
+batman_gotham_nights_i,miniseries,Modern Gotham miniseries,batman_gotham_nights_i,4,4,0,0,0,100.0,Direct item scope.
+batman_gotham_nights_ii,miniseries,Modern Gotham miniseries,batman_gotham_nights_ii,4,4,0,0,0,100.0,Direct item scope.
+batman_gotham_wider_publication_universe,complete_special_format_universe,Complete special-format universe,batman_gotham_wider_publication_universe,37,37,0,0,0,100.0,Direct item scope.
+batman_gotham_wider_publication_universe,main_continuity_specials,Main-continuity specials,batman_gotham_wider_publication_universe,2,1,0,1,0,50.0,Direct item scope.
+batman_gotham_wider_publication_universe,special_format_universe,Special-format universe,batman_gotham_wider_publication_universe,9,8,0,1,0,88.9,Direct item scope.
+batman_jazz,miniseries,Modern Gotham miniseries,batman_jazz,3,3,0,0,0,100.0,Direct item scope.
 batman_knightsend,story_identification,Story identification,batman_knightsend,1,1,0,0,0,100.0,Direct item scope.
 batman_punisher,story_identification,Story identification,batman_punisher,2,2,0,0,0,100.0,Direct item scope.
-batman_thrillkiller,elseworlds_1989_1999,Batman/local Elseworlds 1989-1999,batman_thrillkiller,4,0,0,4,0,0.0,Direct item scope.
-batman_toyman,miniseries,Modern local miniseries,batman_toyman,4,4,0,0,0,100.0,Direct item scope.
-batman_turning_points,miniseries,Modern local miniseries,batman_turning_points,5,5,0,0,0,100.0,Direct item scope.
-batman_wildcat,miniseries,Modern local miniseries,batman_wildcat,3,3,0,0,0,100.0,Direct item scope.
+batman_thrillkiller,elseworlds_1989_1999,Batman/Gotham Elseworlds 1989-1999,batman_thrillkiller,4,0,0,4,0,0.0,Direct item scope.
+batman_toyman,miniseries,Modern Gotham miniseries,batman_toyman,4,4,0,0,0,100.0,Direct item scope.
+batman_turning_points,miniseries,Modern Gotham miniseries,batman_turning_points,5,5,0,0,0,100.0,Direct item scope.
+batman_wildcat,miniseries,Modern Gotham miniseries,batman_wildcat,3,3,0,0,0,100.0,Direct item scope.
 black_adam_dark_age,verified_membership,Verified membership,black_adam_dark_age,6,6,0,0,0,100.0,Direct item scope.
 blackmask,story_identification,Story identification,blackmask,3,3,0,0,0,100.0,Direct item scope.
 blind_justice,verified_membership,Verified membership,blind_justice,3,0,0,3,0,0.0,Direct item scope.
@@ -39,12 +46,14 @@ bronze_age_specials_miniseries,bronze_specials_minis,Bronze Age specials/miniser
 cataclysm,core_18_chapter,Verified 18-chapter Cataclysm,cataclysm,18,5,0,13,0,27.8,Direct item scope.
 cataclysm,main_continuity_specials,Main-continuity specials,cataclysm,3,3,0,0,0,100.0,Direct item scope.
 catwoman,story_identification,Story identification,catwoman,4,4,0,0,0,100.0,Direct item scope.
-catwoman_wildcat,miniseries,Modern local miniseries,catwoman_wildcat,4,4,0,0,0,100.0,Direct item scope.
+catwoman_wildcat,miniseries,Modern Gotham miniseries,catwoman_wildcat,4,4,0,0,0,100.0,Direct item scope.
 constant_whitewater,story_identification,Story identification,constant_whitewater,1,1,0,0,0,100.0,Direct item scope.
 contagion,default,Current curated checklist,contagion,20,12,0,8,0,60.0,Direct item scope.
 countdown_arena,verified_membership,Verified membership,countdown_arena,4,4,0,0,0,100.0,Direct item scope.
+countdown_final_crisis,complete_special_format_universe,Complete special-format universe,countdown_final_crisis,1,1,0,0,0,100.0,Direct item scope.
 countdown_lord_havok_extremists,verified_membership,Verified membership,countdown_lord_havok_extremists,6,0,0,6,0,0.0,Direct item scope.
-countdown_search_ray_palmer,verified_specials,Verified specials,countdown_search_ray_palmer,6,1,0,5,0,16.7,Direct item scope.
+countdown_search_ray_palmer,special_format_universe,Special-format universe,countdown_search_ray_palmer,1,1,0,0,0,100.0,Direct item scope.
+countdown_search_ray_palmer,verified_specials,Verified specials,countdown_search_ray_palmer,6,2,0,4,0,33.3,Direct item scope.
 countdown_to_adventure,verified_membership,Verified membership,countdown_to_adventure,8,0,0,8,0,0.0,Direct item scope.
 countdown_to_infinite_crisis,core_buildup,Core buildup,countdown_to_infinite_crisis,1,0,0,1,0,0.0,Direct item scope.
 countdown_to_mystery,verified_membership,Verified membership,countdown_to_mystery,8,0,0,8,0,0.0,Direct item scope.
@@ -79,11 +88,11 @@ flyer,story_identification,Story identification,flyer,3,3,0,0,0,100.0,Direct ite
 frozen_assets,story_identification,Story identification,frozen_assets,1,1,0,0,0,100.0,Direct item scope.
 gcpd,story_identification,Story identification,gcpd,4,4,0,0,0,100.0,Direct item scope.
 going_sane,story_identification,Story identification,going_sane,3,3,0,0,0,100.0,Direct item scope.
-gordon_of_local,story_identification,Story identification,gordon_of_local,4,4,0,0,0,100.0,Direct item scope.
+gordon_of_gotham,story_identification,Story identification,gordon_of_gotham,4,4,0,0,0,100.0,Direct item scope.
 gordons_law,story_identification,Story identification,gordons_law,4,4,0,0,0,100.0,Direct item scope.
-local_by_gaslight,story_identification,Story identification,local_by_gaslight,3,3,0,0,0,100.0,Direct item scope.
-local_nights_i,story_identification,Story identification,local_nights_i,4,4,0,0,0,100.0,Direct item scope.
-local_nights_ii,story_identification,Story identification,local_nights_ii,4,4,0,0,0,100.0,Direct item scope.
+gotham_by_gaslight,story_identification,Story identification,gotham_by_gaslight,3,3,0,0,0,100.0,Direct item scope.
+gotham_nights_i,story_identification,Story identification,gotham_nights_i,4,4,0,0,0,100.0,Direct item scope.
+gotham_nights_ii,story_identification,Story identification,gotham_nights_ii,4,4,0,0,0,100.0,Direct item scope.
 gothic,story_identification,Story identification,gothic,5,5,0,0,0,100.0,Direct item scope.
 gothtopia,story_identification,Story identification,gothtopia,1,1,0,0,0,100.0,Direct item scope.
 huntress_spoiler,story_identification,Story identification,huntress_spoiler,1,1,0,0,0,100.0,Direct item scope.
@@ -102,7 +111,7 @@ knightsend,story_identification,Story identification,knightsend,34,34,0,0,0,100.
 legacy,default,Current curated checklist,legacy,18,10,0,8,0,55.6,Direct item scope.
 legend_of_the_dark_mite,story_identification,Story identification,legend_of_the_dark_mite,1,1,0,0,0,100.0,Direct item scope.
 legends_crossover,core_event,Core event miniseries,legends_crossover,6,0,0,6,0,0.0,Direct item scope.
-legends_crossover,local_tie_ins,local tie-ins,legends_crossover,2,0,0,2,0,0.0,Direct item scope.
+legends_crossover,gotham_tie_ins,Gotham tie-ins,legends_crossover,2,0,0,2,0,0.0,Direct item scope.
 lifelines,story_identification,Story identification,lifelines,4,4,0,0,0,100.0,Direct item scope.
 long_halloween_family,default,Current curated checklist,long_halloween_family,48,17,0,31,0,35.4,Direct item scope.
 lotdk_blades,verified_membership,Verified membership,lotdk_blades,3,0,0,3,0,0.0,Direct item scope.
@@ -117,13 +126,13 @@ man_bat_70s,story_identification,Story identification,man_bat_70s,2,2,0,0,0,100.
 man_bat_96,story_identification,Story identification,man_bat_96,3,3,0,0,0,100.0,Direct item scope.
 many_deaths_of_batman,verified_membership,Verified membership,many_deaths_of_batman,3,3,0,0,0,100.0,Direct item scope.
 mercy,story_identification,Story identification,mercy,1,1,0,0,0,100.0,Direct item scope.
-modern_local_annuals,modern_local_1986_1999,Modern local Era annual universe,modern_local_annuals,51,25,0,26,0,49.0,Direct item scope.
-modern_local_miniseries,miniseries,Modern local miniseries,modern_local_miniseries,7,0,0,7,0,0.0,Direct item scope.
-modern_local_numbered_batman_detective_to_nml,numbered_core,Numbered Batman/Detective run only,modern_local_numbered_batman_detective_to_nml,345,195,6,142,6,56.5,Direct item scope.
-modern_local_special_format_universe,complete_special_format_universe,Complete special-format universe,modern_local_special_format_universe,52,10,2,40,0,19.2,Direct item scope.
-modern_local_special_format_universe,special_format_universe,Special-format universe,modern_local_special_format_universe,1,1,0,0,0,100.0,Direct item scope.
-modern_local_specials_one_shots,main_continuity_specials,Main-continuity specials,modern_local_specials_one_shots,10,2,2,6,0,20.0,Direct item scope.
-modern_local_specials_one_shots,special_format_universe,Special-format universe,modern_local_specials_one_shots,2,0,0,2,0,0.0,Direct item scope.
+modern_gotham_annuals,modern_gotham_1986_1999,Modern Gotham Era annual universe,modern_gotham_annuals,51,25,0,26,0,49.0,Direct item scope.
+modern_gotham_miniseries,miniseries,Modern Gotham miniseries,modern_gotham_miniseries,3,0,0,3,0,0.0,Direct item scope.
+modern_gotham_numbered_batman_detective_to_nml,numbered_core,Numbered Batman/Detective run only,modern_gotham_numbered_batman_detective_to_nml,345,195,6,142,6,56.5,Direct item scope.
+modern_gotham_special_format_universe,complete_special_format_universe,Complete special-format universe,modern_gotham_special_format_universe,56,22,2,32,0,39.3,Direct item scope.
+modern_gotham_special_format_universe,special_format_universe,Special-format universe,modern_gotham_special_format_universe,1,1,0,0,0,100.0,Direct item scope.
+modern_gotham_specials_one_shots,main_continuity_specials,Main-continuity specials,modern_gotham_specials_one_shots,8,3,2,3,0,37.5,Direct item scope.
+modern_gotham_specials_one_shots,special_format_universe,Special-format universe,modern_gotham_specials_one_shots,2,0,0,2,0,0.0,Direct item scope.
 no_mans_land,complete_crossover_scope,No Man's Land complete crossover scope,no_mans_land,86,0,0,86,0,0.0,Direct item scope.
 no_mans_land,main_continuity_specials,Main-continuity specials,no_mans_land,5,0,0,5,0,0.0,Direct item scope.
 nun_better,story_identification,Story identification,nun_better,1,1,0,0,0,100.0,Direct item scope.
@@ -195,7 +204,7 @@ bronze_age_batman,core_batman_detective,Core Bronze Age Batman,bronze_age_batman
 bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,batman_and_outsiders_batman_led; batman_family_complete_run; brave_and_bold_batman_bronze; bronze_age_annuals; bronze_age_batman_core; bronze_age_specials_miniseries,553,41,3,509,0,7.4,Extended scope includes core.; Opportunistic Batman team-up run.; Bat-family anthology physical run.; Batman-led Outsiders run.; Annuals overlap annual complete-run item.; Specials and miniseries as physical publication items.
 countdown_final_crisis,core_plus_transition,Core plus transition,countdown_weekly_series; dc_universe_zero,52,51,0,1,0,98.1,Core weekly series.; Transition/prologue; not Countdown #0.
 countdown_final_crisis,core_weekly_series,Core weekly series,countdown_weekly_series,51,51,0,0,0,100.0,Core 51-issue weekly series only.
-countdown_final_crisis,extended_countdown,Extended Countdown item,black_adam_dark_age; countdown_arena; countdown_lord_havok_extremists; countdown_search_ray_palmer; countdown_to_adventure; countdown_to_mystery; countdown_weekly_series; crime_bible_five_lessons; dc_universe_zero; death_of_the_new_gods; salvation_run,110,67,0,43,0,60.9,Extended Countdown component; optional does not affect core weekly completion.
+countdown_final_crisis,extended_countdown,Extended Countdown item,black_adam_dark_age; countdown_arena; countdown_lord_havok_extremists; countdown_search_ray_palmer; countdown_to_adventure; countdown_to_mystery; countdown_weekly_series; crime_bible_five_lessons; dc_universe_zero; death_of_the_new_gods; salvation_run,110,68,0,42,0,61.8,Extended Countdown component; optional does not affect core weekly completion.
 dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,all_star_batman_robin; dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr,31,31,0,0,0,100.0,Prequel one-shot.; Published run complete but narrative unfinished; Miller-supported DKR relation with continuity contradictions.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources.
 dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_golden_child; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again,17,17,0,0,0,100.0,Original miniseries.; Core sequel.; Core post-DKIII one-shot.
 dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,all_star_batman_robin; dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr; year_one,35,35,0,0,0,100.0,Mainstream post-Crisis Batman origin and relevant Frank Miller Batman chronology; not strict Core DKR Saga.; Young Batman and Dick Grayson material; published run complete but narrative unfinished.; Prequel set before The Dark Knight Returns.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources; exact placement relative to Batman early years remains review-grade.
@@ -206,5 +215,5 @@ knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knigh
 knightfall_era,through_prodigal,Complete Knightfall Era through Prodigal,knightfall; knightquest; knightsend; prodigal,108,108,0,0,0,100.0,Expanded completion scope.
 knightfall_era,through_troika,Complete Knightfall Era through Troika,knightfall; knightquest; knightsend; prodigal; troika,108,108,0,0,0,100.0,Expanded completion scope.
 legends_dark_knight_early,early_arc_map,Early arc map,destroyer; lotdk_blades; lotdk_faces; lotdk_faith; lotdk_flyer; lotdk_gothic; lotdk_prey; lotdk_shaman; lotdk_venom,35,27,0,8,0,77.1,Early Legends component.
-modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,knightfall_era; modern_local_annuals; modern_local_numbered_batman_detective_to_nml; modern_local_year_one_to_knightfall; no_mans_land_saga,396,220,6,168,6,55.6,Numbered Batman/Detective run component; this alone does not complete annual/special coverage.; Strict 1986-1999 annual universe component.; Pre-Knightfall stories miniseries one-shots and setup component.; Knightfall through post-KnightsEnd component including related specials where modelled.; Cataclysm through No Man's Land component including related one-shots and specials where modelled.
-modern_local_year_one_to_knightfall,chronology,Chronology,a_death_in_the_family; a_lonely_place_of_dying; legends_dark_knight_early; many_deaths_of_batman; prelude_to_knightfall; second_chances_jason_todd; ten_nights_of_the_beast; the_cult; tim_drake_becomes_robin; year_one; year_three; year_two,56,37,6,11,6,66.1,Pre-Knightfall chronology component.
+modern_gotham_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,knightfall_era; modern_gotham_annuals; modern_gotham_numbered_batman_detective_to_nml; modern_gotham_year_one_to_knightfall; no_mans_land_saga,396,220,6,168,6,55.6,Numbered Batman/Detective run component; this alone does not complete annual/special coverage.; Strict 1986-1999 annual universe component.; Pre-Knightfall stories miniseries one-shots and setup component.; Knightfall through post-KnightsEnd component including related specials where modelled.; Cataclysm through No Man's Land component including related one-shots and specials where modelled.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,a_death_in_the_family; a_lonely_place_of_dying; legends_dark_knight_early; many_deaths_of_batman; prelude_to_knightfall; second_chances_jason_todd; ten_nights_of_the_beast; the_cult; tim_drake_becomes_robin; year_one; year_three; year_two,56,37,6,11,6,66.1,Pre-Knightfall chronology component.

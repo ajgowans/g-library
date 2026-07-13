@@ -18,7 +18,7 @@ Use this pack to help research metadata and sanity-check reading orders. Treat r
 - Dark Knight Returns Saga completion: `reports/dark_knight_returns_saga_summary.csv` and `reports/dark_knight_returns_saga_missing.csv`.
 - Source publication exceptions: `reports/source_publication_exceptions.csv`.
 - Annual publication universe: `reports/annuals_master.csv`; strict 1986-1999 annual audit: `reports/annuals_audit.csv`.
-- Chronological late Modern local story map: `reports/modern_local_late_era_story_map.csv`.
+- Chronological late Modern Gotham story map: `reports/modern_gotham_late_era_story_map.csv`.
 - Human handoff summary: `reports/chatgpt_handoff.md`.
 
 ## Useful Commands

@@ -115,6 +115,9 @@ Generated public data export.
 - `reports/modern_gotham_pre_knightfall_story_map.csv` - Generated report.
 - `reports/owned_story_cluster_candidates.csv` - Generated report.
 - `reports/ownership_reconciliation_flags.csv` - Generated report.
+- `reports/global_publication_reconciliation.csv` - Generated report.
+- `reports/cross_project_ownership_conflicts.csv` - Generated report.
+- `reports/unresolved_owned_batman_gotham_publications.csv` - Generated report.
 - `reports/modern_gotham_special_publications.csv` - Generated report.
 - `reports/batman_elseworlds_1989_1999.csv` - Generated report.
 - `reports/special_publication_coverage_gaps.csv` - Generated report.

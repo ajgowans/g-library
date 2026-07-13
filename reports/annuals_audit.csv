@@ -1,71 +1,71 @@
-series,annual,publication_year,verified_publication_exists,included_in_modern_local_annuals,excluded,exclusion_reason,item_memberships,source,confidence
-Batman Annual,1,1961,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,2,1961,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,3,1962,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,4,1962,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,5,1963,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,6,1963,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,7,1964,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,8,1982,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,9,1983,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman and the Outsiders Annual,1,1984,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman and the Outsiders Annual,2,1985,Yes,No,Yes,Published before the strict 1986-1999 Modern local Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,10,1986,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-The Outsiders Annual,1,1986,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,partial
-Batman Annual,11,1987,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,12,1988,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Detective Comics Annual,1,1988,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,13,1989,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Detective Comics Annual,2,1989,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,14,1990,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Detective Comics Annual,3,1990,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,15,1991,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Legends of the Dark Knight Annual,1,1991,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified
-Detective Comics Annual,4,1991,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,16,1992,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Legends of the Dark Knight Annual,2,1992,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified
-Detective Comics Annual,5,1992,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Robin (Vol. 2) Annual,1,1992,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,17,1993,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
-Batman: Legends of the Dark Knight Annual,3,1993,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
-Batman: Shadow of the Bat Annual,1,1993,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
-Detective Comics Annual,6,1993,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
-Robin (Vol. 2) Annual,2,1993,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
-Batman Annual,18,1994,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Legends of the Dark Knight Annual,4,1994,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Shadow of the Bat Annual,2,1994,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Catwoman (Vol.2) Annual,1,1994,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
-Detective Comics Annual,7,1994,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Robin (Vol. 2) Annual,3,1994,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-The Batman Adventures Annual,1,1994,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern local continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Azrael Annual,1,1995,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,19,1995,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Legends of the Dark Knight Annual,5,1995,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Shadow of the Bat Annual,3,1995,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Catwoman (Vol.2) Annual,2,1995,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
-Detective Comics Annual,8,1995,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Robin (Vol. 2) Annual,4,1995,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-The Batman Adventures Annual,2,1995,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern local continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Azrael Annual,2,1996,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman & Robin Adventures Annual,1,1996,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern local continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,20,1996,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Legends of the Dark Knight Annual,6,1996,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Shadow of the Bat Annual,4,1996,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Catwoman (Vol.2) Annual,3,1996,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
-Detective Comics Annual,9,1996,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Robin (Vol. 2) Annual,5,1996,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Azrael Annual,3,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman & Robin Adventures Annual,2,1997,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern local continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,21,1997,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Legends of the Dark Knight Annual,7,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman: Shadow of the Bat Annual,5,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Catwoman (Vol.2) Annual,4,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
-Detective Comics Annual,10,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Nightwing Annual,1,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified
-Robin (Vol. 2) Annual,6,1997,Yes,Yes,No,,modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,22,1998,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,23,1999,Yes,Yes,No,,batman_annual_complete_run; modern_local_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batgirl Annual,1,2000,Yes,No,Yes,Published after the strict 1986-1999 Modern local Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Batman Annual,24,2000,Yes,No,Yes,Published after the strict 1986-1999 Modern local Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Nightwing Annual,2,2007,Yes,No,Yes,Published after the strict 1986-1999 Modern local Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
-Robin (Vol. 2) Annual,7,2007,Yes,No,Yes,Published after the strict 1986-1999 Modern local Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+series,annual,publication_year,verified_publication_exists,included_in_modern_gotham_annuals,excluded,exclusion_reason,item_memberships,source,confidence
+Batman Annual,1,1961,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,2,1961,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,3,1962,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,4,1962,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,5,1963,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,6,1963,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,7,1964,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,8,1982,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,9,1983,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman and the Outsiders Annual,1,1984,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman and the Outsiders Annual,2,1985,Yes,No,Yes,Published before the strict 1986-1999 Modern Gotham Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,10,1986,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+The Outsiders Annual,1,1986,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,partial
+Batman Annual,11,1987,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,12,1988,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Detective Comics Annual,1,1988,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,13,1989,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Detective Comics Annual,2,1989,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,14,1990,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Detective Comics Annual,3,1990,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,15,1991,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Legends of the Dark Knight Annual,1,1991,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified
+Detective Comics Annual,4,1991,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,16,1992,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Legends of the Dark Knight Annual,2,1992,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified
+Detective Comics Annual,5,1992,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Robin (Vol. 2) Annual,1,1992,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,17,1993,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
+Batman: Legends of the Dark Knight Annual,3,1993,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
+Batman: Shadow of the Bat Annual,1,1993,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
+Detective Comics Annual,6,1993,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
+Robin (Vol. 2) Annual,2,1993,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Publication_history_of_DC_Comics_crossover_events,verified
+Batman Annual,18,1994,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Legends of the Dark Knight Annual,4,1994,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Shadow of the Bat Annual,2,1994,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Catwoman (Vol.2) Annual,1,1994,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
+Detective Comics Annual,7,1994,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Robin (Vol. 2) Annual,3,1994,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+The Batman Adventures Annual,1,1994,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern Gotham continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Azrael Annual,1,1995,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,19,1995,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Legends of the Dark Knight Annual,5,1995,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Shadow of the Bat Annual,3,1995,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Catwoman (Vol.2) Annual,2,1995,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
+Detective Comics Annual,8,1995,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Robin (Vol. 2) Annual,4,1995,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+The Batman Adventures Annual,2,1995,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern Gotham continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Azrael Annual,2,1996,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman & Robin Adventures Annual,1,1996,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern Gotham continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,20,1996,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Legends of the Dark Knight Annual,6,1996,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Shadow of the Bat Annual,4,1996,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Catwoman (Vol.2) Annual,3,1996,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
+Detective Comics Annual,9,1996,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Robin (Vol. 2) Annual,5,1996,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Azrael Annual,3,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman & Robin Adventures Annual,2,1997,Yes,No,Yes,"Searchable/adjacent annual, but excluded from the strict Modern Gotham continuity annual completion scope.",annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,21,1997,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Legends of the Dark Knight Annual,7,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman: Shadow of the Bat Annual,5,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Catwoman (Vol.2) Annual,4,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/Catwoman,verified
+Detective Comics Annual,10,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Nightwing Annual,1,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_DC_Comics_publications_%28K%E2%80%93O%29,verified
+Robin (Vol. 2) Annual,6,1997,Yes,Yes,No,,modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,22,1998,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,23,1999,Yes,Yes,No,,batman_annual_complete_run; modern_gotham_annuals,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batgirl Annual,1,2000,Yes,No,Yes,Published after the strict 1986-1999 Modern Gotham Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Batman Annual,24,2000,Yes,No,Yes,Published after the strict 1986-1999 Modern Gotham Era Annuals item.,batman_annual_complete_run,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Nightwing Annual,2,2007,Yes,No,Yes,Published after the strict 1986-1999 Modern Gotham Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified
+Robin (Vol. 2) Annual,7,2007,Yes,No,Yes,Published after the strict 1986-1999 Modern Gotham Era Annuals item.,annual_reference_universe,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified

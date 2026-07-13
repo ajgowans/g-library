@@ -1,11 +1,11 @@
 item_id,parent_item_id,sequence_within_parent,required_or_optional,relationship_type,notes
-year_one,early_modern_local,001,required,contains,
-year_two,early_modern_local,002,optional,contains,
-second_chances_jason_todd,early_modern_local,003,recommended,contains,Context sequence needs verified membership.
-the_cult,early_modern_local,004,required,contains,
-a_death_in_the_family,early_modern_local,005,required,contains,
-year_three,early_modern_local,006,required,contains,
-a_lonely_place_of_dying,early_modern_local,007,required,contains,
+year_one,early_modern_gotham,001,required,contains,
+year_two,early_modern_gotham,002,optional,contains,
+second_chances_jason_todd,early_modern_gotham,003,recommended,contains,Context sequence needs verified membership.
+the_cult,early_modern_gotham,004,required,contains,
+a_death_in_the_family,early_modern_gotham,005,required,contains,
+year_three,early_modern_gotham,006,required,contains,
+a_lonely_place_of_dying,early_modern_gotham,007,required,contains,
 prelude_to_knightfall,knightfall_era,001,required,contains,Needs verified boundary.
 knightfall,knightfall_era,002,required,contains,
 knightquest,knightfall_era,003,required,contains,Temporary grouping until Crusade/Search split is verified.
@@ -19,16 +19,16 @@ aftershock,no_mans_land_saga,002,required,contains,Needs verified membership.
 road_to_no_mans_land,no_mans_land_saga,003,required,contains,
 no_mans_land,no_mans_land_saga,004,required,contains,
 crisis_batman_context,crisis_on_infinite_earths,010,context,continuity_consequence,Context relationship; not direct tie-in.
-modern_local_numbered_batman_detective_to_nml,modern_local_complete_era_coverage_to_nml,001,required,numbered_run_component,Numbered Batman/Detective completion target; excludes annuals specials one-shots and miniseries.
-modern_local_annuals,modern_local_complete_era_coverage_to_nml,002,required,annual_component,Annuals remain separate from numbered-run completion.
-modern_local_year_one_to_knightfall,modern_local_complete_era_coverage_to_nml,003,required,story_component,Pre-Knightfall story and miniseries coverage component.
-knightfall_era,modern_local_complete_era_coverage_to_nml,004,required,story_component,Knightfall era story coverage component.
-no_mans_land_saga,modern_local_complete_era_coverage_to_nml,005,required,story_component,No Man's Land saga story and special coverage component.
-modern_local_special_format_universe,modern_local_complete_era_coverage_to_nml,006,required,special_format_component,Special-format publication universe remains separate from numbered-run completion.
-modern_local_specials_one_shots,modern_local_special_format_universe,001,required,contains,Main-continuity specials and one-shots scope.
-batman_local_elseworlds_1989_1999,modern_local_special_format_universe,002,optional,contains,Elseworlds scope is separate from main-continuity completion.
-modern_local_miniseries,modern_local_special_format_universe,003,optional,contains,Miniseries scope linked to existing items where possible.
-batman_thrillkiller,batman_local_elseworlds_1989_1999,001,optional,contains,Thrillkiller is an Elseworlds subitem.
+modern_gotham_numbered_batman_detective_to_nml,modern_gotham_complete_era_coverage_to_nml,001,required,numbered_run_component,Numbered Batman/Detective completion target; excludes annuals specials one-shots and miniseries.
+modern_gotham_annuals,modern_gotham_complete_era_coverage_to_nml,002,required,annual_component,Annuals remain separate from numbered-run completion.
+modern_gotham_year_one_to_knightfall,modern_gotham_complete_era_coverage_to_nml,003,required,story_component,Pre-Knightfall story and miniseries coverage component.
+knightfall_era,modern_gotham_complete_era_coverage_to_nml,004,required,story_component,Knightfall era story coverage component.
+no_mans_land_saga,modern_gotham_complete_era_coverage_to_nml,005,required,story_component,No Man's Land saga story and special coverage component.
+modern_gotham_special_format_universe,modern_gotham_complete_era_coverage_to_nml,006,required,special_format_component,Special-format publication universe remains separate from numbered-run completion.
+modern_gotham_specials_one_shots,modern_gotham_special_format_universe,001,required,contains,Main-continuity specials and one-shots scope.
+batman_gotham_elseworlds_1989_1999,modern_gotham_special_format_universe,002,optional,contains,Elseworlds scope is separate from main-continuity completion.
+modern_gotham_miniseries,modern_gotham_special_format_universe,003,optional,contains,Miniseries scope linked to existing items where possible.
+batman_thrillkiller,batman_gotham_elseworlds_1989_1999,001,optional,contains,Thrillkiller is an Elseworlds subitem.
 bronze_age_batman_core,bronze_age_batman,001,required,contains,Core Batman and Detective Comics physical-publication scope.
 bronze_age_batman_extended,bronze_age_batman,002,recommended,contains,Extended Batman-led and Bat-family publication universe.
 bronze_age_key_stories,bronze_age_batman,003,research,related,Story/saga map remains separate from physical run completion.
@@ -53,28 +53,28 @@ superman_year_one_dkr,dark_knight_returns_saga,002,recommended,same_universe_as,
 all_star_batman_robin,dark_knight_returns_saga,001,optional,optional_related,Extended DKR-related continuity; published run complete but narrative unfinished.
 spawn_batman_miller,dark_knight_returns_saga,003,optional,optional_related,DKR-related crossover; not necessary to main saga.
 dark_knight_returns,bronze_age_specials_miniseries,010,recommended,related,Alternate-continuity prestige miniseries tracked as physical publication.
-batman_toyman,batman_local_wider_publication_universe,010,owned,contains,Confirmed owned short miniseries.
-catwoman_wildcat,batman_local_wider_publication_universe,020,owned,contains,Confirmed owned Catwoman standalone miniseries.
-batman_bane_of_the_demon,batman_local_wider_publication_universe,030,owned,contains,Confirmed owned Bane miniseries.
-batman_jazz,batman_local_wider_publication_universe,040,owned,contains,Confirmed owned miniseries.
-batman_wildcat,batman_local_wider_publication_universe,050,owned,contains,Confirmed owned crossover miniseries.
-batman_turning_points,batman_local_wider_publication_universe,060,owned,contains,Confirmed owned post-No Man's Land miniseries.
+batman_toyman,batman_gotham_wider_publication_universe,010,owned,contains,Confirmed owned short miniseries.
+catwoman_wildcat,batman_gotham_wider_publication_universe,020,owned,contains,Confirmed owned Catwoman standalone miniseries.
+batman_bane_of_the_demon,batman_gotham_wider_publication_universe,030,owned,contains,Confirmed owned Bane miniseries.
+batman_jazz,batman_gotham_wider_publication_universe,040,owned,contains,Confirmed owned miniseries.
+batman_wildcat,batman_gotham_wider_publication_universe,050,owned,contains,Confirmed owned crossover miniseries.
+batman_turning_points,batman_gotham_wider_publication_universe,060,owned,contains,Confirmed owned post-No Man's Land miniseries.
 brave_and_bold_batman_bronze,bronze_age_batman_extended,001,optional,contains,Batman team-up run; opportunistic collecting target.
 batman_family_complete_run,bronze_age_batman_extended,002,recommended,contains,Bat-family anthology physical run.
 batman_and_outsiders_batman_led,bronze_age_batman_extended,003,required,contains,Batman-led Outsiders run.
 bronze_age_annuals,bronze_age_batman_extended,004,recommended,annual_component,Annuals overlap existing annual complete-run item.
 bronze_age_specials_miniseries,bronze_age_batman_extended,005,recommended,special_format_component,Specials and miniseries tracked as physical publications.
-early_modern_local,modern_local_year_one_to_knightfall,001,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-legends_crossover,modern_local_year_one_to_knightfall,002,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-legends_dark_knight_early,modern_local_year_one_to_knightfall,003,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-ten_nights_of_the_beast,modern_local_year_one_to_knightfall,004,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-the_cult,modern_local_year_one_to_knightfall,005,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-many_deaths_of_batman,modern_local_year_one_to_knightfall,006,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-blind_justice,modern_local_year_one_to_knightfall,007,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-dark_knight_dark_city,modern_local_year_one_to_knightfall,008,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-tim_drake_becomes_robin,modern_local_year_one_to_knightfall,009,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-prelude_to_knightfall,modern_local_year_one_to_knightfall,010,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
-knightfall_era,modern_local_year_one_to_knightfall,011,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+early_modern_gotham,modern_gotham_year_one_to_knightfall,001,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+legends_crossover,modern_gotham_year_one_to_knightfall,002,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+legends_dark_knight_early,modern_gotham_year_one_to_knightfall,003,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+ten_nights_of_the_beast,modern_gotham_year_one_to_knightfall,004,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+the_cult,modern_gotham_year_one_to_knightfall,005,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+many_deaths_of_batman,modern_gotham_year_one_to_knightfall,006,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+blind_justice,modern_gotham_year_one_to_knightfall,007,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+dark_knight_dark_city,modern_gotham_year_one_to_knightfall,008,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+tim_drake_becomes_robin,modern_gotham_year_one_to_knightfall,009,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+prelude_to_knightfall,modern_gotham_year_one_to_knightfall,010,required,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
+knightfall_era,modern_gotham_year_one_to_knightfall,011,recommended,contains,Chronology/component relationship; exact continuity placement may be parallel where noted.
 lotdk_shaman,legends_dark_knight_early,001,required,contains,Early Legends publication-order component.
 lotdk_gothic,legends_dark_knight_early,002,required,contains,Early Legends publication-order component.
 lotdk_prey,legends_dark_knight_early,003,required,contains,Early Legends publication-order component.

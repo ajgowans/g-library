@@ -1,4 +1,4 @@
 Library reference database version 0.2
 Updated: 2026-07-10
 
-Adds publication/container modelling and reference seed data.
+Adds publication/container modelling and Hidden Gotham seed data.

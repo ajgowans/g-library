@@ -10,12 +10,12 @@ zero_hour,Zero Hour: Crisis in Time,012,Showcase '94,10,prelude,optional,review,
 zero_hour,Zero Hour: Crisis in Time,020,Action Comics,703,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,021,The Adventures of Superman,516,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,022,Anima,7,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
-zero_hour,Zero Hour: Crisis in Time,023,Batman,511,tie_in,local,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,local tie-in.
-zero_hour,Zero Hour: Crisis in Time,024,Batman: Shadow of the Bat,31,tie_in,local,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,local tie-in.
-zero_hour,Zero Hour: Crisis in Time,025,Catwoman (vol. 2),14,tie_in,local,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,local tie-in.
+zero_hour,Zero Hour: Crisis in Time,023,Batman,511,tie_in,gotham,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,024,Batman: Shadow of the Bat,31,tie_in,gotham,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
+zero_hour,Zero Hour: Crisis in Time,025,Catwoman (vol. 2),14,tie_in,gotham,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
 zero_hour,Zero Hour: Crisis in Time,026,Damage,6,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,027,Darkstars,24,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
-zero_hour,Zero Hour: Crisis in Time,028,Detective Comics,678,tie_in,local,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,local tie-in.
+zero_hour,Zero Hour: Crisis in Time,028,Detective Comics,678,tie_in,gotham,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
 zero_hour,Zero Hour: Crisis in Time,029,Flash (vol. 3),94,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,030,Green Arrow (vol. 2),90,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,031,Green Lantern (vol. 3),55,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
@@ -28,7 +28,7 @@ zero_hour,Zero Hour: Crisis in Time,037,L.E.G.I.O.N. '94,70,tie_in,optional,revi
 zero_hour,Zero Hour: Crisis in Time,038,Legion of Super-Heroes (vol. 4),61,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,039,Legionnaires,18,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,040,Outsiders (vol. 2),11,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
-zero_hour,Zero Hour: Crisis in Time,041,Robin (vol. 4),10,tie_in,local,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,local tie-in.
+zero_hour,Zero Hour: Crisis in Time,041,Robin (vol. 4),10,tie_in,gotham,collect,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Gotham tie-in.
 zero_hour,Zero Hour: Crisis in Time,042,Steel (vol. 2),8,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,043,Superboy (vol. 3),8,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 zero_hour,Zero Hour: Crisis in Time,044,Superman (vol. 2),93,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
@@ -37,25 +37,25 @@ zero_hour,Zero Hour: Crisis in Time,046,Team Titans,24,tie_in,optional,review,ht
 zero_hour,Zero Hour: Crisis in Time,047,Valor,23,tie_in,optional,review,https://en.wikipedia.org/wiki/Zero_Hour:_Crisis_in_Time!,Wider DC tie-in.
 bloodlines,Bloodlines,001,Lobo Annual,1,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
 bloodlines,Bloodlines,002,Superman: Man Of Steel Annual,2,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
-bloodlines,Bloodlines,003,Batman: Shadow of the Bat Annual,1,outbreak,local,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter; local/Batman tie-in.
+bloodlines,Bloodlines,003,Batman: Shadow of the Bat Annual,1,outbreak,gotham,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter; Gotham/Batman tie-in.
 bloodlines,Bloodlines,004,The Flash Annual,6,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
 bloodlines,Bloodlines,005,The New Titans Annual,9,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
 bloodlines,Bloodlines,006,Superman Annual,5,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
 bloodlines,Bloodlines,007,Green Lantern Annual,2,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
-bloodlines,Bloodlines,008,Batman Annual,17,outbreak,local,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter; local/Batman tie-in.
+bloodlines,Bloodlines,008,Batman Annual,17,outbreak,gotham,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter; Gotham/Batman tie-in.
 bloodlines,Bloodlines,009,Justice League International Annual,4,outbreak,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Outbreak chapter.
-bloodlines,Bloodlines,010,Robin (Vol. 2) Annual,2,earthplague,local,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter; local/Batman tie-in.
+bloodlines,Bloodlines,010,Robin (Vol. 2) Annual,2,earthplague,gotham,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter; Gotham/Batman tie-in.
 bloodlines,Bloodlines,011,Action Comics Annual,5,earthplague,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter.
 bloodlines,Bloodlines,012,Legion Of Superheros Annual,4,earthplague,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter.
 bloodlines,Bloodlines,013,Green Arrow Annual,6,earthplague,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter.
-bloodlines,Bloodlines,014,Detective Comics Annual,6,earthplague,local,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter; local/Batman tie-in.
+bloodlines,Bloodlines,014,Detective Comics Annual,6,earthplague,gotham,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter; Gotham/Batman tie-in.
 bloodlines,Bloodlines,015,Justice League Of America Annual,7,earthplague,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter.
 bloodlines,Bloodlines,016,Adventures of Superman Annual,5,earthplague,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter.
 bloodlines,Bloodlines,017,Hawkman Annual,1,earthplague,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Earthplague chapter.
 bloodlines,Bloodlines,018,"Deathstroke, the Terminator Annual",2,deathstorm,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter.
 bloodlines,Bloodlines,019,Eclipso Annual,1,deathstorm,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter.
 bloodlines,Bloodlines,020,Demon Annual,2,deathstorm,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter.
-bloodlines,Bloodlines,021,Batman: Legends of the Dark Knight Annual,3,deathstorm,local,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter; local/Batman tie-in.
+bloodlines,Bloodlines,021,Batman: Legends of the Dark Knight Annual,3,deathstorm,gotham,collect,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter; Gotham/Batman tie-in.
 bloodlines,Bloodlines,022,Team Titans Annual,1,deathstorm,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter.
 bloodlines,Bloodlines,023,L.E.G.I.O.N. '93 Annual,4,deathstorm,optional,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Deathstorm chapter.
 bloodlines,Bloodlines,024,Bloodbath,1,finale,required,review,https://en.wikipedia.org/wiki/Bloodlines_(comics),Bloodbath finale miniseries.

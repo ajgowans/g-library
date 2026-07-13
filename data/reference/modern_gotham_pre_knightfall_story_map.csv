@@ -1,5 +1,5 @@
 chronological_sequence,item_id,start_date,end_date,primary_series,previous_item,next_item,source_url,confidence,notes
-001,legends_crossover,1986,1987,Batman / Detective Comics / Legends,,year_one,https://en.wikipedia.org/wiki/Legends_%28comics%29,verified,Post-Crisis event tie-ins; local-only tie-ins and core event tracked.
+001,legends_crossover,1986,1987,Batman / Detective Comics / Legends,,year_one,https://en.wikipedia.org/wiki/Legends_%28comics%29,verified,Post-Crisis event tie-ins; Gotham-only tie-ins and core event tracked.
 002,year_one,1987,1987,Batman,legends_crossover,year_two,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Batman #404-407.
 003,year_two,1987,1987,Detective Comics,year_one,second_chances_jason_todd,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Detective Comics #575-578.
 004,second_chances_jason_todd,1986,1988,Batman,year_two,ten_nights_of_the_beast,https://en.wikipedia.org/wiki/List_of_Batman_comics,verified,Jason Todd post-Crisis origin/core Second Chances material.

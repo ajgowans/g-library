@@ -22,18 +22,18 @@ infinite_crisis_buildup,extended_buildup,Extended buildup,day_of_vengeance,,Exte
 infinite_crisis_buildup,extended_buildup,Extended buildup,rann_thanagar_war,,Extended buildup component.
 infinite_crisis_buildup,extended_buildup,Extended buildup,identity_crisis_context,,Extended buildup component.
 infinite_crisis_buildup,extended_buildup,Extended buildup,jla_crisis_of_conscience,,Extended buildup component.
-modern_local_year_one_to_knightfall,chronology,Chronology,year_one,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,year_two,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,second_chances_jason_todd,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,ten_nights_of_the_beast,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,the_cult,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,a_death_in_the_family,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,many_deaths_of_batman,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,year_three,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,a_lonely_place_of_dying,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,tim_drake_becomes_robin,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,legends_dark_knight_early,,Pre-Knightfall chronology component.
-modern_local_year_one_to_knightfall,chronology,Chronology,prelude_to_knightfall,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,year_one,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,year_two,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,second_chances_jason_todd,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,ten_nights_of_the_beast,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,the_cult,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,a_death_in_the_family,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,many_deaths_of_batman,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,year_three,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,a_lonely_place_of_dying,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,tim_drake_becomes_robin,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,legends_dark_knight_early,,Pre-Knightfall chronology component.
+modern_gotham_year_one_to_knightfall,chronology,Chronology,prelude_to_knightfall,,Pre-Knightfall chronology component.
 legends_dark_knight_early,early_arc_map,Early arc map,lotdk_shaman,,Early Legends component.
 legends_dark_knight_early,early_arc_map,Early arc map,lotdk_gothic,,Early Legends component.
 legends_dark_knight_early,early_arc_map,Early arc map,lotdk_prey,,Early Legends component.
@@ -43,11 +43,11 @@ legends_dark_knight_early,early_arc_map,Early arc map,lotdk_flyer,,Early Legends
 legends_dark_knight_early,early_arc_map,Early arc map,destroyer,,Early Legends component.
 legends_dark_knight_early,early_arc_map,Early arc map,lotdk_faces,,Early Legends component.
 legends_dark_knight_early,early_arc_map,Early arc map,lotdk_blades,,Early Legends component.
-modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_local_numbered_batman_detective_to_nml,required,Numbered Batman/Detective run component; this alone does not complete annual/special coverage.
-modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_local_annuals,required,Strict 1986-1999 annual universe component.
-modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_local_year_one_to_knightfall,required,Pre-Knightfall stories miniseries one-shots and setup component.
-modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,knightfall_era,required,Knightfall through post-KnightsEnd component including related specials where modelled.
-modern_local_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,no_mans_land_saga,required,Cataclysm through No Man's Land component including related one-shots and specials where modelled.
+modern_gotham_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_gotham_numbered_batman_detective_to_nml,required,Numbered Batman/Detective run component; this alone does not complete annual/special coverage.
+modern_gotham_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_gotham_annuals,required,Strict 1986-1999 annual universe component.
+modern_gotham_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,modern_gotham_year_one_to_knightfall,required,Pre-Knightfall stories miniseries one-shots and setup component.
+modern_gotham_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,knightfall_era,required,Knightfall through post-KnightsEnd component including related specials where modelled.
+modern_gotham_complete_era_coverage_to_nml,complete_era_coverage,Complete era coverage,no_mans_land_saga,required,Cataclysm through No Man's Land component including related one-shots and specials where modelled.
 bronze_age_batman,core_batman_detective,Core Bronze Age Batman,bronze_age_batman_core,required,Core Batman and Detective Comics only.
 bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,bronze_age_batman_core,required,Extended scope includes core.
 bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,brave_and_bold_batman_bronze,optional,Opportunistic Batman team-up run.
