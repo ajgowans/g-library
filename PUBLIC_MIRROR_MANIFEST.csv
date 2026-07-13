@@ -40,6 +40,8 @@ copied,data/reference/dark_knight_returns_reading_order.csv,data/reference/dark_
 copied,data/reference/source_publication_exceptions.csv,data/reference/source_publication_exceptions.csv,Reference data.,
 copied,reports/privacy_audit.csv,reports/privacy_audit.csv,Generated report.,
 copied,reports/chatgpt_handoff.md,reports/chatgpt_handoff.md,Generated report.,
+copied,reports/project_handoff.md,reports/project_handoff.md,Handoff documentation.,
+copied,reports/cover_image_handoff.md,reports/cover_image_handoff.md,Cover image workflow documentation.,
 copied,reports/shopping_index.csv,reports/shopping_index.csv,Generated report.,
 copied,reports/wanted_items.csv,reports/wanted_items.csv,Generated report.,
 copied,reports/batman_range_wantlist.csv,reports/batman_range_wantlist.csv,Generated report.,

@@ -51,6 +51,8 @@ Generated public data export.
 - `data/reference/source_publication_exceptions.csv` - Reference data.
 - `reports/privacy_audit.csv` - Generated report.
 - `reports/chatgpt_handoff.md` - Generated report.
+- `reports/project_handoff.md` - Handoff documentation.
+- `reports/cover_image_handoff.md` - Cover image workflow documentation.
 - `reports/shopping_index.csv` - Generated report.
 - `reports/wanted_items.csv` - Generated report.
 - `reports/batman_range_wantlist.csv` - Generated report.
