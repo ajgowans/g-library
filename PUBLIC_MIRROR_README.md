@@ -59,6 +59,9 @@ Generated public data export.
 - `reports/series_run_issues.csv` - Generated report.
 - `reports/series_run_missing_issues.csv` - Generated report.
 - `reports/series_run_metadata_gaps.csv` - Generated report.
+- `reports/run_with_annuals_checklist.csv` - Generated complete-run checklist including annuals.
+- `reports/run_with_annuals_missing.csv` - Generated complete-run missing report including annuals.
+- `reports/run_with_annuals_summary.csv` - Generated complete-run summary including annuals.
 - `reports/annual_coverage.csv` - Generated report.
 - `reports/annuals_master.csv` - Generated report.
 - `reports/annuals_audit.csv` - Generated report.
@@ -131,6 +134,10 @@ Generated public data export.
 - `reports/dark_knight_returns_saga_summary.csv` - Generated report.
 - `reports/dark_knight_returns_saga_missing.csv` - Generated report.
 - `reports/visual_collection_viewer.html` - Generated report.
+- `reports/visual_view_batman_0_99.html` - Generated visual report.
+- `reports/visual_view_batman_100_199.html` - Generated visual report.
+- `reports/visual_view_batman_200_299.html` - Generated visual report.
+- `reports/visual_view_batman_300_399.html` - Generated visual report.
 - `reports/visual_view_batman_400_499.html` - Generated visual report.
 - `reports/visual_view_catwoman_vol2.html` - Generated visual report.
 - `reports/visual_view_dkr_saga.html` - Generated visual report.

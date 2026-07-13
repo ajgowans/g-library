@@ -1,4 +1,4 @@
-generated_at=2026-07-13T18:48:11.043276+00:00
-generated_at_utc=2026-07-13T18:48:11.043349+00:00
-source_commit_sha=565847dda0d2b998a1daeba0e55572b5e823a7ef
+generated_at=2026-07-13T19:25:26.299137+00:00
+generated_at_utc=2026-07-13T19:25:26.299298+00:00
+source_commit_sha=d180b6adfe4afc303abedd63c734c2bb6ce8ca4e
 schema_version=g_library_public_export_v2

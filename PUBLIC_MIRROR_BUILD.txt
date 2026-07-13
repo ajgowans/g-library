@@ -1,4 +1,4 @@
-built_at_utc=2026-07-13T18:48:11.057489+00:00
+built_at_utc=2026-07-13T19:25:26.315292+00:00
 source_repo=/Users/andrewgowans/Documents/Comics
-copied_files=134
+copied_files=141
 blocked_files=0

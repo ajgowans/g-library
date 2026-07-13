@@ -1,4 +1,18 @@
 view_id,view_name,publication_id,display_title,series,issue_number,story_or_arc,scope,ownership_status,cover_status,has_source_url,image_source_url,local_image_path,research_priority,notes
+batman_0_99,Batman #0-99,VIEW-batman-0,Batman #0,Batman,0,Zero Hour,,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_0_99,Batman #0-99,VIEW-batman-1,Batman #1,Batman,1,First Joker and Catwoman,OPPORTUNISTIC,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target. | Reference data flags a key first appearance/significance.
+batman_0_99,Batman #0-99,VIEW-batman-5,Batman #5,Batman,5,Early Joker / Golden Age Batman,OPPORTUNISTIC,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
+batman_100_199,Batman #100-199,VIEW-batman-181,Batman #181,Batman,181,First Poison Ivy,OPPORTUNISTIC,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target. | Reference data flags a key first appearance/significance.
+batman_200_299,Batman #200-299,VIEW-batman-266,Batman #266,Batman,266,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-302,Batman #302,Batman,302,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-309,Batman #309,Batman,309,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-312,Batman #312,Batman,312,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-315,Batman #315,Batman,315,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-340,Batman #340,Batman,340,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-352,Batman #352,Batman,352,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-355,Batman #355,Batman,355,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-357,Batman #357,Batman,357,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
+batman_300_399,Batman #300-399,VIEW-batman-388,Batman #388,Batman,388,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 batman_400_499,Batman #400-499,VIEW-batman-404,Batman #404,Batman,404,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
 batman_400_499,Batman #400-499,VIEW-batman-405,Batman #405,Batman,405,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
 batman_400_499,Batman #400-499,VIEW-batman-406,Batman #406,Batman,406,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
