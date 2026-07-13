@@ -2,7 +2,7 @@ run_id,title,start_issue,end_issue,collecting_status,special_issues,notes
 batman_404_574,Batman,404,574,collect,,Batman run tracking range.
 detective_568_741,Detective Comics,568,741,collect,,Detective Comics run tracking range.
 warhammer_monthly_0_86,Warhammer Monthly,0,86,collect,,Complete Warhammer Monthly run; source checked: https://en.wikipedia.org/wiki/Warhammer_Monthly says cancelled after issue 86.
-catwoman_vol2_1_94,Catwoman (Vol.2),1,94,collect,,Complete-run target.
+catwoman_vol2_1_94,Catwoman (Vol.2),1,94,collect,1000000,Complete-run target plus DC One Million special-numbered issue.
 legends_dark_knight_1_214,Batman: Legends of the Dark Knight,1,214,collect,,Complete-run target.
 shadow_of_the_bat_1_94,Batman: Shadow of the Bat,1,94,collect,,Complete-run target.
 batman_chronicles_1_23,Batman Chronicles,1,23,collect,,Complete-run target.
