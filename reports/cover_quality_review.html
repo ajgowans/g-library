@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library Cover Quality Review</title>
+  <style>
+    :root { --ink:#18212a; --muted:#5b6670; --line:#d9dee4; --paper:#f6f7f8; --panel:white; --warn:#a46a00; --bad:#b42318; --ok:#0f7b4f; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--paper); }
+    header { background:#111820; color:white; padding:28px 32px 18px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    header p { margin:0; color:#c8d0d8; max-width:900px; line-height:1.4; }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; padding:18px 32px; background:#e9edf1; border-bottom:1px solid var(--line); }
+    .metric { background:white; border:1px solid var(--line); border-radius:8px; padding:12px; }
+    .metric strong { display:block; font-size:24px; }
+    .metric span { color:var(--muted); font-size:13px; }
+    main { padding:24px 32px 42px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:16px; align-items:start; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; box-shadow:0 1px 2px rgba(0,0,0,.05); }
+    .card.needs_review { border-color:var(--warn); }
+    .card.rejected_auto { border-color:var(--bad); }
+    .status { color:white; background:var(--warn); padding:8px 10px; text-transform:uppercase; font-size:12px; font-weight:800; letter-spacing:.04em; text-align:center; }
+    .rejected_auto .status { background:var(--bad); }
+    .cover { aspect-ratio:2/3; background:#111820; display:grid; place-items:center; overflow:hidden; }
+    .cover img { max-width:100%; max-height:100%; object-fit:contain; display:block; }
+    .placeholder { color:white; padding:14px; text-align:center; }
+    .body { padding:12px; display:grid; gap:7px; }
+    h3 { margin:0; font-size:16px; line-height:1.2; }
+    p { margin:0; color:var(--muted); font-size:12px; line-height:1.35; overflow-wrap:anywhere; }
+    .id { color:#33404c; font-family:ui-monospace, SFMono-Regular, Menlo, monospace; }
+    a { color:#1f6feb; }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Cover Quality Review</h1>
+    <p>Automatic cover-source checks. This page only shows covers that need attention or were rejected automatically; clean rows are kept out of the way.</p>
+  </header>
+  <section class="summary">
+    <div class="metric"><strong>342</strong><span>manifest rows checked</span></div>
+    <div class="metric"><strong>295</strong><span>auto approved</span></div>
+    <div class="metric"><strong>47</strong><span>need review</span></div>
+    <div class="metric"><strong>0</strong><span>auto rejected</span></div>
+  </section>
+  <main>
+    <section class="grid">
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><div class="placeholder">No local cover</div></div>
+      <div class="body">
+        <h3>Batman: Year One #404</h3>
+        <p class="id">PUB-BAT-0404</p>
+        <p><b>Flags:</b> missing_image; user_reported_wrong_cover; missing_source_url; missing_source_page</p>
+        <p><b>Notes:</b> No local cover image is available yet. | Previous cover was cleared after user review; needs corrected original regular cover source. | No image source URL recorded. | No source page URL found in SourceNotes.</p>
+        <p><b>Image:</b> <a href=""></a></p>
+        <p><b>Source:</b> missing</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><div class="placeholder">No local cover</div></div>
+      <div class="body">
+        <h3>Batman: Year One #405</h3>
+        <p class="id">PUB-BAT-0405</p>
+        <p><b>Flags:</b> missing_image; user_reported_wrong_cover; missing_source_url; missing_source_page</p>
+        <p><b>Notes:</b> No local cover image is available yet. | Previous cover was cleared after user review; needs corrected original regular cover source. | No image source URL recorded. | No source page URL found in SourceNotes.</p>
+        <p><b>Image:</b> <a href=""></a></p>
+        <p><b>Source:</b> missing</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><div class="placeholder">No local cover</div></div>
+      <div class="body">
+        <h3>Batman: Year One #406</h3>
+        <p class="id">PUB-BAT-0406</p>
+        <p><b>Flags:</b> missing_image; user_reported_wrong_cover; missing_source_url; missing_source_page</p>
+        <p><b>Notes:</b> No local cover image is available yet. | Previous cover was cleared after user review; needs corrected original regular cover source. | No image source URL recorded. | No source page URL found in SourceNotes.</p>
+        <p><b>Image:</b> <a href=""></a></p>
+        <p><b>Source:</b> missing</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><div class="placeholder">No local cover</div></div>
+      <div class="body">
+        <h3>Batman: Year One #407</h3>
+        <p class="id">PUB-BAT-0407</p>
+        <p><b>Flags:</b> missing_image; user_reported_wrong_cover; missing_source_url; missing_source_page</p>
+        <p><b>Notes:</b> No local cover image is available yet. | Previous cover was cleared after user review; needs corrected original regular cover source. | No image source URL recorded. | No source page URL found in SourceNotes.</p>
+        <p><b>Image:</b> <a href=""></a></p>
+        <p><b>Source:</b> missing</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-45.jpg" alt="Warhammer Monthly #45 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #45</h3>
+        <p class="id">VIEW-warhammer-monthly-45</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 97x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2b/Warhammer_Monthly_45.jpg/97px-Warhammer_Monthly_45.jpg">97px warhammer monthly 45 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_45</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-46.jpg" alt="Warhammer Monthly #46 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #46</h3>
+        <p class="id">VIEW-warhammer-monthly-46</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/5/54/Warhammer_Monthly_46.jpg/100px-Warhammer_Monthly_46.jpg">100px warhammer monthly 46 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_46</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-47.jpg" alt="Warhammer Monthly #47 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #47</h3>
+        <p class="id">VIEW-warhammer-monthly-47</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/0/06/Warhammer_Monthly_47.jpg/100px-Warhammer_Monthly_47.jpg">100px warhammer monthly 47 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_47</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-48.jpg" alt="Warhammer Monthly #48 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #48</h3>
+        <p class="id">VIEW-warhammer-monthly-48</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/f/fa/Warhammer_Monthly_48.jpg/100px-Warhammer_Monthly_48.jpg">100px warhammer monthly 48 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_48</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-49.jpg" alt="Warhammer Monthly #49 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #49</h3>
+        <p class="id">VIEW-warhammer-monthly-49</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/c/cd/Warhammer_Monthly_49.jpg/100px-Warhammer_Monthly_49.jpg">100px warhammer monthly 49 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_49</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-51.jpg" alt="Warhammer Monthly #51 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #51</h3>
+        <p class="id">VIEW-warhammer-monthly-51</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/7/77/Warhammer_Monthly_51.jpg/99px-Warhammer_Monthly_51.jpg">99px warhammer monthly 51 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_51</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-52.jpg" alt="Warhammer Monthly #52 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #52</h3>
+        <p class="id">VIEW-warhammer-monthly-52</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/8/85/Warhammer_Monthly_52.jpg/100px-Warhammer_Monthly_52.jpg">100px warhammer monthly 52 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_52</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-53.jpg" alt="Warhammer Monthly #53 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #53</h3>
+        <p class="id">VIEW-warhammer-monthly-53</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/9/9b/Warhammer_Monthly_53.jpg/100px-Warhammer_Monthly_53.jpg">100px warhammer monthly 53 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_53</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-54.jpg" alt="Warhammer Monthly #54 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #54</h3>
+        <p class="id">VIEW-warhammer-monthly-54</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c8/Warhammer_Monthly_54.jpg/99px-Warhammer_Monthly_54.jpg">99px warhammer monthly 54 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_54</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-55.jpg" alt="Warhammer Monthly #55 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #55</h3>
+        <p class="id">VIEW-warhammer-monthly-55</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/4/44/Warhammer_Monthly_55.jpg/99px-Warhammer_Monthly_55.jpg">99px warhammer monthly 55 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_55</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-56.jpg" alt="Warhammer Monthly #56 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #56</h3>
+        <p class="id">VIEW-warhammer-monthly-56</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/c/cf/Warhammer_Monthly_56.jpg/99px-Warhammer_Monthly_56.jpg">99px warhammer monthly 56 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_56</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-57.jpg" alt="Warhammer Monthly #57 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #57</h3>
+        <p class="id">VIEW-warhammer-monthly-57</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/7/73/Warhammer_Monthly_57.jpg/100px-Warhammer_Monthly_57.jpg">100px warhammer monthly 57 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_57</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-58.jpg" alt="Warhammer Monthly #58 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #58</h3>
+        <p class="id">VIEW-warhammer-monthly-58</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/0/01/Warhammer_Monthly_58.jpg/98px-Warhammer_Monthly_58.jpg">98px warhammer monthly 58 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_58</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-59.jpg" alt="Warhammer Monthly #59 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #59</h3>
+        <p class="id">VIEW-warhammer-monthly-59</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e8/Warhammer_Monthly_59.jpg/98px-Warhammer_Monthly_59.jpg">98px warhammer monthly 59 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_59</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-60.jpg" alt="Warhammer Monthly #60 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #60</h3>
+        <p class="id">VIEW-warhammer-monthly-60</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/5/50/Warhammer_Monthly_60.jpg/99px-Warhammer_Monthly_60.jpg">99px warhammer monthly 60 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_60</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-61.jpg" alt="Warhammer Monthly #61 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #61</h3>
+        <p class="id">VIEW-warhammer-monthly-61</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e9/Warhammer_Monthly_61.jpg/99px-Warhammer_Monthly_61.jpg">99px warhammer monthly 61 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_61</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-62.jpg" alt="Warhammer Monthly #62 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #62</h3>
+        <p class="id">VIEW-warhammer-monthly-62</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d4/Warhammer_Monthly_62.jpg/98px-Warhammer_Monthly_62.jpg">98px warhammer monthly 62 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_62</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-63.jpg" alt="Warhammer Monthly #63 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #63</h3>
+        <p class="id">VIEW-warhammer-monthly-63</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/3/32/Warhammer_Monthly_63.jpg/98px-Warhammer_Monthly_63.jpg">98px warhammer monthly 63 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_63</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-64.jpg" alt="Warhammer Monthly #64 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #64</h3>
+        <p class="id">VIEW-warhammer-monthly-64</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/5/53/Warhammer_Monthly_64.jpg/98px-Warhammer_Monthly_64.jpg">98px warhammer monthly 64 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_64</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-65.jpg" alt="Warhammer Monthly #65 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #65</h3>
+        <p class="id">VIEW-warhammer-monthly-65</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/8/8f/Warhammer_Monthly_65.jpg/100px-Warhammer_Monthly_65.jpg">100px warhammer monthly 65 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_65</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-66.jpg" alt="Warhammer Monthly #66 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #66</h3>
+        <p class="id">VIEW-warhammer-monthly-66</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 97x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/4/44/Warhammer_Monthly_66.jpg/97px-Warhammer_Monthly_66.jpg">97px warhammer monthly 66 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_66</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-67.jpg" alt="Warhammer Monthly #67 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #67</h3>
+        <p class="id">VIEW-warhammer-monthly-67</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/4/4c/Warhammer_Monthly_67.jpg/100px-Warhammer_Monthly_67.jpg">100px warhammer monthly 67 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_67</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-68.jpg" alt="Warhammer Monthly #68 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #68</h3>
+        <p class="id">VIEW-warhammer-monthly-68</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/3/3c/Warhammer_Monthly_68.jpg/98px-Warhammer_Monthly_68.jpg">98px warhammer monthly 68 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_68</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-69.jpg" alt="Warhammer Monthly #69 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #69</h3>
+        <p class="id">VIEW-warhammer-monthly-69</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/3/36/Warhammer_Monthly_69.jpg/99px-Warhammer_Monthly_69.jpg">99px warhammer monthly 69 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_69</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-70.jpg" alt="Warhammer Monthly #70 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #70</h3>
+        <p class="id">VIEW-warhammer-monthly-70</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/8/83/Warhammer_Monthly_70.jpg/100px-Warhammer_Monthly_70.jpg">100px warhammer monthly 70 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_70</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-71.jpg" alt="Warhammer Monthly #71 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #71</h3>
+        <p class="id">VIEW-warhammer-monthly-71</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 97x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/0/01/Warhammer_Monthly_71.jpg/97px-Warhammer_Monthly_71.jpg">97px warhammer monthly 71 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_71</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-72.jpg" alt="Warhammer Monthly #72 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #72</h3>
+        <p class="id">VIEW-warhammer-monthly-72</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/1/1d/Warhammer_Monthly_72.jpg/100px-Warhammer_Monthly_72.jpg">100px warhammer monthly 72 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_72</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-73.jpg" alt="Warhammer Monthly #73 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #73</h3>
+        <p class="id">VIEW-warhammer-monthly-73</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/b/bc/Warhammer_Monthly_73.jpg/100px-Warhammer_Monthly_73.jpg">100px warhammer monthly 73 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_73</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-74.jpg" alt="Warhammer Monthly #74 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #74</h3>
+        <p class="id">VIEW-warhammer-monthly-74</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e8/Warhammer_Monthly_74.jpg/100px-Warhammer_Monthly_74.jpg">100px warhammer monthly 74 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_74</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-75.jpg" alt="Warhammer Monthly #75 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #75</h3>
+        <p class="id">VIEW-warhammer-monthly-75</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/8/87/Warhammer_Monthly_75.jpg/98px-Warhammer_Monthly_75.jpg">98px warhammer monthly 75 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_75</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-76.jpg" alt="Warhammer Monthly #76 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #76</h3>
+        <p class="id">VIEW-warhammer-monthly-76</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e7/Warhammer_Monthly_76.jpg/100px-Warhammer_Monthly_76.jpg">100px warhammer monthly 76 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_76</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-77.jpg" alt="Warhammer Monthly #77 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #77</h3>
+        <p class="id">VIEW-warhammer-monthly-77</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2e/Warhammer_Monthly_77.jpg/100px-Warhammer_Monthly_77.jpg">100px warhammer monthly 77 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_77</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-78.jpg" alt="Warhammer Monthly #78 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #78</h3>
+        <p class="id">VIEW-warhammer-monthly-78</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/0/03/Warhammer_Monthly_78.jpg/99px-Warhammer_Monthly_78.jpg">99px warhammer monthly 78 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_78</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-79.jpg" alt="Warhammer Monthly #79 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #79</h3>
+        <p class="id">VIEW-warhammer-monthly-79</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/0/06/Warhammer_Monthly_79.jpg/100px-Warhammer_Monthly_79.jpg">100px warhammer monthly 79 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_79</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-80.jpg" alt="Warhammer Monthly #80 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #80</h3>
+        <p class="id">VIEW-warhammer-monthly-80</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x149; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/c/ca/Warhammer_Monthly_80.jpg/99px-Warhammer_Monthly_80.jpg">99px warhammer monthly 80 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_80</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-81.jpg" alt="Warhammer Monthly #81 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #81</h3>
+        <p class="id">VIEW-warhammer-monthly-81</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/4/4b/Warhammer_Monthly_81.jpg/98px-Warhammer_Monthly_81.jpg">98px warhammer monthly 81 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_81</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-82.jpg" alt="Warhammer Monthly #82 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #82</h3>
+        <p class="id">VIEW-warhammer-monthly-82</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/6/66/Warhammer_Monthly_82.jpg/99px-Warhammer_Monthly_82.jpg">99px warhammer monthly 82 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_82</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-83.jpg" alt="Warhammer Monthly #83 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #83</h3>
+        <p class="id">VIEW-warhammer-monthly-83</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/9/91/Warhammer_Monthly_83.jpg/98px-Warhammer_Monthly_83.jpg">98px warhammer monthly 83 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_83</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-84.jpg" alt="Warhammer Monthly #84 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #84</h3>
+        <p class="id">VIEW-warhammer-monthly-84</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 98x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f8/Warhammer_Monthly_84.jpg/98px-Warhammer_Monthly_84.jpg">98px warhammer monthly 84 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_84</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-85.jpg" alt="Warhammer Monthly #85 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #85</h3>
+        <p class="id">VIEW-warhammer-monthly-85</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/7/74/Warhammer_Monthly_85.jpg/99px-Warhammer_Monthly_85.jpg">99px warhammer monthly 85 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_85</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-86.jpg" alt="Warhammer Monthly #86 cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly #86</h3>
+        <p class="id">VIEW-warhammer-monthly-86</p>
+        <p><b>Flags:</b> low_resolution_image</p>
+        <p><b>Notes:</b> Local cover image is only 99x150; use as a placeholder until a larger source is available.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/0/04/Warhammer_Monthly_86.jpg/99px-Warhammer_Monthly_86.jpg">99px warhammer monthly 86 jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Issue_86</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-warhammer-monthly-free-birthday-special-1.jpg" alt="Warhammer Monthly Gratis Birthday Issue cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly Gratis Birthday Issue</h3>
+        <p class="id">VIEW-warhammer-monthly-free-birthday-special-1</p>
+        <p><b>Flags:</b> low_resolution_image; issue_number_not_in_source</p>
+        <p><b>Notes:</b> Local cover image is only 100x150; use as a placeholder until a larger source is available. | Could not find issue number Gratis Birthday Issue in the image/source URL text.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f4/Warhammer_Monthly_Gratis_Birthday_Issue.jpg/100px-Warhammer_Monthly_Gratis_Birthday_Issue.jpg">100px warhammer monthly gratis birthday issue jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Gratis_Birthday_Issue</p>
+      </div>
+    </article>
+    
+
+    <article class="card needs_review">
+      <div class="status">needs review</div>
+      <div class="cover"><img src="../assets/covers/display/VIEW-deathwing-special-promotional-issue-1.jpg" alt="Warhammer Monthly Awesome Full Color Promo Issue cover"></div>
+      <div class="body">
+        <h3>Warhammer Monthly Awesome Full Color Promo Issue</h3>
+        <p class="id">VIEW-deathwing-special-promotional-issue-1</p>
+        <p><b>Flags:</b> issue_number_not_in_source</p>
+        <p><b>Notes:</b> Could not find issue number Awesome Full Color Promo Issue in the image/source URL text.</p>
+        <p><b>Image:</b> <a href="https://wh40k.lexicanum.com/mediawiki/images/5/5f/Warhammer_Monthly_Awesome_Full_Color_Promo_Issue.jpg">warhammer monthly awesome full color promo issue jpg</a></p>
+        <p><b>Source:</b> https://wh40k.lexicanum.com/wiki/Warhammer_Monthly_Awesome_Full_Color_Promo_Issue</p>
+      </div>
+    </article>
+    </section>
+  </main>
+</body>
+</html>

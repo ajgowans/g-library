@@ -134,4 +134,10 @@ Generated public data export.
 - `reports/visual_view_catwoman_vol2.html` - Generated visual report.
 - `reports/visual_view_dkr_saga.html` - Generated visual report.
 - `reports/visual_view_knightfall_to_knightsend.html` - Generated visual report.
+- `reports/visual_view_warhammer_monthly.html` - Generated visual report.
+- `reports/cover_gaps.csv` - Generated cover research queue.
+- `reports/cover_gaps_owned.csv` - Generated cover research queue.
+- `reports/cover_gaps_by_story.csv` - Generated cover research summary.
+- `reports/cover_quality_flags.csv` - Generated cover quality review queue.
+- `reports/cover_quality_review.html` - Generated cover quality review page.
 - `reports/source_publication_exceptions.csv` - Generated report.
