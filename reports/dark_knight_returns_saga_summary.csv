@@ -5,6 +5,14 @@ chronological,core_batman_saga,dark_knight_golden_child,Dark Knight Returns: The
 chronological,core_batman_saga,dark_knight_master_race,Dark Knight III: The Master Race,9,9,0,0,0,100.0,Canonical item is #1-9; any source #10 row is not merged.
 chronological,core_batman_saga,dark_knight_returns,The Dark Knight Returns,4,4,0,0,0,100.0,
 chronological,core_batman_saga,dark_knight_strikes_again,Batman: The Dark Knight Strikes Again,3,3,0,0,0,100.0,
+chronological,extended_frank_miller_batman_chronology,all_star_batman_robin,All Star Batman & Robin the Boy Wonder,10,10,0,0,0,100.0,Complete published run is #1-10; narrative is unfinished.
+chronological,extended_frank_miller_batman_chronology,dark_knight_golden_child,Dark Knight Returns: The Golden Child,1,1,0,0,0,100.0,
+chronological,extended_frank_miller_batman_chronology,dark_knight_last_crusade,Dark Knight Returns: The Last Crusade,1,1,0,0,0,100.0,
+chronological,extended_frank_miller_batman_chronology,dark_knight_master_race,Dark Knight III: The Master Race,9,9,0,0,0,100.0,Canonical item is #1-9; any source #10 row is not merged.
+chronological,extended_frank_miller_batman_chronology,dark_knight_returns,The Dark Knight Returns,4,4,0,0,0,100.0,
+chronological,extended_frank_miller_batman_chronology,dark_knight_strikes_again,Batman: The Dark Knight Strikes Again,3,3,0,0,0,100.0,
+chronological,extended_frank_miller_batman_chronology,superman_year_one_dkr,Superman: Year One,3,3,0,0,0,100.0,
+chronological,extended_frank_miller_batman_chronology,year_one,Batman: Year One,4,4,0,0,0,100.0,
 chronological,extended_miller_dkr_related,all_star_batman_robin,All Star Batman & Robin the Boy Wonder,10,10,0,0,0,100.0,Complete published run is #1-10; narrative is unfinished.
 publication,complete_dkr_continuity,dark_knight_last_crusade,Dark Knight Returns: The Last Crusade,1,1,0,0,0,100.0,
 publication,complete_dkr_continuity,superman_year_one_dkr,Superman: Year One,3,3,0,0,0,100.0,
@@ -12,5 +20,17 @@ publication,core_batman_saga,dark_knight_golden_child,Dark Knight Returns: The G
 publication,core_batman_saga,dark_knight_master_race,Dark Knight III: The Master Race,9,9,0,0,0,100.0,Canonical item is #1-9; any source #10 row is not merged.
 publication,core_batman_saga,dark_knight_returns,The Dark Knight Returns,4,4,0,0,0,100.0,
 publication,core_batman_saga,dark_knight_strikes_again,Batman: The Dark Knight Strikes Again,3,3,0,0,0,100.0,
+publication,extended_frank_miller_batman_chronology,all_star_batman_robin,All Star Batman & Robin the Boy Wonder,10,10,0,0,0,100.0,Complete published run is #1-10; narrative is unfinished.
+publication,extended_frank_miller_batman_chronology,dark_knight_golden_child,Dark Knight Returns: The Golden Child,1,1,0,0,0,100.0,
+publication,extended_frank_miller_batman_chronology,dark_knight_last_crusade,Dark Knight Returns: The Last Crusade,1,1,0,0,0,100.0,
+publication,extended_frank_miller_batman_chronology,dark_knight_master_race,Dark Knight III: The Master Race,9,9,0,0,0,100.0,Canonical item is #1-9; any source #10 row is not merged.
+publication,extended_frank_miller_batman_chronology,dark_knight_returns,The Dark Knight Returns,4,4,0,0,0,100.0,
+publication,extended_frank_miller_batman_chronology,dark_knight_strikes_again,Batman: The Dark Knight Strikes Again,3,3,0,0,0,100.0,
+publication,extended_frank_miller_batman_chronology,superman_year_one_dkr,Superman: Year One,3,3,0,0,0,100.0,
+publication,extended_frank_miller_batman_chronology,year_one,Batman: Year One,4,4,0,0,0,100.0,
 publication,extended_miller_dkr_related,all_star_batman_robin,All Star Batman & Robin the Boy Wonder,10,10,0,0,0,100.0,Complete published run is #1-10; narrative is unfinished.
-publication,extended_miller_dkr_related,spawn_batman_miller,Spawn/Batman,1,0,0,0,1,0.0,
+publication,extended_miller_dkr_related,spawn_batman_miller,Spawn/Batman,1,1,0,0,0,100.0,
+cumulative,complete_dkr_continuity,dark_knight_returns_saga,Complete DKR continuity / direct extensions,31,31,0,0,0,100.0,Prequel one-shot.; Published run complete but narrative unfinished; Miller-supported DKR relation with continuity contradictions.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources.
+cumulative,core_batman_saga,dark_knight_returns_saga,Core Batman saga,17,17,0,0,0,100.0,Original miniseries.; Core sequel.; Core post-DKIII one-shot.
+cumulative,extended_frank_miller_batman_chronology,dark_knight_returns_saga,Extended Frank Miller Batman Chronology,35,35,0,0,0,100.0,Mainstream post-Crisis Batman origin and relevant Frank Miller Batman chronology; not strict Core DKR Saga.; Young Batman and Dick Grayson material; published run complete but narrative unfinished.; Prequel set before The Dark Knight Returns.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources; exact placement relative to Batman early years remains review-grade.
+cumulative,extended_miller_dkr_related,dark_knight_returns_saga,Optional/disputed DKR-related material,11,11,0,0,0,100.0,Published run complete but narrative unfinished and continuity inconsistent.; Related crossover; not necessary to main saga.

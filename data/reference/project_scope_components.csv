@@ -59,14 +59,23 @@ dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_returns,r
 dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_strikes_again,required,Core sequel.
 dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_master_race,required,Core sequel.
 dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_golden_child,required,Core post-DKIII one-shot.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_last_crusade,recommended,Prequel one-shot.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_returns,required,Original miniseries.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_strikes_again,required,Core sequel.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_master_race,required,Core sequel.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_golden_child,required,Core post-DKIII one-shot.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,superman_year_one_dkr,recommended,Same-universe Superman origin per sources.
-dark_knight_returns_saga,extended_miller_dkr_related,Extended Frank Miller DKR-related continuity,all_star_batman_robin,optional,Published run complete but narrative unfinished and continuity inconsistent.
-dark_knight_returns_saga,extended_miller_dkr_related,Extended Frank Miller DKR-related continuity,spawn_batman_miller,optional,Related crossover; not necessary to main saga.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,dark_knight_last_crusade,recommended,Prequel one-shot.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,all_star_batman_robin,recommended,Published run complete but narrative unfinished; Miller-supported DKR relation with continuity contradictions.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,dark_knight_returns,required,Original miniseries.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,dark_knight_strikes_again,required,Core sequel.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,dark_knight_master_race,required,Core sequel.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,dark_knight_golden_child,required,Core post-DKIII one-shot.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,superman_year_one_dkr,recommended,Same-universe Superman origin per sources.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,year_one,recommended,Mainstream post-Crisis Batman origin and relevant Frank Miller Batman chronology; not strict Core DKR Saga.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,all_star_batman_robin,recommended,Young Batman and Dick Grayson material; published run complete but narrative unfinished.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,dark_knight_last_crusade,recommended,Prequel set before The Dark Knight Returns.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,dark_knight_returns,required,Original miniseries.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,dark_knight_strikes_again,required,Core sequel.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,dark_knight_master_race,required,Core sequel.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,dark_knight_golden_child,required,Core post-DKIII one-shot.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,superman_year_one_dkr,recommended,Same-universe Superman origin per sources; exact placement relative to Batman early years remains review-grade.
+dark_knight_returns_saga,extended_miller_dkr_related,Optional/disputed DKR-related material,all_star_batman_robin,optional,Published run complete but narrative unfinished and continuity inconsistent.
+dark_knight_returns_saga,extended_miller_dkr_related,Optional/disputed DKR-related material,spawn_batman_miller,optional,Related crossover; not necessary to main saga.
 countdown_final_crisis,core_weekly_series,Core weekly series,countdown_weekly_series,required,Core 51-issue weekly series only.
 countdown_final_crisis,core_plus_transition,Core plus transition,countdown_weekly_series,required,Core weekly series.
 countdown_final_crisis,core_plus_transition,Core plus transition,dc_universe_zero,optional,Transition/prologue; not Countdown #0.

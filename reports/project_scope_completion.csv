@@ -120,8 +120,8 @@ mercy,story_identification,Story identification,mercy,1,1,0,0,0,100.0,Direct ite
 modern_local_annuals,modern_local_1986_1999,Modern local Era annual universe,modern_local_annuals,51,25,0,26,0,49.0,Direct item scope.
 modern_local_miniseries,miniseries,Modern local miniseries,modern_local_miniseries,7,0,0,7,0,0.0,Direct item scope.
 modern_local_numbered_batman_detective_to_nml,numbered_core,Numbered Batman/Detective run only,modern_local_numbered_batman_detective_to_nml,345,195,6,142,6,56.5,Direct item scope.
-modern_local_special_format_universe,complete_special_format_universe,Complete special-format universe,modern_local_special_format_universe,51,9,2,40,0,17.6,Direct item scope.
-modern_local_special_format_universe,special_format_universe,Special-format universe,modern_local_special_format_universe,1,0,0,1,0,0.0,Direct item scope.
+modern_local_special_format_universe,complete_special_format_universe,Complete special-format universe,modern_local_special_format_universe,52,10,2,40,0,19.2,Direct item scope.
+modern_local_special_format_universe,special_format_universe,Special-format universe,modern_local_special_format_universe,1,1,0,0,0,100.0,Direct item scope.
 modern_local_specials_one_shots,main_continuity_specials,Main-continuity specials,modern_local_specials_one_shots,10,2,2,6,0,20.0,Direct item scope.
 modern_local_specials_one_shots,special_format_universe,Special-format universe,modern_local_specials_one_shots,2,0,0,2,0,0.0,Direct item scope.
 no_mans_land,complete_crossover_scope,No Man's Land complete crossover scope,no_mans_land,86,0,0,86,0,0.0,Direct item scope.
@@ -144,7 +144,8 @@ scarecrow,story_identification,Story identification,scarecrow,1,1,0,0,0,100.0,Di
 second_chances_jason_todd,verified_membership,Verified membership,second_chances_jason_todd,12,5,0,7,0,41.7,Direct item scope.
 shaman,story_identification,Story identification,shaman,5,5,0,0,0,100.0,Direct item scope.
 sleeper,story_identification,Story identification,sleeper,2,2,0,0,0,100.0,Direct item scope.
-spawn_batman_miller,publication_order,Publication order,spawn_batman_miller,1,0,0,1,0,0.0,Direct item scope.
+spawn_batman_miller,publication_order,Publication order,spawn_batman_miller,1,1,0,0,0,100.0,Direct item scope.
+spawn_batman_miller,special_format_universe,Special-format universe,spawn_batman_miller,1,1,0,0,0,100.0,Direct item scope.
 standalone,story_identification,Story identification,standalone,1,1,0,0,0,100.0,Direct item scope.
 storm,story_identification,Story identification,storm,1,1,0,0,0,100.0,Direct item scope.
 superman_year_one_dkr,publication_order,Publication order,superman_year_one_dkr,3,3,0,0,0,100.0,Direct item scope.
@@ -195,9 +196,10 @@ bronze_age_batman,extended_publication_universe,Extended Bronze Age Batman,batma
 countdown_final_crisis,core_plus_transition,Core plus transition,countdown_weekly_series; dc_universe_zero,52,51,0,1,0,98.1,Core weekly series.; Transition/prologue; not Countdown #0.
 countdown_final_crisis,core_weekly_series,Core weekly series,countdown_weekly_series,51,51,0,0,0,100.0,Core 51-issue weekly series only.
 countdown_final_crisis,extended_countdown,Extended Countdown item,black_adam_dark_age; countdown_arena; countdown_lord_havok_extremists; countdown_search_ray_palmer; countdown_to_adventure; countdown_to_mystery; countdown_weekly_series; crime_bible_five_lessons; dc_universe_zero; death_of_the_new_gods; salvation_run,110,67,0,43,0,60.9,Extended Countdown component; optional does not affect core weekly completion.
-dark_knight_returns_saga,complete_dkr_continuity,Complete verified DKR continuity,dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr,21,21,0,0,0,100.0,Prequel one-shot.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources.
+dark_knight_returns_saga,complete_dkr_continuity,Complete DKR continuity / direct extensions,all_star_batman_robin; dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr,31,31,0,0,0,100.0,Prequel one-shot.; Published run complete but narrative unfinished; Miller-supported DKR relation with continuity contradictions.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources.
 dark_knight_returns_saga,core_batman_saga,Core Batman saga,dark_knight_golden_child; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again,17,17,0,0,0,100.0,Original miniseries.; Core sequel.; Core post-DKIII one-shot.
-dark_knight_returns_saga,extended_miller_dkr_related,Extended Frank Miller DKR-related continuity,all_star_batman_robin; spawn_batman_miller,11,10,0,1,0,90.9,Published run complete but narrative unfinished and continuity inconsistent.; Related crossover; not necessary to main saga.
+dark_knight_returns_saga,extended_frank_miller_batman_chronology,Extended Frank Miller Batman Chronology,all_star_batman_robin; dark_knight_golden_child; dark_knight_last_crusade; dark_knight_master_race; dark_knight_returns; dark_knight_strikes_again; superman_year_one_dkr; year_one,35,35,0,0,0,100.0,Mainstream post-Crisis Batman origin and relevant Frank Miller Batman chronology; not strict Core DKR Saga.; Young Batman and Dick Grayson material; published run complete but narrative unfinished.; Prequel set before The Dark Knight Returns.; Original miniseries.; Core sequel.; Core post-DKIII one-shot.; Same-universe Superman origin per sources; exact placement relative to Batman early years remains review-grade.
+dark_knight_returns_saga,extended_miller_dkr_related,Optional/disputed DKR-related material,all_star_batman_robin; spawn_batman_miller,11,11,0,0,0,100.0,Published run complete but narrative unfinished and continuity inconsistent.; Related crossover; not necessary to main saga.
 infinite_crisis_buildup,extended_buildup,Extended buildup,countdown_to_infinite_crisis; day_of_vengeance; identity_crisis_context; jla_crisis_of_conscience; rann_thanagar_war; the_omac_item; villains_united,41,12,0,29,0,29.3,Extended buildup component.
 infinite_crisis_buildup,four_major_miniseries,Four major lead-in miniseries,day_of_vengeance; rann_thanagar_war; the_omac_item; villains_united,28,12,0,16,0,42.9,Principal Countdown-era miniseries.
 knightfall_era,knightfall_through_knightsend,Knightfall through KnightsEnd,knightfall; knightquest; knightsend,108,108,0,0,0,100.0,Existing imported scope component.
