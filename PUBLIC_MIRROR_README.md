@@ -26,6 +26,7 @@ Generated public data export.
 - `data/reference/publication_contents.csv` - Reference data.
 - `data/reference/publication_types.csv` - Reference data.
 - `data/reference/publication_aliases.csv` - Reference data.
+- `data/reference/cover_images.csv` - Reference data.
 - `data/reference/projects.csv` - Reference data.
 - `data/reference/project_relationships.csv` - Reference data.
 - `data/reference/project_scopes.csv` - Reference data.
@@ -128,4 +129,5 @@ Generated public data export.
 - `reports/dark_knight_returns_saga_reading_order.csv` - Generated report.
 - `reports/dark_knight_returns_saga_summary.csv` - Generated report.
 - `reports/dark_knight_returns_saga_missing.csv` - Generated report.
+- `reports/visual_collection_viewer.html` - Generated report.
 - `reports/source_publication_exceptions.csv` - Generated report.
