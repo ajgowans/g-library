@@ -1,0 +1,1964 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knightfall to KnightsEnd - Visual Viewer</title>
+  <style>
+    :root { color-scheme: light; --ink:#172026; --muted:#5c6670; --line:#d9dee4; --paper:#f6f7f8; --panel:#ffffff; --owned:#0f7b4f; --fac:#6b4bb8; --ordered:#2166ad; --readable:#a46a00; --missing:#b42318; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--paper); color: var(--ink); }
+    header { padding: 28px 32px 18px; background: #111820; color: white; }
+    h1 { margin: 0 0 8px; font-size: 28px; letter-spacing: 0; }
+    header p { margin: 0; color: #c8d0d8; max-width: 900px; }
+    .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; padding: 18px 32px; background: #e9edf1; border-bottom: 1px solid var(--line); }
+    .metric { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+    .metric strong { display: block; font-size: 24px; }
+    .metric span { color: var(--muted); font-size: 13px; }
+    .controls { padding: 18px 32px; display: grid; gap: 12px; border-bottom: 1px solid var(--line); background: white; position: sticky; top: 0; z-index: 5; }
+    .control-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .control-row b { margin-right: 4px; font-size: 13px; color: var(--muted); min-width: 70px; }
+    .chip { border: 1px solid var(--line); background: #f8fafb; color: var(--ink); border-radius: 999px; padding: 7px 11px; cursor: pointer; text-transform: capitalize; }
+    .chip.active { background: #172026; border-color: #172026; color: white; }
+    main { padding: 24px 32px 40px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(176px, 1fr)); gap: 16px; align-items: start; }
+    .comic-card { background: var(--panel); border: 1px solid var(--line); border-top: 5px solid var(--missing); border-radius: 8px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.05); min-width: 0; display: flex; flex-direction: column; }
+    .comic-card.owned { border-top-color: var(--owned); }
+    .comic-card.facsimile { border-top-color: var(--fac); }
+    .comic-card.ordered { border-top-color: var(--ordered); }
+    .comic-card.readable { border-top-color: var(--readable); }
+    .cover-wrap { aspect-ratio: 2 / 3; background: #242a31; display: grid; place-items: center; overflow: hidden; }
+    .cover-wrap img { width: 100%; height: 100%; object-fit: contain; background: #111820; }
+    .cover-placeholder { width: 100%; height: 100%; padding: 14px; color: white; display: flex; flex-direction: column; justify-content: space-between; background: linear-gradient(145deg, #18212a, #39424c); }
+    .cover-placeholder span { font-weight: 700; line-height: 1.1; overflow-wrap: anywhere; }
+    .cover-placeholder strong { font-size: 42px; align-self: flex-end; }
+    .card-body { padding: 10px 11px 12px; height: 205px; display: flex; flex-direction: column; overflow: hidden; }
+    .badges { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:8px; }
+    .badge { font-size: 11px; border: 1px solid var(--line); border-radius: 999px; padding: 3px 6px; color: var(--muted); }
+    .badge.status { color: var(--ink); font-weight: 700; }
+    h3 { font-size: 15px; margin: 0 0 6px; line-height: 1.2; overflow-wrap: anywhere; }
+    .pub-id, .meta, .continuity, .notes { margin: 0 0 6px; font-size: 12px; color: var(--muted); line-height: 1.3; }
+    .notes { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto; }
+    .hidden { display: none; }
+    @media (max-width: 700px) { header, .summary, .controls, main { padding-left: 14px; padding-right: 14px; } .grid { grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)); gap: 12px; } }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Knightfall to KnightsEnd</h1>
+    <p>Original Knightfall-to-KnightsEnd reading-order sequence from the collection report.</p>
+  </header>
+  <section class="summary">
+    <div class="metric"><strong>114</strong><span>unique publications</span></div>
+    <div class="metric"><strong>114</strong><span>owned/readable</span></div>
+    <div class="metric"><strong>3</strong><span>facsimiles</span></div>
+    <div class="metric"><strong>0</strong><span>missing</span></div>
+  </section>
+  <section class="controls">
+    <div class="control-row"><b>Order</b><button class="chip" data-filter="order" data-value="all">All orders</button>
+<button class="chip active" data-filter="order" data-value="reading">reading</button></div>
+    <div class="control-row"><b>Scope</b><button class="chip" data-filter="scope" data-value="all">All scopes</button>
+<button class="chip active" data-filter="scope" data-value="knightfall_to_knightsend">knightfall to knightsend</button></div>
+    <div class="control-row"><b>Status</b><button class="chip active" data-filter="status" data-value="all">All statuses</button>
+<button class="chip" data-filter="status" data-value="owned">owned</button>
+<button class="chip" data-filter="status" data-value="facsimile">facsimile</button>
+<button class="chip" data-filter="status" data-value="ordered">ordered</button>
+<button class="chip" data-filter="status" data-value="readable">readable</button>
+<button class="chip" data-filter="status" data-value="missing">missing</button></div>
+    <div class="control-row"><b>Work</b><button class="chip active" data-filter="item" data-value="all">All works</button>
+<button class="chip" data-filter="item" data-value="Batman: KnightsEnd">Batman: KnightsEnd</button>
+<button class="chip" data-filter="item" data-value="Knightfall">Knightfall</button>
+<button class="chip" data-filter="item" data-value="Knightfall to Knightsend">Knightfall to Knightsend</button>
+<button class="chip" data-filter="item" data-value="Knightquest">Knightquest</button>
+<button class="chip" data-filter="item" data-value="KnightsEnd">KnightsEnd</button>
+<button class="chip" data-filter="item" data-value="Knightsend">Knightsend</button>
+<button class="chip" data-filter="item" data-value="Robin Reborn">Robin Reborn</button></div>
+  </section>
+  <main>
+    <section class="grid">
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight001">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#16</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #16</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-16</p>
+          <p class="meta">Seq Knight001</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight002">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#17</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #17</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-17</p>
+          <p class="meta">Seq Knight002</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight003">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#18</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #18</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-18</p>
+          <p class="meta">Seq Knight003</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight004">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#19</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #19</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-19</p>
+          <p class="meta">Seq Knight004</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight005">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#20</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #20</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-20</p>
+          <p class="meta">Seq Knight005</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight006">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#618</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #618</h3>
+          <p class="pub-id">VIEW-detective-comics-618</p>
+          <p class="meta">Seq Knight006 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight007">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#619</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #619</h3>
+          <p class="pub-id">VIEW-detective-comics-619</p>
+          <p class="meta">Seq Knight007 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight008">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#620</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #620</h3>
+          <p class="pub-id">VIEW-detective-comics-620</p>
+          <p class="meta">Seq Knight008 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight009">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#621</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #621</h3>
+          <p class="pub-id">VIEW-detective-comics-621</p>
+          <p class="meta">Seq Knight009 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight010">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#455</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #455</h3>
+          <p class="pub-id">VIEW-batman-455</p>
+          <p class="meta">Seq Knight010 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight011">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#456</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #456</h3>
+          <p class="pub-id">VIEW-batman-456</p>
+          <p class="meta">Seq Knight011 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Robin Reborn" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight012">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#457</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #457</h3>
+          <p class="pub-id">VIEW-batman-457</p>
+          <p class="meta">Seq Knight012 | Review</p>
+          <p class="continuity">Robin Reborn</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight023">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#484</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #484</h3>
+          <p class="pub-id">VIEW-batman-484</p>
+          <p class="meta">Seq Knight023 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight024">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#485</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #485</h3>
+          <p class="pub-id">VIEW-batman-485</p>
+          <p class="meta">Seq Knight024 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight025">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#486</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #486</h3>
+          <p class="pub-id">VIEW-batman-486</p>
+          <p class="meta">Seq Knight025 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight026">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#487</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #487</h3>
+          <p class="pub-id">VIEW-batman-487</p>
+          <p class="meta">Seq Knight026 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight027">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#654</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #654</h3>
+          <p class="pub-id">VIEW-detective-comics-654</p>
+          <p class="meta">Seq Knight027 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight028">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#655</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #655</h3>
+          <p class="pub-id">VIEW-detective-comics-655</p>
+          <p class="meta">Seq Knight028 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight029">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#656</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #656</h3>
+          <p class="pub-id">VIEW-detective-comics-656</p>
+          <p class="meta">Seq Knight029 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight030">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#488</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #488</h3>
+          <p class="pub-id">VIEW-batman-488</p>
+          <p class="meta">Seq Knight030 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight031">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#657</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #657</h3>
+          <p class="pub-id">VIEW-detective-comics-657</p>
+          <p class="meta">Seq Knight031 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight032">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#658</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #658</h3>
+          <p class="pub-id">VIEW-detective-comics-658</p>
+          <p class="meta">Seq Knight032 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight033">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#489</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #489</h3>
+          <p class="pub-id">VIEW-batman-489</p>
+          <p class="meta">Seq Knight033 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight034">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#490</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #490</h3>
+          <p class="pub-id">VIEW-batman-490</p>
+          <p class="meta">Seq Knight034 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight035">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#491</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #491</h3>
+          <p class="pub-id">VIEW-batman-491</p>
+          <p class="meta">Seq Knight035 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight036">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#492</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #492</h3>
+          <p class="pub-id">VIEW-batman-492</p>
+          <p class="meta">Seq Knight036 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight037">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#659</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #659</h3>
+          <p class="pub-id">VIEW-detective-comics-659</p>
+          <p class="meta">Seq Knight037 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight038">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#493</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #493</h3>
+          <p class="pub-id">VIEW-batman-493</p>
+          <p class="meta">Seq Knight038 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight039">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#660</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #660</h3>
+          <p class="pub-id">VIEW-detective-comics-660</p>
+          <p class="meta">Seq Knight039 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight040">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#494</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #494</h3>
+          <p class="pub-id">VIEW-batman-494</p>
+          <p class="meta">Seq Knight040 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight041">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#661</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #661</h3>
+          <p class="pub-id">VIEW-detective-comics-661</p>
+          <p class="meta">Seq Knight041 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight042">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#495</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #495</h3>
+          <p class="pub-id">VIEW-batman-495</p>
+          <p class="meta">Seq Knight042 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight043">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#662</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #662</h3>
+          <p class="pub-id">VIEW-detective-comics-662</p>
+          <p class="meta">Seq Knight043 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight044">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#496</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #496</h3>
+          <p class="pub-id">VIEW-batman-496</p>
+          <p class="meta">Seq Knight044 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight045">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#663</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #663</h3>
+          <p class="pub-id">VIEW-detective-comics-663</p>
+          <p class="meta">Seq Knight045 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight046">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#497</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #497</h3>
+          <p class="pub-id">VIEW-batman-497</p>
+          <p class="meta">Seq Knight046 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight048">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#664</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #664</h3>
+          <p class="pub-id">VIEW-detective-comics-664</p>
+          <p class="meta">Seq Knight048 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight049">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Showcase ’93</span><strong>#7</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Showcase ’93 #7</h3>
+          <p class="pub-id">VIEW-showcase-93-7</p>
+          <p class="meta">Seq Knight049</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight050">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Showcase ’93</span><strong>#8</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Showcase ’93 #8</h3>
+          <p class="pub-id">VIEW-showcase-93-8</p>
+          <p class="meta">Seq Knight050</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight051">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#498</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #498</h3>
+          <p class="pub-id">VIEW-batman-498</p>
+          <p class="meta">Seq Knight051 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight052">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#16</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #16</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-16</p>
+          <p class="meta">Seq Knight052</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight053">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#17</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #17</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-17</p>
+          <p class="meta">Seq Knight053</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight054">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#18</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #18</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-18</p>
+          <p class="meta">Seq Knight054</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight055">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#665</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #665</h3>
+          <p class="pub-id">VIEW-detective-comics-665</p>
+          <p class="meta">Seq Knight055 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight056">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#499</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #499</h3>
+          <p class="pub-id">VIEW-batman-499</p>
+          <p class="meta">Seq Knight056 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight057">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#666</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #666</h3>
+          <p class="pub-id">VIEW-detective-comics-666</p>
+          <p class="meta">Seq Knight057 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight058">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#500</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #500</h3>
+          <p class="pub-id">VIEW-batman-500</p>
+          <p class="meta">Seq Knight058 | Review</p>
+          <p class="continuity">Knightfall</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight061">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#667</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #667</h3>
+          <p class="pub-id">VIEW-detective-comics-667</p>
+          <p class="meta">Seq Knight061 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight062">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#668</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #668</h3>
+          <p class="pub-id">VIEW-detective-comics-668</p>
+          <p class="meta">Seq Knight062 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card facsimile" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="facsimile" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight063">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#1</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Facsimile</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #1</h3>
+          <p class="pub-id">VIEW-robin-vol-2-1</p>
+          <p class="meta">Seq Knight063</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight064">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#2</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #2</h3>
+          <p class="pub-id">VIEW-robin-vol-2-2</p>
+          <p class="meta">Seq Knight064</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight065">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#19</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #19</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-19</p>
+          <p class="meta">Seq Knight065</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight066">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#20</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #20</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-20</p>
+          <p class="meta">Seq Knight066</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight067">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#501</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #501</h3>
+          <p class="pub-id">VIEW-batman-501</p>
+          <p class="meta">Seq Knight067 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight068">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#502</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #502</h3>
+          <p class="pub-id">VIEW-batman-502</p>
+          <p class="meta">Seq Knight068 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight069">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#669</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #669</h3>
+          <p class="pub-id">VIEW-detective-comics-669</p>
+          <p class="meta">Seq Knight069 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight070">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#21</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #21</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-21</p>
+          <p class="meta">Seq Knight070</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight071">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#22</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #22</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-22</p>
+          <p class="meta">Seq Knight071</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight072">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#23</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #23</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-23</p>
+          <p class="meta">Seq Knight072</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight073">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#670</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #670</h3>
+          <p class="pub-id">VIEW-detective-comics-670</p>
+          <p class="meta">Seq Knight073 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight074">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Catwoman (Vol.2)</span><strong>#6</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Catwoman (Vol.2) #6</h3>
+          <p class="pub-id">VIEW-catwoman-vol-2-6</p>
+          <p class="meta">Seq Knight074</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight075">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#503</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #503</h3>
+          <p class="pub-id">VIEW-batman-503</p>
+          <p class="meta">Seq Knight075 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight076">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#504</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #504</h3>
+          <p class="pub-id">VIEW-batman-504</p>
+          <p class="meta">Seq Knight076 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight077">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Catwoman (Vol.2)</span><strong>#7</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Catwoman (Vol.2) #7</h3>
+          <p class="pub-id">VIEW-catwoman-vol-2-7</p>
+          <p class="meta">Seq Knight077</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight078">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#671</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #671</h3>
+          <p class="pub-id">VIEW-detective-comics-671</p>
+          <p class="meta">Seq Knight078 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight079">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#672</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #672</h3>
+          <p class="pub-id">VIEW-detective-comics-672</p>
+          <p class="meta">Seq Knight079 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight080">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#673</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #673</h3>
+          <p class="pub-id">VIEW-detective-comics-673</p>
+          <p class="meta">Seq Knight080 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight081">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#24</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #24</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-24</p>
+          <p class="meta">Seq Knight081</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight082">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#505</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #505</h3>
+          <p class="pub-id">VIEW-batman-505</p>
+          <p class="meta">Seq Knight082 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight083">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#25</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #25</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-25</p>
+          <p class="meta">Seq Knight083</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight084">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#506</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #506</h3>
+          <p class="pub-id">VIEW-batman-506</p>
+          <p class="meta">Seq Knight084 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight085">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#507</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #507</h3>
+          <p class="pub-id">VIEW-batman-507</p>
+          <p class="meta">Seq Knight085 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight086">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#59</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #59</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-59</p>
+          <p class="meta">Seq Knight086</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight087">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#60</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #60</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-60</p>
+          <p class="meta">Seq Knight087</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight088">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#61</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #61</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-61</p>
+          <p class="meta">Seq Knight088</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight089">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#26</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #26</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-26</p>
+          <p class="meta">Seq Knight089</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card facsimile" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="facsimile" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight090">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#27</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Facsimile</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #27</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-27</p>
+          <p class="meta">Seq Knight090</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight091">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#674</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #674</h3>
+          <p class="pub-id">VIEW-detective-comics-674</p>
+          <p class="meta">Seq Knight091 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight092">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#508</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #508</h3>
+          <p class="pub-id">VIEW-batman-508</p>
+          <p class="meta">Seq Knight092 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight093">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#28</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #28</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-28</p>
+          <p class="meta">Seq Knight093</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightquest" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight094">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#675</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #675</h3>
+          <p class="pub-id">VIEW-detective-comics-675</p>
+          <p class="meta">Seq Knight094 | Review</p>
+          <p class="continuity">Knightquest</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight095">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#7</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #7</h3>
+          <p class="pub-id">VIEW-robin-vol-2-7</p>
+          <p class="meta">Seq Knight095</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight096">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#509</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #509</h3>
+          <p class="pub-id">VIEW-batman-509</p>
+          <p class="meta">Seq Knight096 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight097">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#29</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #29</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-29</p>
+          <p class="meta">Seq Knight097</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight098">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#676</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #676</h3>
+          <p class="pub-id">VIEW-detective-comics-676</p>
+          <p class="meta">Seq Knight098 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight099">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#62</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #62</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-62</p>
+          <p class="meta">Seq Knight099</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight100">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#8</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #8</h3>
+          <p class="pub-id">VIEW-robin-vol-2-8</p>
+          <p class="meta">Seq Knight100</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Batman: KnightsEnd" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight101">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Catwoman (Vol.2)</span><strong>#12</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Catwoman (Vol.2) #12</h3>
+          <p class="pub-id">VIEW-catwoman-vol-2-12</p>
+          <p class="meta">Seq Knight101 | Part 6 | Review</p>
+          <p class="continuity">Batman: KnightsEnd</p>
+          <p class="notes">Fire in the Sky</p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight102">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#510</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #510</h3>
+          <p class="pub-id">VIEW-batman-510</p>
+          <p class="meta">Seq Knight102 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight103">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#30</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #30</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-30</p>
+          <p class="meta">Seq Knight103</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight104">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#677</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #677</h3>
+          <p class="pub-id">VIEW-detective-comics-677</p>
+          <p class="meta">Seq Knight104 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight105">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Legends of the Dark Knight</span><strong>#63</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Legends of the Dark Knight #63</h3>
+          <p class="pub-id">VIEW-batman-legends-of-the-dark-knight-63</p>
+          <p class="meta">Seq Knight105</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight106">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#9</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #9</h3>
+          <p class="pub-id">VIEW-robin-vol-2-9</p>
+          <p class="meta">Seq Knight106</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="KnightsEnd" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight107">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Catwoman (Vol.2)</span><strong>#13</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Catwoman (Vol.2) #13</h3>
+          <p class="pub-id">VIEW-catwoman-vol-2-13</p>
+          <p class="meta">Seq Knight107 | Aftermath | Review</p>
+          <p class="continuity">KnightsEnd</p>
+          <p class="notes">Catfish</p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight108">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Showcase ’94</span><strong>#10</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Showcase ’94 #10</h3>
+          <p class="pub-id">VIEW-showcase-94-10</p>
+          <p class="meta">Seq Knight108</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight109">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#0</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #0</h3>
+          <p class="pub-id">VIEW-robin-vol-2-0</p>
+          <p class="meta">Seq Knight109</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight110">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#512</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #512</h3>
+          <p class="pub-id">VIEW-batman-512</p>
+          <p class="meta">Seq Knight110 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight111">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#32</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #32</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-32</p>
+          <p class="meta">Seq Knight111</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight112">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#679</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #679</h3>
+          <p class="pub-id">VIEW-detective-comics-679</p>
+          <p class="meta">Seq Knight112 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight113">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#11</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #11</h3>
+          <p class="pub-id">VIEW-robin-vol-2-11</p>
+          <p class="meta">Seq Knight113</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight114">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#513</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #513</h3>
+          <p class="pub-id">VIEW-batman-513</p>
+          <p class="meta">Seq Knight114 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight115">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#33</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #33</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-33</p>
+          <p class="meta">Seq Knight115</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight116">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#680</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #680</h3>
+          <p class="pub-id">VIEW-detective-comics-680</p>
+          <p class="meta">Seq Knight116 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight117">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#12</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #12</h3>
+          <p class="pub-id">VIEW-robin-vol-2-12</p>
+          <p class="meta">Seq Knight117</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight118">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#514</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #514</h3>
+          <p class="pub-id">VIEW-batman-514</p>
+          <p class="meta">Seq Knight118 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight119">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#34</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #34</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-34</p>
+          <p class="meta">Seq Knight119</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight120">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#681</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #681</h3>
+          <p class="pub-id">VIEW-detective-comics-681</p>
+          <p class="meta">Seq Knight120 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight121">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#13</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #13</h3>
+          <p class="pub-id">VIEW-robin-vol-2-13</p>
+          <p class="meta">Seq Knight121</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight122">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman</span><strong>#515</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman #515</h3>
+          <p class="pub-id">VIEW-batman-515</p>
+          <p class="meta">Seq Knight122 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight123">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Batman: Shadow of the Bat</span><strong>#35</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Batman: Shadow of the Bat #35</h3>
+          <p class="pub-id">VIEW-batman-shadow-of-the-bat-35</p>
+          <p class="meta">Seq Knight123</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight124">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Detective Comics</span><strong>#682</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Detective Comics #682</h3>
+          <p class="pub-id">VIEW-detective-comics-682</p>
+          <p class="meta">Seq Knight124 | Review</p>
+          <p class="continuity">Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight125">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Robin (Vol. 2)</span><strong>#14</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Robin (Vol. 2) #14</h3>
+          <p class="pub-id">VIEW-robin-vol-2-14</p>
+          <p class="meta">Seq Knight125</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card facsimile" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="facsimile" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight126">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Azrael</span><strong>#1</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Facsimile</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Azrael #1</h3>
+          <p class="pub-id">VIEW-azrael-1</p>
+          <p class="meta">Seq Knight126</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    
+
+      <article class="comic-card owned" data-order="reading" data-scope="knightfall_to_knightsend" data-item="Knightfall to Knightsend" data-status="owned" data-publication-sequence="999999" data-chronological-sequence="999999" data-publication-sequences="" data-chronological-sequences="" data-order-sequences="reading:Knight127">
+        <div class="cover-wrap"><div class="cover-placeholder"><span>Azrael</span><strong>#2</strong></div></div>
+        <div class="card-body">
+          <div class="badges">
+            <span class="badge status">Original</span>
+            <span class="badge">knightfall to knightsend</span>
+          </div>
+          <h3>Azrael #2</h3>
+          <p class="pub-id">VIEW-azrael-2</p>
+          <p class="meta">Seq Knight127</p>
+          <p class="continuity">Knightfall to Knightsend</p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script>
+    const state = { order: 'reading', scope: 'knightfall_to_knightsend', item: 'all', status: 'all' };
+    const grid = document.querySelector('.grid');
+    document.querySelectorAll('.chip').forEach(button => {
+      button.addEventListener('click', () => {
+        const group = button.dataset.filter;
+        state[group] = button.dataset.value;
+        document.querySelectorAll(`.chip[data-filter="${group}"]`).forEach(item => item.classList.toggle('active', item === button));
+        applyFilters();
+      });
+    });
+    function applyFilters() {
+      document.querySelectorAll('.comic-card').forEach(card => {
+        const visible = ['order', 'scope', 'item', 'status'].every(key => state[key] === 'all' || card.dataset[key].split('|').includes(state[key]));
+        card.classList.toggle('hidden', !visible);
+      });
+      sortCards();
+    }
+    function sortCards() {
+      [...document.querySelectorAll('.comic-card')]
+        .sort((left, right) => sequenceForCard(left) - sequenceForCard(right) || left.querySelector('h3').textContent.localeCompare(right.querySelector('h3').textContent))
+        .forEach(card => grid.appendChild(card));
+    }
+    function sequenceForCard(card) {
+      const order = state.order === 'all' ? 'reading' : state.order;
+      if (order === 'publication') {
+        return scopedSequence(card, 'publicationSequence');
+      }
+      if (order === 'chronological') {
+        return scopedSequence(card, 'chronologicalSequence');
+      }
+      const byOrder = sequenceMap(card.dataset.orderSequences);
+      if (byOrder[order]) {
+        return sortValue(byOrder[order]);
+      }
+      return scopedSequence(card, 'chronologicalSequence');
+    }
+    function scopedSequence(card, orderKey) {
+      const scoped = sequenceMap(card.dataset[`${orderKey}s`]);
+      if (state.scope !== 'all' && scoped[state.scope]) {
+        return sortValue(scoped[state.scope]);
+      }
+      return sortValue(card.dataset[orderKey]);
+    }
+    function sequenceMap(value) {
+      return Object.fromEntries((value || '').split('|').filter(Boolean).map(item => {
+        const [scope, sequence] = item.split(':');
+        return [scope, sequence];
+      }));
+    }
+    function sortValue(value) {
+      const parsed = Number.parseFloat(value || '999999');
+      if (Number.isFinite(parsed)) {
+        return parsed;
+      }
+      const embedded = String(value || '').match(/\d+(\.\d+)?/);
+      return embedded ? Number.parseFloat(embedded[0]) : 999999;
+    }
+    applyFilters();
+    </script>
+</body>
+</html>
