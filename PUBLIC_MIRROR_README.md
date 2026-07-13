@@ -131,9 +131,12 @@ Generated public data export.
 - `reports/dark_knight_returns_saga_summary.csv` - Generated report.
 - `reports/dark_knight_returns_saga_missing.csv` - Generated report.
 - `reports/visual_collection_viewer.html` - Generated report.
+- `reports/visual_view_batman_400_499.html` - Generated visual report.
 - `reports/visual_view_catwoman_vol2.html` - Generated visual report.
 - `reports/visual_view_dkr_saga.html` - Generated visual report.
 - `reports/visual_view_knightfall_to_knightsend.html` - Generated visual report.
+- `reports/visual_view_legends_of_the_dark_knight.html` - Generated visual report.
+- `reports/visual_view_shadow_of_the_bat.html` - Generated visual report.
 - `reports/visual_view_warhammer_monthly.html` - Generated visual report.
 - `reports/cover_gaps.csv` - Generated cover research queue.
 - `reports/cover_gaps_owned.csv` - Generated cover research queue.
