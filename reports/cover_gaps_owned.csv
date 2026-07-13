@@ -1,70 +1,10 @@
 view_id,view_name,publication_id,display_title,series,issue_number,story_or_arc,scope,ownership_status,cover_status,has_source_url,image_source_url,local_image_path,research_priority,notes
-batman_0_99,Batman #0-99,VIEW-batman-0,Batman #0,Batman,0,Zero Hour,,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_0_99,Batman #0-99,VIEW-batman-1,Batman #1,Batman,1,First Joker and Catwoman,OPPORTUNISTIC,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target. | Reference data flags a key first appearance/significance.
-batman_0_99,Batman #0-99,VIEW-batman-5,Batman #5,Batman,5,Early Joker / Golden Age Batman,OPPORTUNISTIC,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
-batman_100_199,Batman #100-199,VIEW-batman-181,Batman #181,Batman,181,First Poison Ivy,OPPORTUNISTIC,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target. | Reference data flags a key first appearance/significance.
-batman_200_299,Batman #200-299,VIEW-batman-266,Batman #266,Batman,266,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-302,Batman #302,Batman,302,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-309,Batman #309,Batman,309,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-312,Batman #312,Batman,312,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-315,Batman #315,Batman,315,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-340,Batman #340,Batman,340,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-352,Batman #352,Batman,352,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-355,Batman #355,Batman,355,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-357,Batman #357,Batman,357,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_300_399,Batman #300-399,VIEW-batman-388,Batman #388,Batman,388,Unmapped story,OPPORTUNISTIC,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-404,Batman #404,Batman,404,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
-batman_400_499,Batman #400-499,VIEW-batman-405,Batman #405,Batman,405,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
-batman_400_499,Batman #400-499,VIEW-batman-406,Batman #406,Batman,406,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
-batman_400_499,Batman #400-499,VIEW-batman-407,Batman #407,Batman,407,Year One,COMPLETE_RUN,Facsimile,not_in_manifest,No,,,1 owned_missing_source,Owned as a facsimile/readable copy; original can remain an upgrade target.
 batman_400_499,Batman #400-499,VIEW-batman-410,Batman #410,Batman,410,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 batman_400_499,Batman #400-499,VIEW-batman-411,Batman #411,Batman,411,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 batman_400_499,Batman #400-499,VIEW-batman-414,Batman #414,Batman,414,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 batman_400_499,Batman #400-499,VIEW-batman-416,Batman #416,Batman,416,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 batman_400_499,Batman #400-499,VIEW-batman-419,Batman #419,Batman,419,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 batman_400_499,Batman #400-499,VIEW-batman-420,Batman #420,Batman,420,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-421,Batman #421,Batman,421,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-428,Batman #428,Batman,428,A Death In The Family,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-429,Batman #429,Batman,429,A Death In The Family,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-430,Batman #430,Batman,430,Fatal Wish,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-432,Batman #432,Batman,432,Dead Letter Office,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-433,Batman #433,Batman,433,The Many Deaths Of...,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-434,Batman #434,Batman,434,The Many Deaths Of...,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-435,Batman #435,Batman,435,The Many Deaths Of...,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-436,Batman #436,Batman,436,Year Three,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-437,Batman #437,Batman,437,Year Three,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-438,Batman #438,Batman,438,Year Three,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-439,Batman #439,Batman,439,Year Three,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-441,Batman #441,Batman,441,A Lonely Place of Dying,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-443,Batman #443,Batman,443,Crimesmith,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-446,Batman #446,Batman,446,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-447,Batman #447,Batman,447,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-448,Batman #448,Batman,448,The Penguin Affair,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-449,Batman #449,Batman,449,The Penguin Affair,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-452,Batman #452,Batman,452,"Dark Knight, Dark City",COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-458,Batman #458,Batman,458,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-459,Batman #459,Batman,459,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-460,Batman #460,Batman,460,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-461,Batman #461,Batman,461,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-462,Batman #462,Batman,462,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-464,Batman #464,Batman,464,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-466,Batman #466,Batman,466,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-467,Batman #467,Batman,467,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-468,Batman #468,Batman,468,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-469,Batman #469,Batman,469,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-470,Batman #470,Batman,470,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-471,Batman #471,Batman,471,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-472,Batman #472,Batman,472,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-473,Batman #473,Batman,473,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-474,Batman #474,Batman,474,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-476,Batman #476,Batman,476,Unmapped story,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-477,Batman #477,Batman,477,A Gotham Tale,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-478,Batman #478,Batman,478,A Gotham Tale,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-479,Batman #479,Batman,479,Pagan,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-480,Batman #480,Batman,480,To The Father I Never Knew...,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-481,Batman #481,Batman,481,Zeus,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-482,Batman #482,Batman,482,Zeus,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
-batman_400_499,Batman #400-499,VIEW-batman-483,Batman #483,Batman,483,Crash And Burn,COMPLETE_RUN,Original,not_in_manifest,No,,,1 owned_missing_source,Owned; edition type is not recorded yet.
 legends_of_the_dark_knight,Batman: Legends of the Dark Knight,VIEW-batman-legends-of-the-dark-knight-1,Batman: Legends of the Dark Knight #1,Batman: Legends of the Dark Knight,1,Shaman,legends_dark_knight_1_214,Original,not_in_manifest,No,,,1 owned_missing_source,
 legends_of_the_dark_knight,Batman: Legends of the Dark Knight,VIEW-batman-legends-of-the-dark-knight-10,Batman: Legends of the Dark Knight #10,Batman: Legends of the Dark Knight,10,Gothic,legends_dark_knight_1_214,Original,not_in_manifest,No,,,1 owned_missing_source,
 legends_of_the_dark_knight,Batman: Legends of the Dark Knight,VIEW-batman-legends-of-the-dark-knight-11,Batman: Legends of the Dark Knight #11,Batman: Legends of the Dark Knight,11,Prey,legends_dark_knight_1_214,Original,not_in_manifest,No,,,1 owned_missing_source,
